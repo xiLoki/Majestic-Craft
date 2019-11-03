@@ -41,16 +41,16 @@ CombatTags:
 Scoreboard:
   enabled: true
   scoreboardlinescolor: "&8"
-  title: "&2StatsSB"
+  title: "&cMajestic&4Craft"
   dateTimeZone: PST
   Kills-Prefix: "&fKills:"
   Deaths-Prefix: "&fDeaths:"
   KD-Prefix: "&fKD:"
   Streak-Prefix: "&fStreak:"
-  Kills: "&6"
-  Deaths: "&6"
+  Kills: "&a"
+  Deaths: "&c"
   KD: "&6"
-  Streak: "&6"
+  Streak: "&a"
   Economy:
     Enabled: true
     Eco-Prefix: "&aMoney: $"
@@ -93,4 +93,3 @@ Leaderboard:
   - "%players%"
   - " "
   - "&8   &l&m                              "
-
