@@ -1,0 +1,13 @@
+AllowUserModifications: false
+invalid: false
+name: p30silenced
+displayname: §6P30[Silenced]
+lore: []
+id: 23
+craftingRequirements:
+- IRON_INGOT,0,5
+- REDSTONE,0,2
+price: 1000
+material: CROSSBOW
+baseGun: p30
+weaponsounds: bulletsilence

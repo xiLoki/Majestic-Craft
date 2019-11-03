@@ -1,0 +1,30 @@
+# Used for saving classes. Default class:
+config:
+  kits:
+    default:
+      name: default
+      items: 261:0#ARROW_INFINITE:1#KNOCKBACK:1*1;262:0*1;270*1
+      lore: The default class.
+      requires_money: false
+      requires_permission: false
+      money_amount: 100
+      enabled: true
+      permission_node: minigames.core.kits.default
+    pro:
+      name: pro
+      items: 272*1;274*1;261:0#ARROW_INFINITE:1#KNOCKBACK:1*1;262:0*1
+      lore: The Pro class.
+      requires_money: false
+      requires_permission: false
+      money_amount: 100
+      enabled: true
+      permission_node: minigames.core.kits.pro
+    extra_life:
+      name: Extra_Life
+      items: 351:1*1;272*1;274*1;261:0#ARROW_INFINITE:1#KNOCKBACK:1*1;262:0*1
+      lore: The extra life class.
+      requires_money: false
+      requires_permission: false
+      money_amount: 100
+      enabled: true
+      permission_node: minigames.core.kits.extra_life

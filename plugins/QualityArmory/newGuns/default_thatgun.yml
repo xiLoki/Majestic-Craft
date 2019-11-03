@@ -1,0 +1,47 @@
+AllowUserModifications: false
+name: thatgun
+displayname: '&6§6"That Gun"'
+id: 42
+variant: 0
+craftingRequirements:
+- IRON_INGOT,0,8
+- REDSTONE,0,3
+weapontype: PISTOL
+weaponsounds: bulletdeagle
+_VALID_WEAPON_TYPES: 'PISTOL, SMG, RPG, RIFLE, SHOTGUN, FLAMER, SNIPER, BIG_GUN, GRENADES,
+  SMOKE_GRENADES, FLASHBANGS, INCENDARY_GRENADES, MINES, MEELEE, MISC, AMMO, HELMET,
+  MEDKIT, LAZER, '
+enableIronSights: true
+ammotype: '556'
+damage: 5
+maxbullets: 12
+price: 2000
+lore:
+- '&fAlso known as the "LAPD 2019 Detective Special"'
+material: CROSSBOW
+recoil: 2.0
+invalid: false
+durability: 1000
+setZoomLevel: 0
+sway: 0.2
+firerate: 1
+delayForReload: 1.5
+delayForShoot: 0.3
+bullets-per-shot: 1
+isAutomatic: false
+maxBulletDistance: 200
+unlimitedAmmo: false
+LightLeveOnShoot: 14
+particles:
+  bullet_particle: REDSTONE
+  bullet_particleR: 1
+  bullet_particleG: 1
+  bullet_particleB: 1
+  bullet_particleMaterial: COAL_BLOCK
+Version_18_Support: false
+ChargingHandler: none
+addMuzzleSmoke: true
+drop-glow-color: none
+headshotMultiplier: 3.5
+swayMultiplier: 2
+weaponsounds_volume: 4

@@ -1,0 +1,17 @@
+AllowUserModifications: false
+invalid: false
+name: fuel
+displayname: '&fFlamerFuel'
+lore: []
+id: 0
+craftingRequirements:
+- BLAZE_ROD,0,1
+craftingReturnAmount: 2
+price: 1
+maxAmount: 64
+material: BLAZE_POWDER
+piercingSeverity: 1.0
+variant: 1
+weaponsounds: bulletmedium
+damage: 3
+durability: 1000
