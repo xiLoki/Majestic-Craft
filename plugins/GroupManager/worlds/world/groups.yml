@@ -12,27 +12,154 @@ groups:
   Default:
     default: true
     permissions:
-    - -bukkit.command.kill
+    #Essentials Permissions
+    - essentials.afk
+    - essentials.balance
+    - essentials.builde
+    - essentials.compass
+    - essentials.condense
+    - essentials.delhome
+    - essentials.disposal
+    - essentials.getpos
+    - essentials.help
+    - essentials.info
+    - essentials.kill
+    - essentials.Kit
+    - essentials.list
+    - essentials.me
+    - essentials.msg
+    - essentials.nick
+    - essentials.pay
+    - essentials.ping
+    - essentials.rules
+    - essentials.seen.banreason
+    - essentials.sethome
+    - essentials.showkit
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.time
+    - essentials.tpa
+    - essentials.tpacancel
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.chat.color
+    - essentials.signs.color
+    - essentials.signs.use.balance
+    - essentials.signs.use.buy
+    - essentials.signs.use.sell
+    - essentials.signs.use.free
+    - essentials.signs.use.info
+    - essentials.signs.use.kit
+    - essentials.kits.starter
+    - essentials.warp.survival
+    - essentials.warp.kitpvp
+    - essentials.warp.roleplay
+    - essentials.warp.skywars
+    - essentials.warp.bedwars
+    - essentials.warp.minigames
+    - essentials.ban.notify
+    - essentials.nick.color
+    - essentials.home
+    - essentials.build.break
+    - essentials.build.craft
+    - essentials.build.drop
+    - essentials.build.interact
+    - essentials.build.pickup
+    - essentials.build.place
+    #Jobs Reborn Permissions
+    - jobs.use
+    - jobs.command.browse
+    - jobs.command.join
+    - jobs.command.leave
+    - jobs.command.leaveall
+    - jobs.command.help
+    #KitPVP Permissions
+    - kp.command.stats
+    - kp.command.menu
+    - kp.command.kits
+    - kp.kit.-----
+    - kp.arena.itemdropping
+    - kp.arrowmessage
+    - kp.arrowreturn
+    #World Guard Permissions
+    - worldguard.build.block.place
+    - worldguard.build.block.remove
+    - worldguard.build.block.interact
+    - worldguard.build.entity.place
+    - worldguard.build.entity.remove
+    - worldguard.build.entity.interact
+    - worldguard.build.item.use
     inheritance:
-    - g:groupmanager_default
-    - g:bukkit_default
-    - g:essentials_default
-    - g:towny_default
     info:
-      prefix: '&8[&7Starter&8] -'
+      prefix: '&8[&aStarter&8] -'
       build: true
       suffix: ''
-  Builder:
+#Donator Ranks
+  Stone:
     default: false
-    permissions: []
+    permissions:
+    #Essentials Permissions
+    - essentials.sethome.multiple
+    - essentials.recipe
+    #KitPVP Permissions
+    - kp.kit.donator
     inheritance:
-    - default
-    - g:essentials_builder
-    - g:towny_builder
+    - g:groupmanager_Starter
     info:
-      prefix: '&2'
+      prefix: '&8[&7Stone&8] -'
       build: true
       suffix: ''
+  Silver:
+    default: false
+    permissions:
+    #Essentials Permissions
+    - essentials.sethome.multiple
+    - essentials.recipe
+    #KitPVP Permissions
+    - kp.kit.iron
+    inheritance:
+    - g:groupmanager_Starter
+    - g:groupmanager_Stone
+    info:
+      prefix: '&8[&fSilver&8] -'
+      build: true
+      suffix: ''
+    Gold:
+      default: false
+      permissions:
+      #Essentials Permissions
+      - essentials.sethome.multiple
+      - essentials.recipe
+      #KitPVP Permissions
+      - kp.kit.gold
+      inheritance:
+      - g:groupmanager_Starter
+      - g:groupmanager_Stone
+      - g:groupmanager_Silver
+      info:
+        prefix: '&8[&6Gold&8] -'
+        build: true
+        suffix: ''
+      Diamond:
+        default: false
+        permissions:
+        #Essentials Permissions
+        - essentials.sethome.multiple
+        - essentials.recipe
+        #KitPVP Permissions
+        - kp.kit.diamond
+        inheritance:
+        - g:groupmanager_Starter
+        - g:groupmanager_Stone
+        - g:groupmanager_Silver
+        - g:groupmanager_Gold
+        info:
+          prefix: '&8[&bDiamond&8] -'
+          build: true
+          suffix: ''
   Moderator:
     default: false
     permissions: []
