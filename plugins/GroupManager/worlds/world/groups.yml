@@ -69,13 +69,17 @@ groups:
     - essentials.build.interact
     - essentials.build.pickup
     - essentials.build.place
-    #Jobs Reborn Permissions
+    #Jobs Permissions
     - jobs.use
     - jobs.command.browse
     - jobs.command.join
     - jobs.command.leave
     - jobs.command.leaveall
-    - jobs.command.help
+    - jobs.command.stats
+    - jobs.command.quests
+    - jobs.command.skipquest
+    - jobs.command.shop
+    - jobs.command.toggle
     #KitPVP Permissions
     - kp.command.stats
     - kp.command.menu
@@ -92,9 +96,13 @@ groups:
     - worldguard.build.entity.remove
     - worldguard.build.entity.interact
     - worldguard.build.item.use
+    #Custom Help permissions
+    - custom.help.general
+    - custom.help.jobs
+    - custom.help.kitpvp
     inheritance:
     info:
-      prefix: '&8[&aStarter&8] -'
+      prefix: '&8[&aStarter&8]-'
       build: true
       suffix: ''
 #Donator Ranks
@@ -107,9 +115,10 @@ groups:
     #KitPVP Permissions
     - kp.kit.donator
     inheritance:
-    - g:groupmanager_Starter
+    - Default
+    - g:groupmanager_Default
     info:
-      prefix: '&8[&7Stone&8] -'
+      prefix: '&8[&7Stone&8]-'
       build: true
       suffix: ''
   Silver:
@@ -121,10 +130,11 @@ groups:
     #KitPVP Permissions
     - kp.kit.iron
     inheritance:
-    - g:groupmanager_Starter
-    - g:groupmanager_Stone
+    - Default
+    - Stone
+    - g:groupmanager_Silver
     info:
-      prefix: '&8[&fSilver&8] -'
+      prefix: '&8[&fSilver&8]-'
       build: true
       suffix: ''
     Gold:
@@ -136,9 +146,10 @@ groups:
       #KitPVP Permissions
       - kp.kit.gold
       inheritance:
-      - g:groupmanager_Starter
-      - g:groupmanager_Stone
-      - g:groupmanager_Silver
+      - Default
+      - Stone
+      - Silver
+      - g:groupmanager_Gold
       info:
         prefix: '&8[&6Gold&8] -'
         build: true
@@ -152,38 +163,44 @@ groups:
         #KitPVP Permissions
         - kp.kit.diamond
         inheritance:
-        - g:groupmanager_Starter
-        - g:groupmanager_Stone
-        - g:groupmanager_Silver
-        - g:groupmanager_Gold
+        - Default
+        - Stone
+        - Silver
+        - Gold
+        - g:groupmanager_Diamond
         info:
-          prefix: '&8[&bDiamond&8] -'
+          prefix: '&8[&bDiamond&8]-'
           build: true
           suffix: ''
   Moderator:
     default: false
-    permissions: []
+    permissions:
+    #KitPVP Permissions
+    - kp.kit.staff
+    #Custom Help permissions
+    - custom.help.staff
     inheritance:
-    - builder
-    - g:groupmanager_moderator
-    - g:bukkit_moderator
-    - g:essentials_moderator
-    - g:towny_moderator
-    - g:vanish_moderator
+    - Default
+    - Stone
+    - Silver
+    - Gold
+    - Diamond
+    - g:groupmanager_Moderator
     info:
-      prefix: '&5'
+      prefix: '&8[&1Moderator&8]-'
       build: true
       suffix: ''
   Admin:
     default: false
     permissions: []
     inheritance:
-    - moderator
+    - Default
+    - Stone
+    - Silver
+    - Gold
+    - Diamond
+    - Moderator
     - g:groupmanager_admin
-    - g:bukkit_admin
-    - g:essentials_admin
-    - g:towny_admin
-    - g:vanish_admin
     info:
       prefix: '&c'
       build: true
@@ -192,10 +209,18 @@ groups:
     default: false
     permissions:
     - '*'
-    - -vanish.effects.*
-    - +vanish.effects.toggle.all
+    - essentials.*
+    - groupmanager.*
+    - worldedit.*
     inheritance:
-    - admin
+    - Default
+    - Stone
+    - Silver
+    - Gold
+    - Diamond
+    - Moderator
+    - Admin
+    - groupmanager_Owner
     info:
       prefix: '&4'
       build: true
