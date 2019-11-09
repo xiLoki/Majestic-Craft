@@ -1,19 +1,21 @@
 permNode: "custom.help.<name>"
-usePerms: false
+usePerms: true
 mainHelpCommands:
   - "/help"
   - "/?"
 customHelp:
   - "&cMajestic&4Craft &7- &eHelp"
-  - "&e/help general &7- general commands"
+  - "&e/help general &7- List of general commands."
+  - "&e/help jobs &7- List of job commands."
+  - "&e/help kitpvp &7- List of kitpvp commands."
+  - "&e/help staff &7- List of staff commands."
 customHelpSpecific:
   general:
     - "&cMajestic&4Craft &7- &eGeneral Help"
-    - "&e/wild &7- Teleports you to a random location for survival"
+    - "&e/wild &7- Teleports you to the wilderness."
     - "&e/sethome &7- sets home"
     - "&e/sethome <name> &7- sets home"
     - "&e/home &7- teleports you to your home"
-    - "&e/home <name> &7- teleports you to your home"
     - "&e/home <name> &7- teleports you to your home"
   jobs:
     - "&cMajestic&4Craft &7- &eJobs Help"
@@ -29,6 +31,12 @@ customHelpSpecific:
     - "&e/jobs leaveall &7- Leave all your jobs."
     - "&e/jobs toggle &7- Toggles payment output on action bar or bossbar."
     - "&7End of Jobs Help List for more help do &e/help"
+  kitpvp:
+    - "&cMajestic&4Craft &7- &eKitPVP Help"
+    - "&e/kp stats &7- Show your KitPVP stats."
+    - "&e/kp kits &7- Show list of available kits."
+    - "&e/kp menu &7- Opens the KitPVP menu."
+    - "&e/kp kit <kitname> &7- Selects the defined kit."
 customCommandHelp:
   "/staff":
     - "&e--Server Staff--"
