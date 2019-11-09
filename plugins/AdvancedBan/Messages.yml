@@ -1,5 +1,5 @@
 General:
-  Prefix: "&c&lAdvancedBan &8&l\xbb"
+  Prefix: "&7&lAdvanced&cBan &8&l\xbb"
   NoPerms: "&cYou don't have perms for that!"
   LayoutNotFound: "&cThere is no layout called %NAME%"
   # This will be the replacement for the %DURATION% variable
@@ -21,9 +21,8 @@ Ban:
   - '&7'
   - "&cReason &8\xbb &7%REASON%"
   - '&7'
-  - '&8Unban application in TS or forum'
-  - "&eTS-Ip &8\xbb &c&ncoming soon"
-  - "&eForum &8\xbb &c&ncoming soon"
+  - '&8Unban application in Discord"
+  - "&eDiscord &8\xbb &c&nhttps://discord.gg/D8HSf4t"
   Notification:
   - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
   - "&7For the reason &o%REASON%"
