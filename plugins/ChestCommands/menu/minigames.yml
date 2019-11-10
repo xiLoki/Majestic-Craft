@@ -1,0 +1,82 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&a&lMinigames'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 3
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'minigames'
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'tell: &aYou opened the &a&lminigames &c&amenu.'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    id: compass
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+playerlist:
+  COMMAND: 'list'
+  NAME: '&6&lPlayer List'
+  LORE:
+    - '&eShows the players currently online'
+    - '&ein &cMajestic &4Craft.'
+  ID: ender_eye
+  POSITION-X: 9
+  POSITION-Y: 1
+
+
+server-rules:
+  NAME: '&a&lGeneral Server Rules'
+  LORE:
+    - '&2Shows the general server rules in chat'
+  ID: paper
+  POSITION-X: 1
+  POSITION-Y: 1
+
+
+help:
+  NAME: '&1&lServer Help'
+  LORE:
+    - '&bShows a list of commands in chat'
+  ID: sign
+  POSITION-X: 5
+  POSITION-Y: 1
+
+
+menu-close:
+  NAME: '&6Close the menu'
+  ID: redstone lamp
+  LORE:
+    - 'Create an item without command,'
+    - 'the GUI will just close.'
+  POSITION-X: 5
+  POSITION-Y: 3
