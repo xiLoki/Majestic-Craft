@@ -1,0 +1,59 @@
+BREAK_SIGN: '&aYou have broken a WildTP sign'
+NO_LOCATION: '&4No suitable locations found.'
+PORTALHOVER: '&bClick to teleport to it.'
+FALLNOCMD: '&cYou can''t use this command while falling!'
+PORTALCANCEL: '&7(click the same block twice to cancel)'
+PORTALGOHAN: '&bNow click other corner.'
+TIME:
+  HOUR:
+    PLURAL: hours
+    SINGULAR: hour
+  DAY:
+    SINGULAR: day
+    PLURAL: days
+  MINUTE:
+    PLURAL: minutes
+    SINGULAR: minute
+  SECOND:
+    SINGULAR: second
+    PLURAL: seconds
+  SOON: moments
+NO_MONEY: '&cYou are too poor to deserve a teleport at this time.'
+PENDING_RTP: '&cA WildTP request is already pending...'
+PORTALINKED: '&cPortal %PORTAL% is already linked to another one.'
+PORTALINKOK: '&aPortals are now linked.'
+NO_BIOME: '&4You may not put signs in %BIOME%'
+PORTALBEGIN: '&bClick two corners to create your portal.'
+WAIT_MSG: '&6Teleporting in {wait} seconds'
+PORTALSTOP: '&6Portal creation cancelled.'
+PORTALCONTAIN: '&cThis portal cannot contains another one! Cancelled.'
+PORTALDEL: '&aPortal &l%NAME% &adeleted!'
+CONFIRMON: '&bClick to confirm!'
+DIRECTION:
+  WEST: West
+  SOUTH: South
+  EAST: East
+  NORTH: North
+PROCEED: '&aProcessing...'
+CONFIRMOK: '&a&l[ CONFIRM ]'
+PORTALBIG: '&cPortal too big! max: x={%xMax%}, x={%yMax%}, x={%zMax%}'
+CONFIRMSG: |-
+  &6---------------------------------------
+  &6This teleportation cost %COST% $.
+           %CONFIRM%
+  &7(You have %TIME% seconds to confirm.)
+  &6---------------------------------------
+PORTAL404: '&cThis portal doesn''t exists...'
+ATTEMPT: '&6Search a safe location... &7(%ATTEMPT%/%MAX%)'
+PORTALEXIST: '&cThis portal name is already in use!'
+PORTALHERE: '&cTry again: This block is part of another portal!'
+NO_PERMS: '&4You do not have permission!'
+NO_BREAK: '&4Hey! You can not break WildTp sign!'
+RELOADED: '&aPlugin config has successfuly been reloaded.'
+CONFIRMKO: '&cNo pending confirmation...'
+YES_SIGN: '&aSuccessfully made a new WildTP sign'
+NO_SIGN_PERMS: '&4You do not have permission to make a wild sign'
+COOLDOWN: '&4You must wait %TIME% until you can use the command/sign again'
+GENERROR: '&c&lError occurred, check console logs'
+PORTALADD: '&aPortal &l%NAME% &acreated!'
+DIDNT_WAIT: '&cYou need to hold still while you wait!'
