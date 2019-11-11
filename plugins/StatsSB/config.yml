@@ -87,7 +87,6 @@ Leaderboard:
   playerFormat: "&7  #&f%rank% &3%player% &f- &7%kills%"
   Message:
   - "&8   &l&m                              "
-  - " "
   - "&b&l        Leaderboard"
   - " "
   - "%players%"
