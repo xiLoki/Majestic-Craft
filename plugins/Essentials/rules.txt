@@ -1,3 +1,34 @@
-[1] Be respectful
-[2] Be ethical
-[3] Use common sense
+&a&lChapter 1 - General Rules
+&a&l1.1 &fRespect other players.
+&a&l1.2 &fDo not advertise or mention other servers.
+&a&l1.3 &fRacism or hate speech is NOT tolerated.
+&a&l1.4 &fDo not impersonate staff.
+&a&l1.6 &fRandom Deathmatch (RDM) in Towny is not allowed -> Killing without any proper previous roleplay or reason.
+&a&l1.7 &fRespect New Life Rule (NLR) in Towny -> You are not allowed to go back to the place your were just killed for 10 minutes.
+
+
+&a&lChapter 2 - Chat Rules
+&a&l2.1 &fDo not spam caps or any other messages.
+&a&l2.2 &fRacism or hate speech is NOT tolerated.
+&a&l2.3 &fYou are not allowed to post links to any websites.
+&a&l2.4 &fDo not use chat as a support channel, if you have issues go to discord and explain your issue.
+&a&l2.5 &fTalking in all caps is not allowed if spammed.
+
+
+
+&a&lChapter 3 - Modification Rules
+&a&l3.1 &fDo not use fly mods / hacks.
+&a&l3.2 &fDo not use xray mods / hacks.
+&a&l3.3 &fDo not use jump mods / hacks.
+&a&l3.4 &fDo not use climbing mods / hacks.
+&a&l3.5 &fDo not use speed mods / hacks.
+&a&l3.6 &fDo not use mob radars or cave mods / hacks.
+&a&l3.7 &fYou are not allowed to use any game modifications unless listed in the information channel on discord.
+&a&l3.8 &fAny other modifications to your game will result in a permanent ban.
+
+&a&lChapter 4 - Other rules
+&a&l4.1 &fDo not exploit game breaking bugs.
+&a&l4.2 &fDo not exploit in-game mechanics.
+&a&l4.3 &fDo not build any redstone machine's that can cause lag to other players or can cause the server to go in overclock.
+&a&l4.4 &fYou are not allowed to scam players.
+&a&l4.5 &fDo not use anti afk machine's or bots.
