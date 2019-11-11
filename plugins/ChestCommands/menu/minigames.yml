@@ -8,7 +8,7 @@ menu-settings:
 
   # REQUIRED
   # Appears as the title of the menu.
-  name: '&a&lMinigames'
+  name: '&a&lGames Menu'
 
   # REQUIRED
   # The number of rows in the menu.
@@ -26,7 +26,7 @@ menu-settings:
   # OPTIONAL
   # This command command will be executed when the menu is opened.
   # Supports all the icon command types.
-  open-action: 'tell: &aYou opened the &a&lminigames &c&amenu.'
+  open-action: 'tell: &aYou opened the &a&lGames &c&amenu.'
 
   # OPTIONAL
   # The menu will open only when right-clicking with a compass.

@@ -6,3 +6,64 @@ items-Overwrite: false
 items-Spamming: false
 items-RestrictCount: false
 items:
+  information-item:
+    id: BOOK
+    slot: 0
+    name: '&6&lInformation'
+    lore:
+    - §eOpens the information menu with general info from the server
+    commands:
+      right-click:
+      - 'player: information'
+      left-click:
+      - 'player: information'
+    commands-type: INTERACT
+    commands-sound: BLOCK_NOTE_BLOCK_PLING
+    commands-particle: FIREWORK:BLACK:RED:BURST:10
+    commands-cooldown: 5
+    cooldown-message: '&7[&c&lItem&4&lJoin&c&7] &a[%item%&a] &cis on cooldown for &a%timeleft%
+      &cseconds..'
+    itemflags: INVENTORY-MODIFY, ITEM-STORE, DEATH-DROPS, SELF-DROPS
+    triggers: JOIN, RESPAWN, WORLD-SWITCH
+    enabled-worlds: spawn
+  gameselector-item:
+    id: CLOCK
+    slot: 4
+    name: '&a&lGame Selector'
+    lore:
+    - §2Select any game from the menu and you will
+    - §2be teleported to the lobby
+    commands:
+      right-click:
+      - 'player: minigames'
+      left-click:
+      - 'player: minigames'
+    commands-type: INTERACT
+    commands-sound: BLOCK_NOTE_BLOCK_PLING
+    commands-particle: FIREWORKS_SPARK:5
+    commands-cooldown: 5
+    cooldown-message: '&7[&c&lItem&4&lJoin&c&7] &a[%item%&a] &cis on cooldown for &a%timeleft%
+      &cseconds..'
+    itemflags: INVENTORY-MODIFY, ITEM-STORE, DEATH-DROPS, SELF-DROPS
+    triggers: JOIN, RESPAWN, WORLD-SWITCH
+    enabled-worlds: spawn
+  warp-item:
+    id: BLAZE_ROD
+    slot: 8
+    name: '&9&lWarps'
+    lore:
+    - §1Opens the warp menu
+    - §1Select a warp in order to be teleported.
+    commands:
+      right-click:
+      - 'player: warps'
+      left-click:
+      - 'player: warps'
+    commands-type: INTERACT
+    commands-sound: BLOCK_NOTE_BLOCK_PLING
+    commands-cooldown: 5
+    cooldown-message: '&7[&c&lItem&4&lJoin&c&7] &a[%item%&a] &cis on cooldown for &a%timeleft%
+      &cseconds..'
+    itemflags: INVENTORY-MODIFY, ITEM-STORE, DEATH-DROPS, SELF-DROPS
+    triggers: JOIN, RESPAWN, WORLD-SWITCH
+    enabled-worlds: spawn
