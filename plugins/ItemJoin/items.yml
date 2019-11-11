@@ -7,20 +7,14 @@ items-Spamming: false
 items-RestrictCount: false
 items:
   ultra-item:
-    id: DIAMOND_SWORD
+    id: 340
     slot: 0
-    name: '&bBlazefury'
+    name: '&6&lInformation'
     lore:
-    - '&7A godly sword.'
-    - '&7This is generations old!'
+    - '&aOpen the &6Information &amenu'
     commands:
-      multi-click:
-      - 'message: &eYou can send yourself custom messages!'
-      - 'console: say You can even execute more than one command!'
-      - 'delay: 10'
-      - 'player: say This is item slot 1.'
-      - 'op: say This command executes as if the player is op.'
-      - say Hello world!
+      right-click:
+      - 'command:'
     commands-type: interact, inventory
     commands-sound: BLOCK_NOTE_BLOCK_PLING
     commands-particle: FIREWORK:BLACK:RED:BURST:10
@@ -35,7 +29,7 @@ items:
     triggers: join, respawn, world-change, region-enter
     permission-node: itemjoin.ultra
     enabled-regions: region1, region2
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   map-item:
     id: FILLED_MAP
     slot: 2
@@ -47,7 +41,7 @@ items:
       CreativeBypass
     triggers: join, respawn, world-change
     permission-node: itemjoin.map
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   gamemode-item:
     id: FIREWORK_STAR
     slot: 4
@@ -76,7 +70,7 @@ items:
     itemflags: item-store, death-drops, self-drops, hide-attributes, disposable
     triggers: join, respawn, world-change
     permission-node: itemjoin.token
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   book-item:
     id: WRITTEN_BOOK
     slot: 6
@@ -119,7 +113,7 @@ items:
     itemflags: inventory-modify, death-drops, self-drops
     triggers: join, respawn
     permission-node: itemjoin.book
-    enabled-worlds: world
+    enabled-worlds: spawn
   bungeecord-item:
     id: PURPLE_STAINED_GLASS
     slot: 8
@@ -141,7 +135,7 @@ items:
     itemflags: inventory-modify, placement, hide-attributes, death-drops, self-drops
     triggers: join, respawn, world-change
     permission-node: itemjoin.bungeetp
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   filler-pane-item:
     id:
       '1': <delay:40>BLACK_STAINED_GLASS_PANE
@@ -154,7 +148,7 @@ items:
     name: '&f'
     itemflags: inventory-modify, placement, animate, death-drops, self-drops
     triggers: join, world-change
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   banner-item:
     id: WHITE_BANNER
     slot: 20
@@ -169,7 +163,7 @@ items:
     banner-meta: BLUE:BASE, WHITE:CREEPER
     itemflags: hide-attributes, self-drops, CreativeBypass
     triggers: join, respawn, world-change, region-enter
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   animated-item:
     id: OAK_SIGN
     slot: 22
@@ -192,7 +186,7 @@ items:
       - '&cFood Level: %player_food%'
     itemflags: death-drops, animate
     triggers: join, respawn, world-change
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   skulldb-item:
     id: PLAYER_HEAD
     slot: 24
@@ -208,7 +202,7 @@ items:
     - '&7and apply it to a skull item!'
     itemflags: inventory-modify, animate, death-drops, self-drops
     triggers: join, respawn, world-change
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   arrow-item:
     id: TIPPED_ARROW
     slot: 27
@@ -218,7 +212,7 @@ items:
     itemflags: death-drops, self-drops
     limit-modes: SURVIVAL, ADVENTURE
     triggers: join, respawn, world-change
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   firework-item:
     id: FIREWORK_ROCKET
     slot: 29
@@ -234,14 +228,14 @@ items:
     use-cooldown: 3
     itemflags: count-lock, death-drops, hide-attributes, self-drops
     triggers: join, respawn, world-change
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   potion-item:
     id: POTION
     slot: 31
     name: '&4Draught of Madness'
     potion-effect: JUMP:2:120, INCREASE_DAMAGE:3:150, REGENERATION:1:160
     triggers: join, respawn, world-change
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   golden-apple-item:
     id: GOLDEN_APPLE
     slot: 33
@@ -251,7 +245,7 @@ items:
     potion-effect: JUMP:2:120, NIGHT_VISION:2:400, GLOWING:1:410, REGENERATION:1:160
     itemflags: death-drops, self-drops
     triggers: join, respawn, world-change
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   skull-item:
     id: PLAYER_HEAD
     slot: 35
@@ -262,7 +256,7 @@ items:
     - '&7players profile, like hypixel!'
     itemflags: inventory-modify, death-drops, self-drops
     triggers: join, respawn, world-change
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   filler-pane-item-two:
     id: YELLOW_STAINED_GLASS_PANE
     slot: 28, 30, 32, 34, 18, 19, 21, 23, 25, 26
@@ -270,7 +264,7 @@ items:
     probability: 50
     itemflags: inventory-modify, placement, death-drops, self-drops
     triggers: join, world-change
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   filler-pane-item-three:
     id: BLUE_STAINED_GLASS_PANE
     slot: 28, 30, 32, 34, 18, 19, 21, 23, 25, 26
@@ -278,7 +272,7 @@ items:
     probability: 80
     itemflags: inventory-modify, placement, death-drops, self-drops
     triggers: join, world-change
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   filler-pane-item-four:
     id: PINK_STAINED_GLASS_PANE
     slot: 28, 30, 32, 34, 18, 19, 21, 23, 25, 26
@@ -286,7 +280,7 @@ items:
     probability: 10
     itemflags: inventory-modify, placement, death-drops, self-drops
     triggers: join, world-change
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   helmet-item:
     id: DIAMOND_HELMET
     slot: helmet
@@ -294,7 +288,7 @@ items:
     enchantment: PROTECTION_ENVIRONMENTAL:5
     itemflags: inventory-modify, death-drops, self-drops
     triggers: join
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   chestplate-item:
     id: DIAMOND_CHESTPLATE
     slot: chestplate
@@ -302,7 +296,7 @@ items:
     enchantment: PROTECTION_ENVIRONMENTAL:5
     itemflags: inventory-modify, death-drops, self-drops
     triggers: join
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   leggings-item:
     id: DIAMOND_LEGGINGS
     slot: leggings
@@ -310,7 +304,7 @@ items:
     enchantment: PROTECTION_ENVIRONMENTAL:3
     itemflags: inventory-modify, death-drops, self-drops
     triggers: join
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   boots-item:
     id: DIAMOND_BOOTS
     slot: boots
@@ -318,35 +312,35 @@ items:
     enchantment: PROTECTION_ENVIRONMENTAL:3, PROTECTION_FALL:5
     itemflags: inventory-modify, death-drops, self-drops
     triggers: join
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   offhand-item:
     id: SHIELD
     slot: offhand
     name: '&bShield of the Protector'
     itemflags: inventory-modify, death-drops, self-drops, unbreakable
     triggers: join
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   diamond-item:
     id: DIAMOND
     slot: CRAFTING[1]
     itemflags: inventory-modify, death-drops, self-drops
     triggers: join
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   iron-item:
     id: IRON_INGOT
     slot: CRAFTING[2]
     itemflags: inventory-modify, death-drops, self-drops
     triggers: join
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   gold-item:
     id: GOLD_INGOT
     slot: CRAFTING[3]
     itemflags: inventory-modify, death-drops, self-drops
     triggers: join
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn
   redstone-item:
     id: REDSTONE
     slot: CRAFTING[4]
     itemflags: inventory-modify, death-drops, self-drops
     triggers: join
-    enabled-worlds: world, world_nether, world_the_end
+    enabled-worlds: spawn

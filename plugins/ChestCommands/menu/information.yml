@@ -55,6 +55,7 @@ playerlist:
 
 
 server-rules:
+  COMMAND: 'rules'
   NAME: '&a&lGeneral Server Rules'
   LORE:
     - '&2Shows the general server rules in chat'
@@ -63,11 +64,12 @@ server-rules:
   POSITION-Y: 1
 
 
-help:
+server-help:
+  COMMAND: 'help'
   NAME: '&1&lServer Help'
   LORE:
     - '&bShows a list of commands in chat'
-  ID: sign
+  ID: structure_void
   POSITION-X: 5
   POSITION-Y: 1
 
@@ -76,7 +78,6 @@ menu-close:
   NAME: '&6Close the menu'
   ID: redstone lamp
   LORE:
-    - 'Create an item without command,'
-    - 'the GUI will just close.'
+    - '&eCloses the menu'
   POSITION-X: 5
   POSITION-Y: 3
