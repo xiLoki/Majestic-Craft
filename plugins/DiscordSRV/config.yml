@@ -2,7 +2,7 @@
 ConfigVersion: 1.18.0
 
 # Bot token; don't know what this is? Look at the video on the plugin page for instructions
-BotToken: "NjQzMTQ5MTEzOTI3NTMyNTU0.XchReQ.ddhmskhy2ciB6tD11SQtDEJW--E"
+BotToken: "NjQzMTQ5MTEzOTI3NTMyNTU0.XcjAsA.tHNm3j-wExFXero7yUKmtkE4Z8Y"
 
 # Channel links from game to Discord
 # syntax is Channels: {"in-game channel name": "numerical channel ID from Discord", "another in-game channel name": "another numerical channel ID from Discord"}
