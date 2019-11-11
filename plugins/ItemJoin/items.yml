@@ -6,23 +6,24 @@ items-Overwrite: false
 items-Spamming: false
 items-RestrictCount: false
 items:
-  information-item:
-    id: BOOK
-    slot: 0
-    name: '&6&lInformation'
+  warp-item:
+    id: BLAZE_ROD
+    slot: 8
+    name: '&9&lWarps'
     lore:
-    - §eOpens the information menu with general info from the server
+    - §1Opens the warp menu
+    - §1Select a warp in order to be teleported.
     commands:
       right-click:
-      - 'player: information'
+      - 'player: warps'
       left-click:
-      - 'player: information'
+      - 'player: warps'
     commands-type: INTERACT
     commands-sound: BLOCK_NOTE_BLOCK_PLING
-    commands-particle: FIREWORK:BLACK:RED:BURST:10
     commands-cooldown: 5
-    cooldown-message: '&7[&c&lItem&4&lJoin&c&7] &a[%item%&a] &cis on cooldown for &a%timeleft%
-      &cseconds..'
+    cooldown-message: '&7[&c&lItem&4&lJoin&c&7] &a[%item%&a] &cis on cooldown for
+      &a%timeleft% &cseconds..'
+    enchantments: KNOCKBACK:2
     itemflags: INVENTORY-MODIFY, ITEM-STORE, DEATH-DROPS, SELF-DROPS
     triggers: JOIN, RESPAWN, WORLD-SWITCH
     enabled-worlds: spawn
@@ -42,28 +43,52 @@ items:
     commands-sound: BLOCK_NOTE_BLOCK_PLING
     commands-particle: FIREWORKS_SPARK:5
     commands-cooldown: 5
-    cooldown-message: '&7[&c&lItem&4&lJoin&c&7] &a[%item%&a] &cis on cooldown for &a%timeleft%
-      &cseconds..'
+    cooldown-message: '&7[&c&lItem&4&lJoin&c&7] &a[%item%&a] &cis on cooldown for
+      &a%timeleft% &cseconds..'
+    enchantments: POWER:2
     itemflags: INVENTORY-MODIFY, ITEM-STORE, DEATH-DROPS, SELF-DROPS
     triggers: JOIN, RESPAWN, WORLD-SWITCH
     enabled-worlds: spawn
-  warp-item:
-    id: BLAZE_ROD
-    slot: 8
-    name: '&9&lWarps'
+  information-item:
+    id: BOOK
+    slot: 0
+    name: '&6&lInformation'
     lore:
-    - §1Opens the warp menu
-    - §1Select a warp in order to be teleported.
+    - §eOpens the information menu with general info from the server
     commands:
       right-click:
-      - 'player: warps'
+      - 'player: information'
       left-click:
-      - 'player: warps'
+      - 'player: information'
     commands-type: INTERACT
     commands-sound: BLOCK_NOTE_BLOCK_PLING
+    commands-particle: FIREWORK:BLACK:RED:BURST:10
     commands-cooldown: 5
-    cooldown-message: '&7[&c&lItem&4&lJoin&c&7] &a[%item%&a] &cis on cooldown for &a%timeleft%
-      &cseconds..'
+    cooldown-message: '&7[&c&lItem&4&lJoin&c&7] &a[%item%&a] &cis on cooldown for
+      &a%timeleft% &cseconds..'
+    enchantments: RIPTIDE:2
     itemflags: INVENTORY-MODIFY, ITEM-STORE, DEATH-DROPS, SELF-DROPS
+    triggers: JOIN, RESPAWN, WORLD-SWITCH
+    enabled-worlds: spawn
+  item_1:
+    id: DROWNED_SPAWN_EGG
+    slot: 6
+    name: '&6&lCompanions'
+    lore:
+    - §eOpens the companion menu
+    - §ecompanions are pets you can carry on your shoulder
+    - §ewhile going out on adventure
+    commands:
+      right-click:
+      - 'player: companions'
+      left-click:
+      - 'player: companions'
+    commands-type: INTERACT
+    commands-sound: ENTITY_WITCH_CELEBRATE
+    commands-particle: SPELL_WITCH:5
+    commands-cooldown: 5
+    cooldown-message: §7[§c§lItem§4§lJoin§c§7] §a[%item%§a] §cis on cooldown for §a%timeleft%
+      §cseconds..
+    itemflags: UNBREAKABLE, INVENTORY-MODIFY, SELF-DROPS
     triggers: JOIN, RESPAWN, WORLD-SWITCH
     enabled-worlds: spawn
