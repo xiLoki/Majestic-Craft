@@ -9,35 +9,210 @@
 # Local group inheritances define your promotion tree when using 'manpromote/mandemote'
 
 groups:
+  #Staff Ranks
+  Owner:
+    default: false
+    permissions:
+    - +vanish.effects.toggle.all
+    - -vanish.effects.*
+    - '*'
+    inheritance:
+    - admin
+    info:
+      build: true
+      prefix: '&8[&3&lOwner&8]-'
+      suffix: ''
+  Headadmin:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&c&lHead-Admin&8]-'
+      suffix: ''
+  Admin:
+    default: false
+    permissions: []
+    inheritance:
+    - moderator
+    - g:groupmanager_admin
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:towny_admin
+    - g:vanish_admin
+    info:
+      build: true
+      prefix: '&8[&cAdministrator&8]-'
+      suffix: ''
+  Headmod:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&9&lHead-Mod&8]-'
+      suffix: ''
+  Moderator:
+    default: false
+    permissions: []
+    inheritance:
+    - builder
+    - g:groupmanager_moderator
+    - g:bukkit_moderator
+    - g:essentials_moderator
+    - g:towny_moderator
+    - g:vanish_moderator
+    info:
+      build: true
+      prefix: '&8[&9Moderator&8]-'
+      suffix: ''
+  Builder:
+    default: false
+    permissions: []
+    inheritance:
+    - default
+    - g:essentials_builder
+    - g:towny_builder
+    info:
+      build: true
+      prefix: '&8[&aBuilder&8]-'
+      suffix: ''
+  Helper:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&eHelper&8]-'
+      suffix: ''
+  #Lifetime Ranks
+  Majestic:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&b&lMajestic&8]-'
+      suffix: ''
+  Immortal:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&4&lImmortal&8]-'
+      suffix: ''
+  Mystic:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&5&lMystic&8]-'
+      suffix: ''
+  Guardian:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&a&lGuardian&8]-'
+      suffix: ''
+  Apprentice:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&6&lApprentice&8]-'
+      suffix: ''
+  #Content Creator Ranks
+  Youtuber:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&cYou&fTuber&8]-'
+      suffix: ''
+  Streamer:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&dStreamer&8]-'
+      suffix: ''
+  #Donor Ranks
+  Obsidian:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&5Obsidian&8]-'
+      suffix: ''
+  Enchanter:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&bEnchanter&8]-'
+      suffix: ''
+  Eggman:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&2Eggman&8]-'
+      suffix: ''
+  Miner:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&bMiner&8]-'
+      suffix: ''
+  Archer:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&4Archer&8]-'
+      suffix: ''
+  Member:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: true
+      prefix: '&8[&1Member&8]-'
+      suffix: ''
   Default:
     default: true
     permissions:
     #Essentials Permissions
     - essentials.afk
     - essentials.balance
-    - essentials.builde
-    - essentials.compass
-    - essentials.condense
     - essentials.delhome
-    - essentials.disposal
-    - essentials.getpos
-    - essentials.help
-    - essentials.info
     - essentials.kill
-    - essentials.Kit
+    - essentials.kit
     - essentials.list
+    - essentials.mail
+    - essentials.mail.send
     - essentials.me
     - essentials.msg
-    - essentials.nick
     - essentials.pay
     - essentials.ping
     - essentials.rules
-    - essentials.seen.banreason
     - essentials.sethome
     - essentials.showkit
     - essentials.spawn
     - essentials.suicide
-    - essentials.time
     - essentials.tpa
     - essentials.tpacancel
     - essentials.tpaccept
@@ -45,184 +220,55 @@ groups:
     - essentials.tpdeny
     - essentials.warp
     - essentials.warp.list
-    - essentials.chat.color
-    - essentials.signs.color
-    - essentials.signs.use.balance
-    - essentials.signs.use.buy
-    - essentials.signs.use.sell
-    - essentials.signs.use.free
-    - essentials.signs.use.info
-    - essentials.signs.use.kit
-    - essentials.kits.starter
-    - essentials.warp.survival
-    - essentials.warp.kitpvp
-    - essentials.warp.roleplay
-    - essentials.warp.skywars
-    - essentials.warp.bedwars
-    - essentials.warp.minigames
+    - essentials.worth
+    - essentials.afk.auto
+    - essentials.kits. #<EDIT !!!!>
     - essentials.ban.notify
-    - essentials.nick.color
     - essentials.home
+    - essentials.build
     - essentials.build.break
-    - essentials.build.craft
-    - essentials.build.drop
-    - essentials.build.interact
-    - essentials.build.pickup
-    - essentials.build.place
+    #Companions Player Permissions
+    - companions.player.menu
+    - companions.player.shop
+    - companions.player.owned
+    - companions.player.toggle
+    - companions.player.details
+    - companions.player.coin
+    #itemJoin Permissions
+    - itemjoin.info
+    - itemjoin.store
+    - itemjoin.navigator
+    - itemjoin.companions
+    - itemjoin.warps
+    #Chestcommands Permissions
+    - chestcommands.open.information.yml
+    - chestcommands.open.warps.yml
+    - chestcommands.open.minigames.yml
+    #KitPVP Permissions
+    - kp.arrowreturn
+    - kp.arrowmessage
+    - kp.soupreturn
+    - kp.givekititem
+    - kp.giveleaveitem
+    - kp.command.spawn
+    - kp.command.stats
+    - kp.command.menu
+    - kp.command.kit
+    - kp.command.kits
+    - kp.command.preview
     #Jobs Permissions
     - jobs.use
     - jobs.command.browse
+    - jobs.command.stats
     - jobs.command.join
     - jobs.command.leave
     - jobs.command.leaveall
-    - jobs.command.stats
-    - jobs.command.quests
-    - jobs.command.skipquest
-    - jobs.command.shop
-    - jobs.command.toggle
-    #KitPVP Permissions
-    - kp.command.stats
-    - kp.command.menu
-    - kp.command.kits
-    - kp.kit.-----
-    - kp.arena.itemdropping
-    - kp.arrowmessage
-    - kp.arrowreturn
-    #World Guard Permissions
-    - worldguard.build.block.place
-    - worldguard.build.block.remove
-    - worldguard.build.block.interact
-    - worldguard.build.entity.place
-    - worldguard.build.entity.remove
-    - worldguard.build.entity.interact
-    - worldguard.build.item.use
-    #Custom Help permissions
-    - custom.help.general
-    - custom.help.jobs
-    - custom.help.kitpvp
     inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
     info:
-      prefix: '&8[&aStarter&8]-'
       build: true
-      suffix: ''
-#Donator Ranks
-  Stone:
-    default: false
-    permissions:
-    #Essentials Permissions
-    - essentials.sethome.multiple
-    - essentials.recipe
-    #KitPVP Permissions
-    - kp.kit.donator
-    inheritance:
-    - Default
-    - g:groupmanager_Default
-    info:
-      prefix: '&8[&7Stone&8]-'
-      build: true
-      suffix: ''
-  Silver:
-    default: false
-    permissions:
-    #Essentials Permissions
-    - essentials.sethome.multiple
-    - essentials.recipe
-    #KitPVP Permissions
-    - kp.kit.iron
-    inheritance:
-    - Default
-    - Stone
-    - g:groupmanager_Silver
-    info:
-      prefix: '&8[&fSilver&8]-'
-      build: true
-      suffix: ''
-    Gold:
-      default: false
-      permissions:
-      #Essentials Permissions
-      - essentials.sethome.multiple
-      - essentials.recipe
-      #KitPVP Permissions
-      - kp.kit.gold
-      inheritance:
-      - Default
-      - Stone
-      - Silver
-      - g:groupmanager_Gold
-      info:
-        prefix: '&8[&6Gold&8] -'
-        build: true
-        suffix: ''
-      Diamond:
-        default: false
-        permissions:
-        #Essentials Permissions
-        - essentials.sethome.multiple
-        - essentials.recipe
-        #KitPVP Permissions
-        - kp.kit.diamond
-        inheritance:
-        - Default
-        - Stone
-        - Silver
-        - Gold
-        - g:groupmanager_Diamond
-        info:
-          prefix: '&8[&bDiamond&8]-'
-          build: true
-          suffix: ''
-  Moderator:
-    default: false
-    permissions:
-    #KitPVP Permissions
-    - kp.kit.staff
-    #Custom Help permissions
-    - custom.help.staff
-    inheritance:
-    - Default
-    - Stone
-    - Silver
-    - Gold
-    - Diamond
-    - g:groupmanager_Moderator
-    info:
-      prefix: '&8[&1Moderator&8]-'
-      build: true
-      suffix: ''
-  Admin:
-    default: false
-    permissions: []
-    inheritance:
-    - Default
-    - Stone
-    - Silver
-    - Gold
-    - Diamond
-    - Moderator
-    - g:groupmanager_admin
-    info:
-      prefix: '&c'
-      build: true
-      suffix: ''
-  Owner:
-    default: false
-    permissions:
-    - '*'
-    - essentials.*
-    - essentials.setspawn
-    - groupmanager.*
-    - worldedit.*
-    inheritance:
-    - Default
-    - Stone
-    - Silver
-    - Gold
-    - Diamond
-    - Moderator
-    - Admin
-    - groupmanager_Owner
-    info:
-      prefix: '&8[&cOwner&8]-'
-      build: true
+      prefix: '&8[&7Novice&8]-'
       suffix: ''

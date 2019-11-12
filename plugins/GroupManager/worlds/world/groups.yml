@@ -12,195 +12,51 @@ groups:
   Default:
     default: true
     permissions:
-    #Essentials Permissions
-    - essentials.afk
-    - essentials.balance
-    - essentials.builde
-    - essentials.compass
-    - essentials.condense
-    - essentials.delhome
-    - essentials.disposal
-    - essentials.getpos
-    - essentials.help
-    - essentials.info
-    - essentials.kill
-    - essentials.Kit
-    - essentials.list
-    - essentials.me
-    - essentials.msg
-    - essentials.nick
-    - essentials.pay
-    - essentials.ping
-    - essentials.rules
-    - essentials.seen.banreason
-    - essentials.sethome
-    - essentials.showkit
-    - essentials.spawn
-    - essentials.suicide
-    - essentials.time
-    - essentials.tpa
-    - essentials.tpacancel
-    - essentials.tpaccept
-    - essentials.tpahere
-    - essentials.tpdeny
-    - essentials.warp
-    - essentials.warp.list
-    - essentials.chat.color
-    - essentials.signs.color
-    - essentials.signs.use.balance
-    - essentials.signs.use.buy
-    - essentials.signs.use.sell
-    - essentials.signs.use.free
-    - essentials.signs.use.info
-    - essentials.signs.use.kit
-    - essentials.kits.starter
-    - essentials.warp.survival
-    - essentials.warp.kitpvp
-    - essentials.warp.roleplay
-    - essentials.warp.skywars
-    - essentials.warp.bedwars
-    - essentials.warp.minigames
-    - essentials.ban.notify
-    - essentials.nick.color
-    - essentials.home
-    - essentials.build.break
-    - essentials.build.craft
-    - essentials.build.drop
-    - essentials.build.interact
-    - essentials.build.pickup
-    - essentials.build.place
-    #Jobs Permissions
-    - jobs.use
-    - jobs.command.browse
-    - jobs.command.join
-    - jobs.command.leave
-    - jobs.command.leaveall
-    - jobs.command.stats
-    - jobs.command.quests
-    - jobs.command.skipquest
-    - jobs.command.shop
-    - jobs.command.toggle
-    #KitPVP Permissions
-    - kp.command.stats
-    - kp.command.menu
-    - kp.command.kits
-    - kp.kit.-----
-    - kp.arena.itemdropping
-    - kp.arrowmessage
-    - kp.arrowreturn
-    #World Guard Permissions
-    - worldguard.build.block.place
-    - worldguard.build.block.remove
-    - worldguard.build.block.interact
-    - worldguard.build.entity.place
-    - worldguard.build.entity.remove
-    - worldguard.build.entity.interact
-    - worldguard.build.item.use
-    #Custom Help permissions
-    - custom.help.general
-    - custom.help.jobs
-    - custom.help.kitpvp
+    - -bukkit.command.kill
     inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
     info:
-      prefix: '&8[&aStarter&8]-'
-      build: true
+      prefix: '&e'
+      build: false
       suffix: ''
-#Donator Ranks
-  Stone:
+  Builder:
     default: false
-    permissions:
-    #Essentials Permissions
-    - essentials.sethome.multiple
-    - essentials.recipe
-    #KitPVP Permissions
-    - kp.kit.donator
+    permissions: []
     inheritance:
-    - Default
-    - g:groupmanager_Default
+    - default
+    - g:essentials_builder
+    - g:towny_builder
     info:
-      prefix: '&8[&7Stone&8]-'
+      prefix: '&2'
       build: true
       suffix: ''
-  Silver:
-    default: false
-    permissions:
-    #Essentials Permissions
-    - essentials.sethome.multiple
-    - essentials.recipe
-    #KitPVP Permissions
-    - kp.kit.iron
-    inheritance:
-    - Default
-    - Stone
-    - g:groupmanager_Silver
-    info:
-      prefix: '&8[&fSilver&8]-'
-      build: true
-      suffix: ''
-    Gold:
-      default: false
-      permissions:
-      #Essentials Permissions
-      - essentials.sethome.multiple
-      - essentials.recipe
-      #KitPVP Permissions
-      - kp.kit.gold
-      inheritance:
-      - Default
-      - Stone
-      - Silver
-      - g:groupmanager_Gold
-      info:
-        prefix: '&8[&6Gold&8] -'
-        build: true
-        suffix: ''
-      Diamond:
-        default: false
-        permissions:
-        #Essentials Permissions
-        - essentials.sethome.multiple
-        - essentials.recipe
-        #KitPVP Permissions
-        - kp.kit.diamond
-        inheritance:
-        - Default
-        - Stone
-        - Silver
-        - Gold
-        - g:groupmanager_Diamond
-        info:
-          prefix: '&8[&bDiamond&8]-'
-          build: true
-          suffix: ''
   Moderator:
     default: false
-    permissions:
-    #KitPVP Permissions
-    - kp.kit.staff
-    #Custom Help permissions
-    - custom.help.staff
+    permissions: []
     inheritance:
-    - Default
-    - Stone
-    - Silver
-    - Gold
-    - Diamond
-    - g:groupmanager_Moderator
+    - builder
+    - g:groupmanager_moderator
+    - g:bukkit_moderator
+    - g:essentials_moderator
+    - g:towny_moderator
+    - g:vanish_moderator
     info:
-      prefix: '&8[&1Moderator&8]-'
+      prefix: '&5'
       build: true
       suffix: ''
   Admin:
     default: false
     permissions: []
     inheritance:
-    - Default
-    - Stone
-    - Silver
-    - Gold
-    - Diamond
-    - Moderator
+    - moderator
     - g:groupmanager_admin
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:towny_admin
+    - g:vanish_admin
     info:
       prefix: '&c'
       build: true
@@ -209,20 +65,11 @@ groups:
     default: false
     permissions:
     - '*'
-    - essentials.*
-    - essentials.setspawn
-    - groupmanager.*
-    - worldedit.*
+    - -vanish.effects.*
+    - +vanish.effects.toggle.all
     inheritance:
-    - Default
-    - Stone
-    - Silver
-    - Gold
-    - Diamond
-    - Moderator
-    - Admin
-    - groupmanager_Owner
+    - admin
     info:
-      prefix: '&8[&cOwner&8]-'
+      prefix: '&4'
       build: true
       suffix: ''

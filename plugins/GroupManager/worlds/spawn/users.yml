@@ -1,6 +1,16 @@
 users:
-  99a80b73-34c0-48b7-8cd9-ed68b1a998e0:
-    lastname: iLoki
-    group: Owner
+  ElgarL:
+    group: Moderator
     subgroups: []
-    permissions: []
+    permissions:
+    - groupmanager.noofflineperms
+  KHobbits:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: Builder
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms

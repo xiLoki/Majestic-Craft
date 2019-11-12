@@ -19,8 +19,8 @@ groups:
     - g:essentials_default
     - g:towny_default
     info:
-      prefix: '&8[&7Starter&8] -'
-      build: true
+      prefix: '&e'
+      build: false
       suffix: ''
   Builder:
     default: false
