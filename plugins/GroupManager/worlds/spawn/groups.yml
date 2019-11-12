@@ -234,6 +234,13 @@ groups:
     - companions.player.toggle
     - companions.player.details
     - companions.player.coin
+    - companions.buy.turtle
+    - companions.buy.frog
+    - companions.buy.xavier
+    - companions.buy.cake
+    - companions.buy.knight
+    - companions.buy.shark
+    - companions.buy.cloud
     #itemJoin Permissions
     - itemjoin.info
     - itemjoin.store
@@ -263,6 +270,11 @@ groups:
     - jobs.command.join
     - jobs.command.leave
     - jobs.command.leaveall
+    #Custom Help Permissions
+    - custom.help.use
+    - custom.help.general
+    - custom.help.jobs
+    - custom.help.kitpvp
     inheritance:
     - g:groupmanager_default
     - g:bukkit_default
