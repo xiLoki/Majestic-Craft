@@ -14,10 +14,10 @@ regions:
         min: {x: -117, y: 49, z: -92}
         max: {x: 105, y: 169, z: 80}
         members: {}
-        flags: {other-explosion: deny, snow-fall: deny, lighter: deny, pvp: deny,
-            block-place: deny, mob-spawning: deny, creeper-explosion: deny, vehicle-place: deny,
-            game-mode: survival, fall-damage: deny, mob-damage: deny, block-break: deny,
-            snow-melt: deny, tnt: deny}
+        flags: {other-explosion: deny, use: allow, snow-fall: deny, lighter: deny,
+            pvp: deny, block-place: deny, mob-spawning: deny, creeper-explosion: deny,
+            vehicle-place: deny, fall-damage: deny, game-mode: survival, mob-damage: deny,
+            block-break: deny, snow-melt: deny, tnt: deny}
         owners:
             unique-ids: [99a80b73-34c0-48b7-8cd9-ed68b1a998e0]
         type: cuboid
