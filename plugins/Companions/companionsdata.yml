@@ -6,4 +6,9 @@ companions:
         customName: '&1&lSHARK'
         nameVisible: true
         abilityLevel: 1
+      reaper:
+        customWeapon: STONE_HOE
+        customName: '&8&lREAPER'
+        nameVisible: true
+        abilityLevel: 1
     active: NONE

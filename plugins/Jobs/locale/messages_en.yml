@@ -451,6 +451,10 @@ command:
       args: '[playername]'
     output:
       cleared: '&2Removed &7[furnaces] &2furnaces and &7[brewing] &2brewing stands'
+  skipquest:
+    help:
+      info: Skip defined quest and get new one
+      args: '[jobname] [questname] (playerName)'
   quests:
     help:
       info: List available quests
@@ -462,6 +466,8 @@ command:
     output:
       completed: '&2      !Completed!&r      '
       questLine: '[progress] &7[questName] &f[done]&7/&8[required]'
+      skip: '&7Click to skip this quest'
+      skips: '&7Left skips: &f[skips]'
       hover: "&f[jobName] \n[desc] \n&7New quest in: [time]"
   fire:
     help:

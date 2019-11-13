@@ -95,6 +95,9 @@ DailyQuests:
   ResetTime:
     Hour: 4
     Minute: 0
+  # Defines amount of skips player can do on a quest
+  # This allows player to abandon current quest and get new one
+  Skips: 1
 # Enables the schedule manager to boost the server.
 # By default this has been disabled for causing memory leak.
 ScheduleManager:

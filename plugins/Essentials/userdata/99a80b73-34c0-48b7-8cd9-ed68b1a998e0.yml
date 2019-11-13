@@ -1,30 +1,31 @@
 lastAccountName: iLoki
 timestamps:
-  login: 1573434906750
-  logout: 1573434905190
-  lastteleport: 1573430419439
+  login: 1573674582689
+  logout: 1573673617741
+  lastteleport: 1573685331370
 ipAddress: 78.21.195.91
 lastlocation:
-  world: world
-  x: 480.5
-  y: 64.0
-  z: -2206.5
-  yaw: -53.250008
-  pitch: 2.6999998
+  world: spawn
+  x: 1.5
+  y: 72.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
 afk: false
 logoutlocation:
   world: spawn
-  x: 43.593389925358906
-  y: 73.0
-  z: 14.060506353917674
-  yaw: -115.48912
-  pitch: 16.800047
-money: '38200.0'
+  x: 0.5
+  y: 72.0
+  z: -0.5
+  yaw: -178.8006
+  pitch: -7.800003
+money: '37750.0'
 homes:
-  k:
-    world: world
-    x: -0.3913715361518756
-    y: 256.0
-    z: -92.55386677228555
-    yaw: 281.39972
-    pitch: 83.84987
+  home:
+    world: spawn
+    x: 0.5
+    y: 72.0
+    z: -0.5
+    yaw: -178.8006
+    pitch: -7.800003
+socialspy: false
