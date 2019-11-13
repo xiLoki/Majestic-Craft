@@ -223,6 +223,250 @@ ChangeReason:
   NotFound: "&cSorry we have not been able to find this punishment"
 
 Check:
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
   Usage: "&cUsage &8\xbb &7&o/check [Name]"
   Header: "&7Checking &e&o%NAME%"
   UUID: "&cUUID &8\xbb &7%UUID%"
@@ -234,3 +478,2809 @@ Check:
   BanReason: "  &cReason &8\xbb &7%REASON%"
   Warn: "&cWarns &8\xbb &7%COUNT%"
   NotFound: "&cSorry we have not been able to find %NAME%"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
+
+Tempipban:
+  Usage: "&cUsage &8\xbb &7&o/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
+  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Layout:
+  - '%PREFIX% &7Temporarily banned'
+  - '&7'
+  - '&7'
+  - "&cReason &8\xbb &7%REASON%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - '&7'
+  - '&8Unban application in TS or forum'
+  - "&eTS-Ip &8\xbb &c&ncoming soon"
+  - "&eForum &8\xbb &c&ncoming soon"
+  Notification:
+  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&7For the reason &o%REASON%"
+  - "&7&oThis player got banned for &e&o%DURATION%"
+
+ChangeReason:
+  Usage: "&cUsage &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
+  NotFound: "&cSorry we have not been able to find this punishment"
