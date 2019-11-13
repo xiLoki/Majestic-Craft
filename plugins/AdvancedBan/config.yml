@@ -13,7 +13,7 @@ DetailedEnableMessage: true
 DetailedDisableMessage: true
 
 # This will be the default reason to be displayed if none is given
-DefaultReason: "Banned by a staff member"
+DefaultReason: "none"
 
 # Change this if your server has a different time that your users.
 # e.g.: ServerTime: 16:43 | Your Time: 13:43 | TimeDiff has to be set to -3
@@ -52,8 +52,10 @@ MuteCommands:
 # These players will not be able to get punished in any way
 # this also works if the player is offline
 ExemptPlayers:
-- 'iLoki'
-- 'RizeAgain'
+- 'Leoko'
+- 'md5'
+- 'dutchy1001'
+- 'ItzSomebody'
 
 # The date-format which will be used for the %DATE% variable
 DateFormat: "dd.MM.yyyy-HH:mm"
@@ -105,7 +107,7 @@ TempPerms:
   3: 43200
 
 # With this active will show more information in the console, such as errors, if
-# the plugin works correctly is not recommended to activate it since it is
+# the plugin works correctly is not recommended to activate it since it is 
 # designed to find bugs.
 Debug: false
 
