@@ -40,21 +40,21 @@ CombatTags:
 # Scoreboard Settings, Self explanatory.
 Scoreboard:
   enabled: true
-  scoreboardlinescolor: "&8"
-  title: "&2StatsSB"
+  scoreboardlinescolor: "&b"
+  title: "&b&lMajestic &3&lCraft"
   dateTimeZone: PST
   Kills-Prefix: "&fKills:"
   Deaths-Prefix: "&fDeaths:"
   KD-Prefix: "&fKD:"
   Streak-Prefix: "&fStreak:"
-  Kills: "&6"
-  Deaths: "&6"
+  Kills: "&a"
+  Deaths: "&c"
   KD: "&6"
-  Streak: "&6"
+  Streak: "&9"
   Economy:
     Enabled: true
-    Eco-Prefix: "&aMoney: $"
-    Eco: "&6"
+    Eco-Prefix: "&aBalance: $"
+    Eco: "&a"
 
 #Stats Command Settings.
 StatsCommand:
@@ -93,4 +93,3 @@ Leaderboard:
   - "%players%"
   - " "
   - "&8   &l&m                              "
-
