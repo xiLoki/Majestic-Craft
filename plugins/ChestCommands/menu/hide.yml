@@ -1,0 +1,63 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&5&lHide Menu'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 3
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'hide'
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'tell: &aYou opened the &5&lhide &c&amenu.'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    id: compass
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+hide:
+  COMMAND: 'hideall'
+  NAME: '&4&lHide'
+  LORE:
+    - '&cHide all players'
+  ID: 397
+  POSITION-X: 1
+  POSITION-Y: 1
+
+
+show:
+  COMMAND: 'showall'
+  NAME: '&2&lShow'
+  LORE:
+    - '&aShow all players'
+  ID: 397:3
+  POSITION-X: 3
+  POSITION-Y: 1

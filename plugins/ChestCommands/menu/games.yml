@@ -1,0 +1,84 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&9&lGames Menu'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 3
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'games'
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'tell: &aYou opened the &9&lgames &c&amenu.'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    id: compass
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+survival:
+  COMMAND: 'warp survival'
+  NAME: '&2&lSurvival'
+  LORE:
+    - '&aJoin the Survival lobby'
+    - '&aPlay with your friends'
+  ID: grass_block
+  POSITION-X: 1
+  POSITION-Y: 1
+
+
+hungergames:
+  COMMAND: 'warp hungergames'
+  NAME: '&6&lHunger Games'
+  LORE:
+    - '&eJoin the Hunger Games lobby'
+  ID: golden_apple
+  POSITION-X: 3
+  POSITION-Y: 1
+
+
+kitpvp:
+  COMMAND: 'warp pvp'
+  NAME: '&1&lKit-PvP'
+  LORE:
+    - '&bJoin the Kit-PvP lobby'
+  ID: diamond_sword
+  POSITION-X: 5
+  POSITION-Y: 1
+
+
+kingdoms:
+  COMMAND: 'warp kingdoms'
+  NAME: '&5&lKingdoms'
+  LORE:
+    - '&dJoin the Kingdoms lobby'
+  ID: map
+  POSITION-X: 7
+  POSITION-Y: 1
