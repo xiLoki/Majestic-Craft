@@ -438,11 +438,11 @@ allow-silent-join-quit: false
 
 # You can set a custom join message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-join-message: "none"
+custom-join-message: "&a[+] &a&l{USERNAME} &r&ajoined &b&lMajestic &3&lCraft &r&a!"
 
 # You can set a custom quit message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-quit-message: "none"
+custom-quit-message: "&c[-] &c&l{USERNAME} &r&cleft &b&lMajestic &3&lCraft &r&c!"
 
 # Add worlds to this list, if you want to automatically disable god mode there.
 no-god-in-worlds:
