@@ -1,0 +1,63 @@
+pvp:
+  location: spawn, -29.558, 74.200, -37.148
+  lines:
+  - '&aKit-PVP'
+  - '&bWelcome'
+hungergames:
+  location: spawn, 0.457, 74.200, -40.776
+  lines:
+  - '&cHunger-Games'
+  - '&a&lNew Maps !'
+survival:
+  location: spawn, 28.556, 74.200, -38.746
+  lines:
+  - '&9Survival'
+  - '&bWelcome'
+towny:
+  location: spawn, -27.445, 74.200, 38.115
+  lines:
+  - '&2Towny'
+  - '&eUnder Construction'
+minigames:
+  location: spawn, 0.394, 74.200, 41.328
+  lines:
+  - '&5Minigames'
+  - '&3Coming Soon'
+arcade:
+  location: spawn, 28.487, 74.200, 38.503
+  lines:
+  - '&dArcade'
+  - '&3Coming Soon'
+skywars:
+  location: spawn, 65.400, 74.200, 0.572
+  lines:
+  - '&aSkywars'
+  - '&3Coming Soon'
+sword:
+  location: spawn, 5.654, 72.700, -4.649
+  lines:
+  - '&5&lWelcome &a{player}'
+  - '&bCurrently Online &e{online} / {max_players}'
+  - '&bSpawn made by:'
+  - '&bSpawn made by: &uStikstof'
+sword1:
+  location: spawn, 5.418, 72.700, 5.452
+  lines:
+  - '&5&lWelcome &a{player}'
+  - '&bCurrently Online &e{online} / {max_players}'
+  - '&bSpawn made by:'
+  - '&bSpawn made by: &uStikstof'
+spawn1:
+  location: spawn, -4.438, 72.700, 5.496
+  lines:
+  - '&5&lWelcome &a{player}'
+  - '&bCurrently Online &e{online} / {max_players}'
+  - '&bSpawn made by:'
+  - '&bSpawn made by: &uStikstof'
+spawn2:
+  location: spawn, -4.532, 72.700, -4.593
+  lines:
+  - '&5&lWelcome &a{player}'
+  - '&bCurrently Online &e{online} / {max_players}'
+  - '&bSpawn made by:'
+  - '&bSpawn made by: &uStikstof'

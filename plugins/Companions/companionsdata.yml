@@ -1,0 +1,14 @@
+companions:
+  99a80b73-34c0-48b7-8cd9-ed68b1a998e0:
+    owned:
+      shark:
+        customWeapon: NONE
+        customName: '&1&lSHARK'
+        nameVisible: true
+        abilityLevel: 1
+      reaper:
+        customWeapon: STONE_HOE
+        customName: '&8&lREAPER'
+        nameVisible: true
+        abilityLevel: 1
+    active: NONE
