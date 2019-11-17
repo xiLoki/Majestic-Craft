@@ -19,26 +19,26 @@ settings:
     - "&7Knock, knock! .. Who's there?"
     - "&7What am I?"
     - "&7... Where am I?"
-  # interactCooldown is counted by seconds.    
+  # interactCooldown is counted by seconds.
   interactCooldown: 3
   # Set how frequent should the plugin save its necessary files.(in minutes)
   saveTime: 60
   vanish:
     perms: essentials.vanish
     commands: /v, /vanish
-  
-  # Set which worlds you do not want Companions to be used in.  
+
+  # Set which worlds you do not want Companions to be used in.
   disabledWorlds:
-    - world1
-    - world2
+    - Red-Fantasy
+    - PVP
   # Set which line to not show in the owned Companion ItemStacks
   replacedOwnedLores:
     - "&6&lLEFT CLICK &7to purchase the &6%companion% Companion&7!"
     - "&6PRICE: &e$%price%"
-  
+
   # true: Kick player if cache is not loaded for them properly. (To ensure all Companions Data are loaded for the player)
   ensureCache: true
-    
+
 database:
   use: false
   hostname: localhost
@@ -47,18 +47,18 @@ database:
   password: ""
   databaseName: "companions"
   tablePrefix: "companions_"
-    
+
 items:
   companionToken:
     name: "&6&lCOMPANION TOKEN"
     type: GHAST_TEAR
-    description: 
+    description:
       - ""
       - "&6&lRIGHT CLICK &7on a block"
       - " to redeem your mystery Companion!"
     particleAnimation: EXPLOSION_LARGE
     soundOnUse: BLOCK_BEACON_POWER_SELECT
-    
+
 GUI:
   goBack:
     type: BARRIER
@@ -67,7 +67,7 @@ GUI:
     slot: 45
     description:
       - " "
-      - "&6&lLEFT CLICK &7to go back to the previous page."    
+      - "&6&lLEFT CLICK &7to go back to the previous page."
   nextPage:
     type: ARROW
     amount: 1
@@ -75,12 +75,12 @@ GUI:
     slot: 53
     description:
       - " "
-      - "&6&lLEFT CLICK &7to go back to the next page."  
+      - "&6&lLEFT CLICK &7to go back to the next page."
   open-companions:
     title: "&6&lCOMPANIONS"
     size: 9
     openSound: BLOCK_BEACON_ACTIVATE
-    
+
     items:
       companion-shop:
         type: PUFFERFISH_SPAWN_EGG
@@ -99,7 +99,7 @@ GUI:
         description:
           - " "
           - "&6&lLEFT CLICK &7to view a list of companions"
-          - "&7that you own!"   
+          - "&7that you own!"
       upgrade-abilities:
         type: PAPER
         amount: 1
@@ -108,22 +108,22 @@ GUI:
         description:
           - " "
           - "&6&lLEFT CLICK &7to view a list of upgrades"
-          - "&7that you can do on your companion!"                   
-          
+          - "&7that you can do on your companion!"
+
 
   open-companions-shop:
     title: "&6&lCOMPANIONS SHOP"
     size: 54
-    openSound: BLOCK_BEACON_ACTIVATE             
-        
+    openSound: BLOCK_BEACON_ACTIVATE
+
   owned-companions:
     title: "&6&lOWNED COMPANIONS"
     size: 54
-    openSound: BLOCK_BEACON_ACTIVATE    
-    
+    openSound: BLOCK_BEACON_ACTIVATE
+
     # Set which menu it goes back to when you reach to page 0. Great for creating custom menus.
-    goBackCommand: "companions"  
-    
+    goBackCommand: "companions"
+
     items:
       companionDetails:
         type: PAPER
@@ -135,15 +135,15 @@ GUI:
           - "&6ACTIVE COMPANION: &e%active_companion%"
           - "&6COMPANION COINS: &e%companions_coins%"
           - ""
-          - "&6&lLEFT CLICK &7to remove your active companion."   
+          - "&6&lLEFT CLICK &7to remove your active companion."
   upgrade-abilities:
     title: "&6&lUPGRADING.."
     size: 9
-    openSound: BLOCK_BEACON_ACTIVATE  
-    
+    openSound: BLOCK_BEACON_ACTIVATE
+
     # Set which menu it goes back to when you reach to page 0. Great for creating custom menus.
-    goBackCommand: "companions"    
-    
+    goBackCommand: "companions"
+
     items:
       upgradeDetails:
         type: PAPER
@@ -152,11 +152,11 @@ GUI:
         slot: 1
         description:
           - " "
-          - "&6You are currently upgrading &e%active_companion%"    
+          - "&6You are currently upgrading &e%active_companion%"
           - " "
           - "&6&lDETAILS"
-          - "&eNAME: &6%companion_name%"               
-          - "&eLEVEL: &6%companion_level%"     
+          - "&eNAME: &6%companion_name%"
+          - "&eLEVEL: &6%companion_level%"
           - ""
           - "&7(You can only upgrade your active companion!)"
       goBack:
@@ -166,7 +166,7 @@ GUI:
         slot: 0
         description:
           - " "
-          - "&6&lLEFT CLICK &7to go back to the previous page."          
+          - "&6&lLEFT CLICK &7to go back to the previous page."
       abilityLevel:
         type: EXPERIENCE_BOTTLE
         amount: 1
@@ -179,14 +179,14 @@ GUI:
           - "&6&lLEFT CLICK &7to upgrade your ability level!"
           - "&6&lRIGHT CLICK &7 to lower your ability level!"
           - " "
-          - "&6PRICE: &e$10,000"    
-        maxedDescription:   
+          - "&6PRICE: &e$10,000"
+        maxedDescription:
           - " "
-          - "&7You can no longer upgrade your active companion"   
+          - "&7You can no longer upgrade your active companion"
           - ""
           - "&6&lRIGHT CLICK&7 to lower your ability level!"
           - " "
-          - "&6PRICE: &e$10,000"              
+          - "&6PRICE: &e$10,000"
       renameCompanion:
         type: NAME_TAG
         amount: 1
@@ -197,7 +197,7 @@ GUI:
           - " "
           - "&6&lLEFT CLICK &7to rename your companion!"
           - " "
-          - "&6PRICE: &e1 COMPANION COIN"         
+          - "&6PRICE: &e1 COMPANION COIN"
       hideCompanionName:
         type: MAP
         amount: 1
@@ -209,7 +209,7 @@ GUI:
           - "&6&lLEFT CLICK &7to hide your companion's name!"
           - " "
           - "&7(If already bought, this perk reshows the companion name)"
-          - "&6PRICE: &e$2,000"      
+          - "&6PRICE: &e$2,000"
       changeWeapon:
         type: DIAMOND_SWORD
         amount: 1
@@ -223,12 +223,10 @@ GUI:
           - "&6PRICE: &e$6,000"
   player-details:
     title: "&6&lVIEWING &e%target%'S&6&l DETAILS.."
-    openSound: BLOCK_BEACON_ACTIVATE    
+    openSound: BLOCK_BEACON_ACTIVATE
     items:
       companionDetails:
         description:
           - " "
-          - "&6ACTIVE COMPANION: &e%active_companion%"  
+          - "&6ACTIVE COMPANION: &e%active_companion%"
           - "&6COMPANION COINS: &e%companions_coin%"
-       
-    
