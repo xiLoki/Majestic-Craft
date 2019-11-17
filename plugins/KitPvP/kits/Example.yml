@@ -25,29 +25,29 @@ Inventory:
       Lore:
       - '&7These are the boots of the Example Kit.'
   Items:
-    0:
+    '0':
       Name: '&7Example Sword'
       Item: IRON_SWORD
       Lore:
       - '&7This is the lore of the Example Sword.'
-    1:
+    '1':
       Name: '&7Example Bow'
       Item: BOW
       Lore:
       - '&7This is the lore of the Example Bow.'
-    2:
+    '2':
       Name: '&aExample Ability &7(Must be made in kit file)'
       Item: GOLD_INGOT
       Amount: 3
       Lore:
-      - '&7This is the lore of the Example Ability.'      
-    7:
+      - '&7This is the lore of the Example Ability.'
+    '7':
       Name: '&7Example Arrows'
       Item: ARROW
       Amount: 64
       Lore:
       - '&7These are the arrows for the Example Kit.'
-    8:
+    '8':
       Name: '&aTracking Compass'
       Item: COMPASS
       Lore:
@@ -64,7 +64,7 @@ Ability:
     Pitch: 1
     Enabled: true
   Potions:
-    SPEED:  
+    SPEED:
       Level: 5
       Duration: 5
   Commands:

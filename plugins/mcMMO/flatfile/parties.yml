@@ -1,0 +1,16 @@
+Majestic:
+  Leader: 99a80b73-34c0-48b7-8cd9-ed68b1a998e0|iLoki
+  Locked: true
+  Level: 0
+  Xp: 0
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 99a80b73-34c0-48b7-8cd9-ed68b1a998e0|iLoki

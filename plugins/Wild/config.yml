@@ -7,7 +7,7 @@
 # https://github.com/AcmeProject/WildernessTp/blob/master/src/main/resources/plugin.yml
 # .
 # bonus memo:
-# - Sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+# - Sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html 
 # - Biomes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html
 # - Blocks: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
 # - Bar colors: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html
@@ -74,6 +74,8 @@ PostCommands:
 - title %PLAYER% subtitle ["",{"text":"Its too dangerous to go alone.","color":"yellow"}]
 useRandomWorlds: true
 randomWorlds:
+  world: 1337
+  world_nether: 42
   Survival: 100
 useGlobalClaimCheck: true
 useAlternativeGlobalClaimCheck: false
@@ -92,6 +94,7 @@ worldsAliaz:
   spawn: spawn
   Kingdoms: Kingdoms
   Creatorworld: Creatorworld
+  Spawn: Spawn
 overrides: {}
 Bypass:
   cooldown:

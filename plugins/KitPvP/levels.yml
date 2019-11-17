@@ -1,14 +1,4 @@
 # LEVELS FILE - Configure the leveling system and its formatting.
-#
-# Recommendations:
-# 1) Any commands in this entire plugin support PlaceholderAPI placeholders.
-# 2) The chat format supports PlaceholderAPI. If you want to include a player rank name in the chat formatting, do the following:
-#    - Install PlaceholderAPI and Vault
-#    - Download the Vault expansion (/papi ecloud download Vault)
-#    - Modify the chat formatting to the following: '{level} {vault_prefix} &e{player} &f{message}'
-#
-# Please contact Cervinakuy (the developer) on Spigot if you have any problems.
-
 Levels:
   General:
     Chat:
@@ -29,7 +19,7 @@ Levels:
     - 'player: These commands are run when a player levels up'
     Enabled: false
   Levels:
-    Level-0: '&7Level %number%' 
+    Level-0: '&7Level %number%'
     Level-1: '&7Level %number%'
     Level-2: '&7Level %number%'
     Level-3: '&7Level %number%'

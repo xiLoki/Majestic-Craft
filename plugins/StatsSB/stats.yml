@@ -3,4 +3,5 @@ stats:
     kills: 0
   iLoki:
     kills: 0
-    deaths: 0
+    deaths: 1
+    streak: 0

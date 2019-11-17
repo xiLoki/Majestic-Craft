@@ -48,9 +48,9 @@ hide:
   NAME: '&4&lHide'
   LORE:
     - '&cHide all players'
-  ID: 397
-  POSITION-X: 1
-  POSITION-Y: 1
+  ID: ender_pearl
+  POSITION-X: 2
+  POSITION-Y: 2
 
 
 show:
@@ -58,6 +58,6 @@ show:
   NAME: '&2&lShow'
   LORE:
     - '&aShow all players'
-  ID: 397:3
-  POSITION-X: 3
-  POSITION-Y: 1
+  ID: ender_eye
+  POSITION-X: 7
+  POSITION-Y: 2

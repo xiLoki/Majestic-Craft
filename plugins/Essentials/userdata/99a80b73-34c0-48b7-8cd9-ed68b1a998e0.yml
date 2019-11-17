@@ -7,12 +7,31 @@ homes:
     z: -62.78952966807853
     yaw: 256.3484
     pitch: 16.349766
+  home:
+    world: Survival
+    x: 109.50345026065264
+    y: 81.0
+    z: -197.3985289426928
+    yaw: -159.29628
+    pitch: 8.100441
 timestamps:
-  lastteleport: 1574016360690
+  lastteleport: 1574030856355
+  login: 1574031966434
+  logout: 1574031964742
 lastlocation:
-  world: spawn
-  x: 0.519879242445245
+  world: Spawn
+  x: -29.5
+  y: 70.0
+  z: -58.5
+  yaw: -185.2426
+  pitch: -4.3498397
+lastAccountName: iLoki
+ipAddress: 78.21.195.91
+nickname: Unknown
+logoutlocation:
+  world: Spawn
+  x: 1.7494736642452744
   y: 72.0
-  z: -0.37144185352232695
-  yaw: -179.84917
-  pitch: -1.4998593
+  z: 0.3976615819594952
+  yaw: -272.6853
+  pitch: -3.4495358

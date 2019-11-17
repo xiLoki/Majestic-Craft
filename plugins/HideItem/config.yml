@@ -1,0 +1,84 @@
+#This option enabled will disable some checkes (maybe increases performance)
+#Enable if the server you put the plugin in is just a lobby server with one world for a bungeecord one
+#This option disables world-change event, hide players just in one world
+lobby-server: false
+
+disable-items: false
+disable-commands: false
+
+#If you set this to false, players will be hidden on join
+#and will need to click the item to show them
+#ATTENTION! This setting has no effect on player change world status
+#If a player changes worlds and reset-status is true, they will be reseted to visible players
+default-state-shown: true
+
+#on world change if players are hidden, they reapear (this does not interfere with world-systems)
+reset-status: true
+
+#hide players just from the world you are currently in
+hide-players-in-world: false
+#If you set use-hide-permission to true, players with the permission from hide-permission can't be hidden
+use-hide-permission: false
+hide-permission: 'hideitem.visible'
+
+#use %player% to display player's username
+hide-item-name: '&7Hide Players'
+hide-item-lore:
+  - '&aRight Click &7to hide'
+  - '&7all players'
+show-item-name: '&aShow Players'
+show-item-lore:
+  - '&aRight Click &7to show'
+  - '&7all players'
+hide-message: '&f[&b&lMajestic&3&lCraft&r&f]&r &cAll players are now hidden!'
+show-message: '&f[&b&lMajestic&3&lCraft&r&f]&r &aAll players are now visible!'
+
+hide-item-material: ''
+show-item-material: ''
+#use permissions can be set to 'none' if you want all the players to use them by default
+item-use-permission: 'none'
+
+#if you set this to true it will put the item in the first free slot it can finds
+#item-slot will be useless
+first-free-slot: false
+item-slot: 8
+fixed-item: true
+
+show-players-command: 'showall'
+hide-players-command: 'hideall'
+#use permissions can be set to 'none' if you want all the players to use them by default
+command-use-permission: 'hideitem.use.command'
+command-no-permission: '&cYou don''t have permission to use this command'
+
+
+#If you want to enable the items just in certain worlds you will need this system
+#item-world-system: 0 = the items work in all worlds
+#item-world-system: -1 = the items work in every world but the ones in the list
+#item-world-system: 1 = the items work just in the worlds mentioned in the list
+item-world-system: 0
+item-world-list:
+  - 'world1'
+  - 'world2'
+item-bypass-permission: 'hideitem.bypass.item'
+
+
+#If you want to enable the commands just in certain worlds you will need this system
+#command-world-system: 0 = the commands work in all worlds
+#command-world-system: -1 = the commands work in every world but the ones in the list
+#command-world-system: 1 = the commands work just in the worlds mentioned in the list
+command-world-system: 0
+command-world-list:
+  - 'world1'
+  - 'world2'
+command-bypass-permission: 'hideitem.bypass.command'
+command-world-deny-message: '&cYou can''t use that command in this world.'
+
+#cooldown must be in seconds
+cooldown: 3
+#use %cooldown% for time in seconds until the player can use the command/item again
+cooldown-message: '&eYou are in cooldown for %cooldown% more seconds.'
+cooldown-bypass-permission: 'hideitem.bypass.cooldown'
+
+
+#please do NOT modify this option
+version: 1.1
