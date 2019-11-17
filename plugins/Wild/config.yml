@@ -7,7 +7,7 @@
 # https://github.com/AcmeProject/WildernessTp/blob/master/src/main/resources/plugin.yml
 # .
 # bonus memo:
-# - Sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html 
+# - Sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
 # - Biomes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html
 # - Blocks: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
 # - Bar colors: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html
@@ -72,17 +72,16 @@ PostCommands:
 - title %PLAYER% times 20 100 20
 - title %PLAYER% title ["",{"text":"Wilderness","color":"green","bold":false}]
 - title %PLAYER% subtitle ["",{"text":"Its too dangerous to go alone.","color":"yellow"}]
-useRandomWorlds: false
+useRandomWorlds: true
 randomWorlds:
-  world: 1337
-  world_nether: 42
+  Survival: 100
 useGlobalClaimCheck: true
 useAlternativeGlobalClaimCheck: false
 signTexts:
   createWith: '[wildtp]'
-  line1: '&4===================='
-  line2: '[&1Wild&0]'
-  line3: '&4===================='
+  line1: '&9===================='
+  line2: '&8[&3&lWild&r&8]'
+  line3: '&9===================='
   costFree: '&b&lFREE'
   costMoney: '&4%COST% $'
 worldsAliaz:
