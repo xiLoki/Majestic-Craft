@@ -240,8 +240,8 @@ spawn-limiter:
 # -- 'broadcast-enabled' defines whether or not tps-meter should broadcast
 tps-meter:
   enabled: false
-  trigger-broadcast-message: '&6[ClearLag] &cThe server is overloaded, executing lag-perventing measures'
-  recover-broadcast-message: '&6[ClearLag] &aThe server is no longer overloaded!'
+  trigger-broadcast-message: '&8[&b&lMajestic &3&lCraft&8]&r &cThe server is overloaded, executing lag-perventing measures'
+  recover-broadcast-message: '&8[&b&lMajestic &3&lCraft&8]&r &aThe server is no longer overloaded!'
   broadcast-enabled: false
   interval: 15
   tps-trigger: 14.0
@@ -298,7 +298,7 @@ item-merger:
 # -- 'warnings' list warnings to be given out at specified times
 auto-removal:
   enabled: true
-  broadcast-message: '&6[ClearLag] &aRemoved +RemoveAmount Entities!'
+  broadcast-message: '&8[&b&lMajestic &3&lCraft&8]&r &aRemoved +RemoveAmount Entities!'
   broadcast-removal: true
   autoremoval-interval: 460
   world-filter:
@@ -322,8 +322,8 @@ auto-removal:
   # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
   # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
   warnings:
-        - 'time:400 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
-        - 'time:440 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
+        - 'time:400 msg:&8[&b&lMajestic &3&lCraft&8]&r &cWarning Ground items will be removed in &7+remaining &cseconds!'
+        - 'time:440 msg:&8[&b&lMajestic &3&lCraft&8]&r &cWarning Ground items will be removed in &7+remaining &cseconds!'
 
 #What should be removed during /lagg clear
 command-remove:
@@ -355,7 +355,7 @@ limit:
   enabled: false
   max: 1000
   check-interval: 60
-  broadcast-message: '&6[ClearLag] &aLimit reached, removed +RemoveAmount Entities!'
+  broadcast-message: '&8[&b&lMajestic &3&lCraft&8]&r &aLimit reached, removed +RemoveAmount Entities!'
   world-filter:
   # - this_world <-This world will be ignored during removal!
   broadcast-removal: true
@@ -398,9 +398,9 @@ custom-trigger-removal:
         entity-clearer:
           execute-job-time: 120
           warnings:
-            - 'time:60 msg:&4[ClearLag] &cEntities/drops will be purged in &7+remaining &cseconds!'
-            - 'time:100 msg:&4[ClearLag] &cEntities/drops will be purged in &720 &cseconds!'
-            - 'time:110 msg:&4[ClearLag] &cEntities/drops will be purged in &710 &cseconds!'
+            - 'time:60 msg:&8[&b&lMajestic &3&lCraft&8]&r &cEntities/drops will be purged in &7+remaining &cseconds!'
+            - 'time:100 msg:&8[&b&lMajestic &3&lCraft&8]&r &cEntities/drops will be purged in &720 &cseconds!'
+            - 'time:110 msg:&8[&b&lMajestic &3&lCraft&8]&r &cEntities/drops will be purged in &710 &cseconds!'
           world-filter:
           # - world <-This world will be ignored during removal
           removeEntities:
