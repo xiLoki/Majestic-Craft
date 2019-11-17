@@ -1,5 +1,5 @@
 messages:
-  prefix: "&8[&3&lCompanions&8] - "
+  prefix: "&f[&3&lCompanions&f] - "
   notPlayer: "&c&lERROR! &7You must be a &6player&7 to use this command!"
   notEnoughMoney: "&cTransaction failure. You need &e$%price% &cto perform this action!"
   itemBought: "&aTransaction successful! &7You have just bought the &6%companion% COMPANION&7."
