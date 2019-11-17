@@ -53,7 +53,7 @@ Scoreboard:
   Streak: "&9"
   Economy:
     Enabled: true
-    Eco-Prefix: "&aBalance: $"
+    Eco-Prefix: "&fBalance: &a$"
     Eco: "&a"
 
 #Stats Command Settings.
