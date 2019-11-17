@@ -24,10 +24,10 @@
 ############################################################
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
-ops-name-color: 'b'
+ops-name-color: '3'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
-nickname-prefix: '➛'
+nickname-prefix: ''
 
 # The maximum length allowed in nicknames. The nickname prefix is included in this.
 max-nick-length: 15
