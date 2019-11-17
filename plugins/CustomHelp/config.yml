@@ -1,42 +1,20 @@
 permNode: "custom.help.<name>"
-usePerms: true
+usePerms: false
 mainHelpCommands:
   - "/help"
   - "/?"
 customHelp:
-  - "&cMajestic&4Craft &7- &eHelp"
-  - "&e/help general &7- List of general commands."
-  - "&e/help jobs &7- List of job commands."
-  - "&e/help kitpvp &7- List of kitpvp commands."
-  - "&e/help staff &7- List of staff commands."
+  - "&e--Help--"
+  - "Your custom help here."
+  - "Another line of help."
 customHelpSpecific:
-  general:
-    - "&cMajestic&4Craft &7- &eGeneral Help"
-    - "&e/wild &7- Teleports you to the wilderness."
-    - "&e/sethome &7- sets home"
-    - "&e/sethome <name> &7- sets home"
-    - "&e/home &7- teleports you to your home"
-    - "&e/home <name> &7- teleports you to your home"
-  jobs:
-    - "&cMajestic&4Craft &7- &eJobs Help"
-    - "&e/jobs browse &7- List the jobs available to you."
-    - "&e/jobs join <jobname> &7- Join the selected job."
-    - "&e/jobs stats &7- Show the level you are in each job."
-    - "&e/jobs quests &7- List available quests."
-    - "&e/jobs points &7- Shows how much points you have."
-    - "&e/jobs skipquest <jobname> <questname> &7- Skip defined quest."
-    - "&e/jobs resetquest <jobname> <questname> &7- Reset defined quest."
-    - "&e/jobs shop &7- Opens special jobs shop."
-    - "&e/jobs leave <jobname> &7- Leave the selected job."
-    - "&e/jobs leaveall &7- Leave all your jobs."
-    - "&e/jobs toggle &7- Toggles payment output on action bar or bossbar."
-    - "&7End of Jobs Help List for more help do &e/help"
-  kitpvp:
-    - "&cMajestic&4Craft &7- &eKitPVP Help"
-    - "&e/kp stats &7- Show your KitPVP stats."
-    - "&e/kp kits &7- Show list of available kits."
-    - "&e/kp menu &7- Opens the KitPVP menu."
-    - "&e/kp kit <kitname> &7- Selects the defined kit."
+  survival:
+    - "&e--Survival help--"
+    - "Lines of help."
+  guns:
+    - "&e--Guns help--"
+    - "Lines of help with special symbols:"
+    - "More help."
 customCommandHelp:
   "/staff":
     - "&e--Server Staff--"

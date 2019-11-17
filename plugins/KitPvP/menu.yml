@@ -1,7 +1,14 @@
 # MENU FILE - This is where the menu can be completely customized.
+#
+# Recommendations:
+# 1) When adding your own menu item, please remember to indent using ONLY spaces. It is recommended that you simply copy and modify an item that already exists.
+# 2) Use the "Example" item at the bottom of this file for reference.
+#
+# Please contact Cervinakuy (the developer) on Spigot if you have any problems.
+
 Menu:
   General:
-    Title: Kits
+    Title: 'Kits'
     Hide-Items-With-No-Permission: false
     Size: 54
   Items:
@@ -138,7 +145,7 @@ Menu:
         - 'player: kp preview Kangaroo'
         Enabled: true
     Warper:
-      Name: '&a&lWarper Kit'
+      Name: '&a&lWarper Kit'    
       Item: ENDER_PEARL
       Slot: 16
       Lore:
@@ -270,3 +277,5 @@ Menu:
       Slot: 40
       Lore:
       - '&7Click to close the Kit Menu.'
+      
+      

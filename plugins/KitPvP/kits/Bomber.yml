@@ -33,18 +33,18 @@ Inventory:
         Green: 45
         Blue: 59
   Items:
-    '0':
+    0:
       Name: '&aBomber''s Sword'
       Item: IRON_SWORD
-    '1':
+    1:
       Name: '&aTNT &7(Right Click)'
       Item: TNT
       Amount: 16
-    '2':
+    2:
       Name: '&aTNT Trail &7(Right Click)'
       Item: COAL
       Amount: 3
-    '8':
+    8:
       Name: '&aPlayer Tracker &7(Right Click)'
       Item: COMPASS
     Fill:

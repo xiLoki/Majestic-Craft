@@ -9,48 +9,29 @@
 # Local group inheritances define your promotion tree when using 'manpromote/mandemote'
 
 groups:
-  #Staff Ranks
-  Owner:
-    default: false
+  Default:
+    default: true
     permissions:
-    - +vanish.effects.toggle.all
-    - -vanish.effects.*
-    - '*'
+    - -bukkit.command.kill
     inheritance:
-    - admin
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
     info:
-      build: true
-      prefix: '&8[&3&lOwner&8]-'
+      prefix: '&e'
+      build: false
       suffix: ''
-  Headadmin:
-    default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&c&lHead-Admin&8]-'
-      suffix: ''
-  Admin:
+  Builder:
     default: false
     permissions: []
     inheritance:
-    - moderator
-    - g:groupmanager_admin
-    - g:bukkit_admin
-    - g:essentials_admin
-    - g:towny_admin
-    - g:vanish_admin
+    - default
+    - g:essentials_builder
+    - g:towny_builder
     info:
+      prefix: '&2'
       build: true
-      prefix: '&8[&cAdministrator&8]-'
-      suffix: ''
-  Headmod:
-    default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&9&lHead-Mod&8]-'
       suffix: ''
   Moderator:
     default: false
@@ -63,224 +44,32 @@ groups:
     - g:towny_moderator
     - g:vanish_moderator
     info:
+      prefix: '&5'
       build: true
-      prefix: '&8[&9Moderator&8]-'
       suffix: ''
-  Builder:
+  Admin:
     default: false
     permissions: []
     inheritance:
-    - default
-    - g:essentials_builder
-    - g:towny_builder
+    - moderator
+    - g:groupmanager_admin
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:towny_admin
+    - g:vanish_admin
     info:
+      prefix: '&c'
       build: true
-      prefix: '&8[&aBuilder&8]-'
       suffix: ''
-  Helper:
+  Owner:
     default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&eHelper&8]-'
-      suffix: ''
-  #Lifetime Ranks
-  Majestic:
-    default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&b&lMajestic&8]-'
-      suffix: ''
-  Immortal:
-    default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&4&lImmortal&8]-'
-      suffix: ''
-  Mystic:
-    default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&5&lMystic&8]-'
-      suffix: ''
-  Guardian:
-    default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&a&lGuardian&8]-'
-      suffix: ''
-  Apprentice:
-    default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&6&lApprentice&8]-'
-      suffix: ''
-  #Content Creator Ranks
-  Youtuber:
-    default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&cYou&fTuber&8]-'
-      suffix: ''
-  Streamer:
-    default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&dStreamer&8]-'
-      suffix: ''
-  #Donor Ranks
-  Obsidian:
-    default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&5Obsidian&8]-'
-      suffix: ''
-  Enchanter:
-    default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&bEnchanter&8]-'
-      suffix: ''
-  Eggman:
-    default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&2Eggman&8]-'
-      suffix: ''
-  Miner:
-    default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&bMiner&8]-'
-      suffix: ''
-  Archer:
-    default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&4Archer&8]-'
-      suffix: ''
-  Member:
-    default: false
-    permissions: []
-    inheritance: []
-    info:
-      build: true
-      prefix: '&8[&1Member&8]-'
-      suffix: ''
-  Default:
-    default: true
     permissions:
-    #Essentials Permissions
-    - essentials.afk
-    - essentials.balance
-    - essentials.delhome
-    - essentials.kill
-    - essentials.kit
-    - essentials.list
-    - essentials.mail
-    - essentials.mail.send
-    - essentials.me
-    - essentials.msg
-    - essentials.pay
-    - essentials.ping
-    - essentials.rules
-    - essentials.sethome
-    - essentials.showkit
-    - essentials.spawn
-    - essentials.suicide
-    - essentials.tpa
-    - essentials.tpacancel
-    - essentials.tpaccept
-    - essentials.tpahere
-    - essentials.tpdeny
-    - essentials.warp
-    - essentials.warp.list
-    - essentials.worth
-    - essentials.afk.auto
-    - essentials.kits. #<EDIT !!!!>
-    - essentials.ban.notify
-    - essentials.home
-    - essentials.build
-    - essentials.build.break
-    #Companions Player Permissions
-    - companions.player.menu
-    - companions.player.shop
-    - companions.player.owned
-    - companions.player.toggle
-    - companions.player.details
-    - companions.player.coin
-    - companions.buy.turtle
-    - companions.buy.frog
-    - companions.buy.xavier
-    - companions.buy.cake
-    - companions.buy.knight
-    - companions.buy.shark
-    - companions.buy.cloud
-    #itemJoin Permissions
-    - itemjoin.info
-    - itemjoin.store
-    - itemjoin.navigator
-    - itemjoin.companions
-    - itemjoin.warps
-    #Chestcommands Permissions
-    - chestcommands.open.information.yml
-    - chestcommands.open.warps.yml
-    - chestcommands.open.minigames.yml
-    #KitPVP Permissions
-    - kp.arrowreturn
-    - kp.arrowmessage
-    - kp.soupreturn
-    - kp.givekititem
-    - kp.giveleaveitem
-    - kp.command.spawn
-    - kp.command.stats
-    - kp.command.menu
-    - kp.command.kit
-    - kp.command.kits
-    - kp.command.preview
-    #Jobs Permissions
-    - jobs.use
-    - jobs.command.browse
-    - jobs.command.stats
-    - jobs.command.join
-    - jobs.command.leave
-    - jobs.command.leaveall
-    #Custom Help Permissions
-    - custom.help.use
-    - custom.help.general
-    - custom.help.jobs
-    - custom.help.kitpvp
+    - '*'
+    - -vanish.effects.*
+    - +vanish.effects.toggle.all
     inheritance:
-    - g:groupmanager_default
-    - g:bukkit_default
-    - g:essentials_default
-    - g:towny_default
+    - admin
     info:
+      prefix: '&4'
       build: true
-      prefix: '&8[&7Novice&8]-'
       suffix: ''

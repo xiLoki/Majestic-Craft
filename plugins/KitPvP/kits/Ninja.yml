@@ -21,14 +21,14 @@ Inventory:
       Name: '&7Ninja Boots'
       Item: CHAINMAIL_BOOTS
   Items:
-    '0':
+    0:
       Name: '&aNinja''s Sword'
       Item: IRON_SWORD
-    '1':
+    1:
       Name: '&aVanish Stars &7(Right Click)'
       Item: NETHER_STAR
       Amount: 3
-    '8':
+    8:
       Name: '&aPlayer Tracker &7(Right Click)'
       Item: COMPASS
     Fill:

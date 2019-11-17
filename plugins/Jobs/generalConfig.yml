@@ -74,7 +74,7 @@ Optimizations:
     # Only commands can be performed from disabled worlds with jobs.disabledworld.commands permission node
     Use: false
     List:
-    - Spawn
+    - Survival
 Logging:
   # With this set to true all players jobs actions will be logged to database for easy to see statistics
   # This is still in development and in future it will expand

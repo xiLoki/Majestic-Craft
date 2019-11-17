@@ -24,7 +24,7 @@
 ############################################################
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
-ops-name-color: 'a'
+ops-name-color: '4'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 nickname-prefix: '~'
@@ -59,7 +59,7 @@ change-displayname: true
 #add-prefix-in-playerlist: true
 
 # When this option is enabled, player suffixes will be shown in the playerlist.
-# This feature only works for Minecraft version 1.8 and higher.
+# This feature only works for Minecraft version 1.8 and higher. 
 # This value of change-playerlist has to be true
 #add-suffix-in-playerlist: true
 
@@ -304,14 +304,14 @@ pastebin-createkit: false
 # Color is not an actual sign, it's for enabling using color codes on signs, when the correct permissions are given.
 
 enabledSigns:
-  - color
-  - balance
-  - buy
-  - sell
-  - trade
-  - free
-  - disposal
-  - warp
+  #- color
+  #- balance
+  #- buy
+  #- sell
+  #- trade
+  #- free
+  #- disposal
+  #- warp
   #- kit
   #- mail
   #- enchant
@@ -416,7 +416,7 @@ cancel-afk-on-move: true
 # Users with the permission node essentials.sleepingignored will always be ignored.
 sleep-ignores-afk-players: true
 
-# Set the player's list name when they are AFK. This is none by default which specifies that Essentials
+# Set the player's list name when they are AFK. This is none by default which specifies that Essentials 
 # should not interfere with the AFK player's list name.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
 afk-list-name: "none"
@@ -590,9 +590,9 @@ world-home-permissions: false
 # Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
-  default: 1
+  default: 3
   vip: 5
-  staff: 50
+  staff: 10
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
 # Remember, they MUST have both permission nodes in order to be able to set multiple homes.
@@ -613,7 +613,7 @@ compass-towards-home-perm: false
 # For more information, visit http://wiki.ess3.net/wiki/Essentials_Economy
 
 # Defines the balance with which new players begin. Defaults to 0.
-starting-balance: 10000
+starting-balance: 0
 
 # worth-# defines the value of an item when it is sold to the server via /sell.
 # These are now defined in worth.yml
@@ -627,7 +627,7 @@ command-costs:
   #kit-tools: 1500
 
 # Set this to a currency symbol you want to use.
-# Remember, if you want to use special characters in this document,
+# Remember, if you want to use special characters in this document, 
 # such as accented letters, you MUST save the file as UTF-8, not ANSI.
 currency-symbol: '$'
 
@@ -738,7 +738,7 @@ protect:
     wither-blockreplace: false
     creeper-explosion: false
     creeper-playerdamage: false
-    creeper-blockdamage: true
+    creeper-blockdamage: false
     enderdragon-blockdamage: true
     enderman-pickup: false
     villager-death: false
@@ -785,7 +785,7 @@ protect:
   # Disable various default physics and behaviors.
   disable:
     # Should fall damage be disabled?
-    fall: true
+    fall: false
 
     # Users with the essentials.protect.pvp permission will still be able to attack each other if this is set to true.
     # They will be unable to attack users without that same permission node.
@@ -890,7 +890,7 @@ newbies:
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.
   #kit: ''
-  #kit: tools
+  kit: tools
 
 # What priority should we use for handling respawns?
 # Set this to none, if you want vanilla respawning behaviour.
@@ -911,7 +911,7 @@ respawn-at-home: false
 spawn-on-join: false
 # The following value of `guests` states that all players in group `guests` will be teleported to spawn when joining.
 #spawn-on-join: guests
-# The following list value states that all players in group `guests` and `admin` are to be teleported to spawn when joining.
+# The following list value states that all players in group `guests` and `admin` are to be teleported to spawn when joining. 
 #spawn-on-join:
 #- guests
 #- admin

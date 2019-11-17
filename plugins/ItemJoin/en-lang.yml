@@ -3,7 +3,7 @@
 en-Version: 7
 
 # This is the prefix that will be sent at the beginning of every single message sent in the language file.
-Prefix: '&7[&c&lItem&4&lJoin&c&7]'
+Prefix: '&7[&eItemJoin&7]'
 
 # These are simply general messages sent from the plugin item usages.
 General:

@@ -17,21 +17,21 @@ Inventory:
       Name: '&7Archer Boots'
       Item: CHAINMAIL_BOOTS
   Items:
-    '0':
+    0:
       Name: '&aArcher''s Sword'
       Item: STONE_SWORD
-    '1':
+    1:
       Name: '&aArcher''s Bow'
       Item: BOW
-    '2':
+    2:
       Name: '&aFire Arrows &cOFF &7(Right Click)'
       Item: SLIME_BALL
       Amount: 10
-    '7':
+    7:
       Name: '&aArcher''s Arrows &7(+1 arrow each successful shot)'
       Item: ARROW
       Amount: 64
-    '8':
+    8:
       Name: '&aPlayer Tracker &7(Right Click)'
       Item: COMPASS
     Fill:

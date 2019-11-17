@@ -20,7 +20,6 @@ settings:
   teleport-at-end: false
   teleport-at-end-time: 30
   max-team-size: 3
-  globalexit: spawn:0:70:-62:-180.75269:6.7497687
 reward:
   enabled: true
   cash: 500

@@ -72,10 +72,10 @@ PostCommands:
 - title %PLAYER% times 20 100 20
 - title %PLAYER% title ["",{"text":"Wilderness","color":"green","bold":false}]
 - title %PLAYER% subtitle ["",{"text":"Its too dangerous to go alone.","color":"yellow"}]
-useRandomWorlds: true
+useRandomWorlds: false
 randomWorlds:
+  world: 1337
   world_nether: 42
-  world: 100
 useGlobalClaimCheck: true
 useAlternativeGlobalClaimCheck: false
 signTexts:
@@ -86,18 +86,13 @@ signTexts:
   costFree: '&b&lFREE'
   costMoney: '&4%COST% $'
 worldsAliaz:
-  spawn: spawn
-  spawn_nether: spawn_nether
-  spawn_the_end: spawn_the_end
-  world: world
-  Testworld: Testworld
-  SW-Lobby: SW-Lobby
-  Void: Void
-  Skywars_Hub: Skywars_Hub
-  Creatormap: Creatormap
-  SW_Hub: SW_Hub
-  Creatorworld: Creatorworld
+  Survival: Survival
+  Survival_nether: Survival_nether
+  Survival_the_end: Survival_the_end
   Red-Fantasy: Red-Fantasy
+  spawn: spawn
+  Kingdoms: Kingdoms
+  Creatorworld: Creatorworld
 overrides: {}
 Bypass:
   cooldown:

@@ -5,26 +5,8 @@
 groups:
   default:
     worlds:
-    - world
-    - world_the_end
-    - world_nether
+    - survival_nether
+    - survival
+    - survival_the_end
     shares:
     - all
-  second:
-    worlds:
-    - spawn
-    shares:
-    - hit_points
-    - food_level
-    - saturation
-    - exhaustion
-    - xp
-    - total_xp
-    - lvl
-    - bed_spawn
-    - maximum_air
-    - remaining_air
-    - fall_distance
-    - fire_ticks
-    - potion_effects
-    - ender_chest

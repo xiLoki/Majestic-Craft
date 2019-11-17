@@ -1,4 +1,0 @@
-&7Welcome to &cMajestic &4Craft &7, &a{PLAYER} &7!
-&7Type &a/help&7 for a list of commands.
-&7Type &a/list&7 to see who else is online.
-&7Players online:&a {ONLINE} &7- World time:&a {WORLDTIME12}

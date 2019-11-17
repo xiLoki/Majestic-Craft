@@ -1,5 +1,6 @@
 stats:
+  TempPlayer:
+    kills: 0
   iLoki:
-    kills: 3521
-    deaths: 255
-    streak: 0
+    kills: 0
+    deaths: 0

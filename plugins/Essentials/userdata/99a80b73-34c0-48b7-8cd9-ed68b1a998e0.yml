@@ -1,31 +1,18 @@
-lastAccountName: iLoki
-timestamps:
-  login: 1574004385844
-  logout: 1574004383767
-  lastteleport: 1574004850107
-ipAddress: 78.21.195.91
-lastlocation:
-  world: Red-Fantasy
-  x: 132.32883652606296
-  y: 17.0
-  z: 15.518021980885655
-  yaw: -358.49927
-  pitch: 18.300781
 afk: false
-logoutlocation:
-  world: spawn
-  x: -0.33129840068301153
-  y: 70.5
-  z: -67.59679041275496
-  yaw: 109.64837
-  pitch: -5.250032
-money: '37750.0'
 homes:
-  home:
-    world: spawn
-    x: 0.5
-    y: 72.0
-    z: -0.5
-    yaw: -178.8006
-    pitch: -7.800003
-socialspy: false
+  iloki:
+    world: Survival
+    x: 99.20019512758407
+    y: 82.17019240699908
+    z: -62.78952966807853
+    yaw: 256.3484
+    pitch: 16.349766
+timestamps:
+  lastteleport: 1574016360690
+lastlocation:
+  world: spawn
+  x: 0.519879242445245
+  y: 72.0
+  z: -0.37144185352232695
+  yaw: -179.84917
+  pitch: -1.4998593
