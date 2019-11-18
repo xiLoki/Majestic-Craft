@@ -2,7 +2,7 @@
 #     |   __|___ ___ _ _ ___ ___|  |  |_|___| |_|  _  | |_ _ ___
 #     |__   | -_|  _| | | -_|  _|  |__| |_ -|  _|   __| | | |_ -|
 #     |_____|___|_|  \_/|___|_| |_____|_|___|_| |__|  |_|___|___|
-# 
+#
 # ServerListPlus v3.4.8 - http://git.io/slp
 
 # More information is available in the Wiki: http://git.io/slp-wiki
@@ -12,7 +12,7 @@
 #  - Default is the section for the status used when the player name is unknown.
 #    Personalized is used if the client has already joined the server once.
 #    Use %player% as placeholder for the player's name.
-# 
+#
 # Features:
 #  - Description (MotD): A short status message for your server, max. 2 lines.
 #  - Players:
@@ -21,9 +21,9 @@
 #  - Favicon:
 #    - Use multiple server icons or the player's head as favicon, see http://git.io/oMhJlg
 #    - Possible favicon sources: Files, Folders, URLs, Heads, Helms, Encoded
-# 
+#
 #  More features are explained in the Wiki: http://git.io/slp-config
-# 
+#
 # Usage:
 #  - Add multiple entries for random messages.
 #  - Save the file with valid UTF-8 encoding for special characters.
@@ -35,29 +35,32 @@
 Default:
   Description:
   - |-
-    &aA Minecraft Server.
-    &7Now with [&a&lPvP&7], [&a&lMinigames&7], and much more!
+    &f&lMajestic &3&lCraft
+    &7Now with &6&lCompanions&7, &d&lKingdoms&7, &9&lMinigames &7& &c&lMore!
   - |-
-    &aA Minecraft Server.
-    &eWe have updated our server to &lMinecraft 1.8&e!
-  Players:
-    Hover:
+    &f&lMajestic &3&lCraft
+    &eUpdated to &eMinecraft &a&l1.14.4&e!
+Banned:
+  Description:
     - |-
-      &aWelcome to &lA Minecraft Server&a!
-      &aCurrently &e&l%online% &aplayers are playing on our server!
+      &f&lMajestic &3&lCraft &7| &cYou are banned by &3&l%ban_operator%
+      &cReason: &7&l %ban_reason% &7, &cBan Expires:&7&l %ban_expiration_date%
 Personalized:
   Description:
   - |-
-    &aA Minecraft Network. &7|  &eHello, &l%player%!
-    &7Now with [&a&lPvP&7], [&a&lMinigames&7], and much more!
+    &f&lMajestic &3&lCraft &7| &eOh, hey there &3&l%player% &e!
+    &dWhy not continue where you left off ?
   - |-
-    &aA Minecraft Network. &7|  &eHello, &l%player%!
-    &eWe have updated our server to &lMinecraft 1.8&e!
+    &f&lMajestic &3&lCraft &7|  &eHow are you &3&l%player% &e?
+    &9We missed you ! | &aLet's play some more ?
+  - |-
+    &f&lMajestic &3&lCraft &7|  &eThere you are &3&l%player% &e!
+    &aNew Website @ &f&lwww.Majestic&3Network&f.eu
   Players:
     Hover:
     - |-
-      &aWelcome back, &l%player%&a!
-      &aCurrently &e&l%online% &aplayers are playing on our server!
+      &f&lMajestic &3&lCraft &7| &aWelcome back &3&l%player%&a!
+      &6Currently &e&l&l%online% &6players are playing !
 
 # Stats: Enable/disable sending plugin statistics.
 # PlayerTracking: Enable/disable tracking of player names to their IP-Addresses.
@@ -90,4 +93,3 @@ Favicon:
   Timeout: 10s
   RecursiveFolderSearch: false
   ResizeStrategy: SCALE
-
