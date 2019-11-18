@@ -1,0 +1,103 @@
+#  ____  ____  ____  ____  _____ ____  ____  ____  ____  ____
+# / ___\/   _\/  _ \/  __\/  __//  _ \/  _ \/  _ \/  __\/  _ \
+# |    \|  /  | / \||  \/||  \  | | //| / \|| / \||  \/|| | \|
+# \___ ||  \_ | \_/||    /|  /_ | |_\\| \_/|| |-|||    /| |_/|
+# \____/\____/\____/\_/\_\\____\\____/\____/\_/ \|\_/\_\\____/
+#
+# Scoreboard-r by Rien Bijl
+# rep: github : RienBijl/Scoreboard-revision
+# v: 1.4.2 RELEASE
+
+settings:
+  # Safe-mode determines if scoreboard is synchronized with the server (true) or asynchronized (false)
+  # Synchronized (safe-mode: true) is more stable and robust
+  # Asynchronized (safe-mode: false) is more faster but can cause strange problems in some cases
+  safe-mode: false
+  # If the server version is 1.13 or higher, enable longline.
+  # true: you can use 128 characters per line (1.13 and up)
+  # false: you can use 32 characters per line (1.12 and down)
+  longline: false
+
+# In what worlds should we disable scoreboard?
+disabled-worlds:
+  - 'non_existant_world'
+
+board:
+  title:
+    interval: 3
+    liner:
+      - '&4> &c&lScoreboard-r &4<'
+      - '&4> &c&lScoreboard &4<'
+      - '&4> &c&lcoreboar &4<'
+      - '&4> &c&loreboa &4<'
+      - '&4> &c&leb &4<'
+      - '&4> &4<'
+      - '&4> &c&leb &4<'
+      - '&4> &c&loreboa &4<'
+      - '&4> &c&lcoreboar &4<'
+      - '&4> &4&lScoreboard &4<'
+      - '&4> &4&lScoreboard-r &4<'
+      - '&4> &c&lScoreboard-r &4<'
+      - '&4> &4&lScoreboard-r &4<'
+      - '&4> &c&lScoreboard-r &4<'
+      - '&4> &4&lScoreboard-r &4<'
+      - '&4> &c&lScoreboard-r &4<'
+      - '&4> &c&lScoreboard-r &4<'
+      - '&4> &c&lScoreboard-r &4<'
+  rows:
+    1:
+      interval: 5
+      liner:
+      - '&c------------------------'
+      - '&4------------------------'
+    2:
+      interval: 80
+      liner:
+      - '&cPlayer:'
+      - '&cAuthor:'
+    3:
+      interval: 80
+      liner:
+      - '%player_name%'
+      - 'HelloitsRien'
+    4:
+      interval: 80
+      liner:
+      - ''
+    5:
+      interval: 80
+      liner:
+      - '&cPing:'
+    6:
+      interval: 5
+      liner:
+      - '%player_ping% ms'
+    7:
+      interval: 80
+      liner:
+      - ''
+    '8':
+      interval: 80
+      liner:
+      - '&cUptime:'
+    '9':
+      interval: 20
+      liner:
+      - '%server_uptime%'
+    10:
+      interval: 80
+      liner:
+      - ''
+    11:
+      interval: 80
+      liner:
+      - 'This is an awesome plugin'
+    12:
+      interval: 80
+      liner:
+      - 'made by HelloitsRien.'
+    50:
+      interval: 5
+      liner:
+      - '&c------------------------'
+      - '&4------------------------'
