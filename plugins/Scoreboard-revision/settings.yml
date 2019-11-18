@@ -16,7 +16,7 @@ settings:
   # If the server version is 1.13 or higher, enable longline.
   # true: you can use 128 characters per line (1.13 and up)
   # false: you can use 32 characters per line (1.12 and down)
-  longline: false
+  longline: true
 
 # In what worlds should we disable scoreboard?
 disabled-worlds:
@@ -24,42 +24,46 @@ disabled-worlds:
 
 board:
   title:
-    interval: 3
+    interval: 1
     liner:
-      - '&4> &c&lScoreboard-r &4<'
-      - '&4> &c&lScoreboard &4<'
-      - '&4> &c&lcoreboar &4<'
-      - '&4> &c&loreboa &4<'
-      - '&4> &c&leb &4<'
-      - '&4> &4<'
-      - '&4> &c&leb &4<'
-      - '&4> &c&loreboa &4<'
-      - '&4> &c&lcoreboar &4<'
-      - '&4> &4&lScoreboard &4<'
-      - '&4> &4&lScoreboard-r &4<'
-      - '&4> &c&lScoreboard-r &4<'
-      - '&4> &4&lScoreboard-r &4<'
-      - '&4> &c&lScoreboard-r &4<'
-      - '&4> &4&lScoreboard-r &4<'
-      - '&4> &c&lScoreboard-r &4<'
-      - '&4> &c&lScoreboard-r &4<'
-      - '&4> &c&lScoreboard-r &4<'
+      - '&f&l[Majestic &3&lCraft&f&l]'
+      - '&f&l[&f&lMajestic &3&lCraft&f&l]'
+      - '&f&l[&f&lMajestic &3&lCraft&f&l]'
+      - '&f&l[&b&lM&f&lajestic &3&lCraft&f&l]'
+      - '&f&l[&f&lM&b&la&f&ljestic &3&lCraft&f&l]'
+      - '&f&l[&f&lMa&b&lj&f&lestic &3&lCraft&f&l]'
+      - '&f&l[&f&lMaj&b&le&f&lstic &3&lCraft&f&l]'
+      - '&f&l[&f&lMaje&b&ls&f&ltic &3&lCraft&f&l]'
+      - '&f&l[&f&lMajes&b&lt&f&lic &3&lCraft&f&l]'
+      - '&f&l[&f&lMajest&b&li&f&lc &3&lCraft&f&l]'
+      - '&f&l[&f&lMajesti&b&lc &3&lCraft&f&l]'
+      - '&f&l[&f&lMajestic &b&lC&3&lraft&f&l]'
+      - '&f&l[&f&lMajestic &3&lC&b&lr&3&laft&f&l]'
+      - '&f&l[&f&lMajestic &3&lCr&b&la&3&lft&f&l]'
+      - '&f&l[&f&lMajestic &3&lCra&b&lf&3&lt&f&l]'
+      - '&f&l[&f&lMajestic &3&lCraf&b&lt&f&l]'
+      - '&f&l[&f&lMajestic &3&lCraft&f&l]'
+      - '&f&l[&f&lMajestic &3&lCraft&f&l]'
+      - '&f&l[&f&lMajestic &3&lCraft&f&l]'
+      - '&f&l[&f&lMajestic &3&lCraft&f&l]'
+      - '&f&l[&f&lMajestic &3&lCraft&f&l]'
   rows:
     1:
       interval: 5
       liner:
-      - '&c------------------------'
-      - '&4------------------------'
+      - '&f------------------------'
+      - '&b------------------------'
+      - '&3------------------------'
     2:
       interval: 80
       liner:
-      - '&cPlayer:'
-      - '&cAuthor:'
+      - '&3&lWelcome:'
+      - '&3&lPlaytime:'
     3:
       interval: 80
       liner:
-      - '%player_name%'
-      - 'HelloitsRien'
+      - '%vault_rank% - %player_name%'
+      - '&a%statistic_hours_played% &fHours'
     4:
       interval: 80
       liner:
@@ -67,11 +71,11 @@ board:
     5:
       interval: 80
       liner:
-      - '&cPing:'
+      - '&3&lPing:'
     6:
       interval: 5
       liner:
-      - '%player_ping% ms'
+      - '&a%player_ping% &fms'
     7:
       interval: 80
       liner:
@@ -79,11 +83,11 @@ board:
     '8':
       interval: 80
       liner:
-      - '&cUptime:'
+      - '&3&lBalance'
     '9':
       interval: 20
       liner:
-      - '%server_uptime%'
+      - '&a$ %vault_eco_balance%'
     10:
       interval: 80
       liner:
@@ -99,5 +103,6 @@ board:
     50:
       interval: 5
       liner:
-      - '&c------------------------'
-      - '&4------------------------'
+      - '&f------------------------'
+      - '&b------------------------'
+      - '&3------------------------'
