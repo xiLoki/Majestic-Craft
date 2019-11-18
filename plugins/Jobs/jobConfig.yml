@@ -1,14 +1,14 @@
 # Jobs configuration.
 #
 # Edited by roracle to include 1.13 items and item names, prepping for 1.14 as well.
-# 
+#
 # Stores information about each job.
 #
 # NOTE: When having multiple jobs, both jobs will give the income payout to the player
 # even if they give the pay for one action (make the configurations with this in mind)
 # and each job will get the respective experience.
 #
-# e.g If player has 2 jobs where job1 gives 10 income and experience for killing a player 
+# e.g If player has 2 jobs where job1 gives 10 income and experience for killing a player
 # and job2 gives 5 income and experience for killing a player. When the user kills a player
 # they will get 15 income and job1 will gain 10 experience and job2 will gain 5 experience.
 
@@ -31,9 +31,9 @@ Jobs:
     - "  &7Cutting down trees"
     - "  &7Killing players"
     # The colour of the name, for a full list of supported colours, go to the message config.
-    ChatColour: GREEN
+    ChatColour: DARK_AQUA
     # [OPTIONAL] The colour of the boss bar: GREEN, BLUE, RED, WHITE, YELLOW, PINK, PURPLE.
-    BossBarColour: WHITE
+    BossBarColour: AQUA
     # Option to let you choose what kind of prefix this job adds to your name.
     # options are: full, title, job, shortfull, shorttitle, shortjob and none
     chat-display: full
@@ -181,7 +181,7 @@ Jobs:
     # To get a list of all available block types, check the
     # bukkit JavaDocs for a complete list of block types
     # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
-    # 
+    #
     # For kill tags (Kill and custom-kill), the name is the name of the
     # mob.
     # To get a list of all available entity types, check the
@@ -699,7 +699,7 @@ Jobs:
     points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(joblevel-1)*0.01) * ((numjobs-1)*0.05))
     experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
     rejoinCooldown: 10
-    maxDailyQuests: 1    
+    maxDailyQuests: 1
     Quests:
       1:
         Name: "DarkOne"
