@@ -1,7 +1,7 @@
 # SCOREBOARD FILE - Configure the look of the Scoreboard.
 Scoreboard:
   General:
-    Title: '&0     &r&b&lKIT-PVP     &0'
+    Title: '&0     &r&f&lKit-&3&lPVP     &0'
     Enabled: true
   Lines:
   - ' '
@@ -18,4 +18,4 @@ Scoreboard:
   - '&c&lKill Streak'
   - '&f%streak% Kills'
   - ' '
-  - '&ewww.myserver.com'
+  - '&ewww.majesticnetwork.eu'

@@ -1,7 +1,7 @@
 # MESSAGES FILE - Configure nearly every message in the plugin.
 Messages:
   General:
-    Prefix: '&7[&b&lKIT-PVP&7]'
+    Prefix: '&f[&f&lKit-&3&lPVP&f]'
     Permission: '%prefix% &cYou do not have permission.'
     Player: '%prefix% &cYou must be a player to perform this action.'
   Commands:
