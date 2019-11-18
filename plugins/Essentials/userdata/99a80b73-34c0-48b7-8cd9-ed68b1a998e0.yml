@@ -16,8 +16,8 @@ homes:
     pitch: 8.100441
 timestamps:
   lastteleport: 1574030856355
-  login: 1574031966434
-  logout: 1574031964742
+  login: 1574108262330
+  logout: 1574034074588
 lastlocation:
   world: Spawn
   x: -29.5
@@ -30,8 +30,8 @@ ipAddress: 78.21.195.91
 nickname: Unknown
 logoutlocation:
   world: Spawn
-  x: 1.7494736642452744
-  y: 72.0
-  z: 0.3976615819594952
-  yaw: -272.6853
-  pitch: -3.4495358
+  x: -8.297586010260702
+  y: 70.0
+  z: 0.05278479307333454
+  yaw: -183.89319
+  pitch: 12.150747
