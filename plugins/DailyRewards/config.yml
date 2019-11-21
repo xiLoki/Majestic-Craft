@@ -28,17 +28,17 @@ rewards:
     name: Basic
     permission: false
     random: false
-    claim-message: '&aRewards&f: You claimed the &7Basic&f Daily Reward!'
+    claim-message: '&f[&3&lRewards&f]&r&a You claimed the &7Basic&f Daily Reward!'
     broadcast: ''
     commands:
-    - give %player minecraft:diamond 1
+    - eco give %player 1000
   advanced:
     name: Advanced
     permission: true
     random: true
     claim-message: ''
-    broadcast: '&aRewards&f: %player claimed the &eAdvanced&f Daily Reward!'
+    broadcast: '&f[&3&lRewards&f]&r&a %player claimed the &eAdvanced&f Daily Reward!'
     commands:
-    - give %player minecraft:diamond 1;say %player earned a common diamond
-    - give %player minecraft:diamond 1;say %player earned a common diamond
-    - give %player minecraft:emerald 1;say %player earned a rare emerald
+    - eco give %player 2000;say &3&l%player &fearned &a&l$2000
+    - companioncoin give %player 1;say &3&l%player &fearned a &3&lCompanion Coin
+    - xp give %player 50;say &3&l%player &fearned &3&l50 XP

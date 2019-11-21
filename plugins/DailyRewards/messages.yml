@@ -1,7 +1,7 @@
-no-rewards: '&aRewards&f: &fYou do not have any available rewards at the moment.'
-cooldown-msg: '&aRewards&f: &fTime until next reward: %time%'
-no-permission: '&aRewards&f: &fYou do not have permission to do '
-reward-available: '&aRewards&f: &fYou have unclaimed daily rewards, do &e/reward &fto
+no-rewards: '&f[&3&lRewards&f] &r&6You do not have any available rewards at the moment :('
+cooldown-msg: '&f[&3&lRewards&f] &r&6Time until next reward: %time%'
+no-permission: '&f[&3&lRewards&f] &r&cYou do not have permission to do '
+reward-available: '&f[&3&lRewards&f] &r&aYou have unclaimed daily rewards, do &3&l/reward &ato
   claim!'
 PlaceholderAPI:
   reward-available: Unclaimed Rewards Available!
