@@ -322,8 +322,10 @@ auto-removal:
   # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
   # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
   warnings:
-        - 'time:400 msg:&f[&f&lMajestic &3&lCraft&f]&r &cWarning Ground items will be removed in &7+remaining &cseconds!'
-        - 'time:440 msg:&f[&f&lMajestic &3&lCraft&f]&r &cWarning Ground items will be removed in &7+remaining &cseconds!'
+        - 'time:3480 msg:&f[&f&lMajestic &3&lCraft&f]&r &cWarning Ground items will be removed in &7+remaining &cseconds!'
+        - 'time:3540 msg:&f[&f&lMajestic &3&lCraft&f]&r &cWarning Ground items will be removed in &7+remaining &cseconds!'
+        - 'time:3590 msg:&f[&f&lMajestic &3&lCraft&f]&r &cWarning Ground items will be removed in &7+remaining &cseconds!'
+        - 'time:3595 msg:&f[&f&lMajestic &3&lCraft&f]&r &cWarning Ground items will be removed in &7+remaining &cseconds!'
 
 #What should be removed during /lagg clear
 command-remove:
