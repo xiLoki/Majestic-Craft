@@ -1,6 +1,6 @@
 Parkour:
-  Prefix: '&0[&bParkour&0] &f'
-  SignHeading: '&0[&bParkour&0]'
+  Prefix: '&f[&3&lParkour&f] &f'
+  SignHeading: '&f[&3&lParkour&f]'
   Join: Joined &b%COURSE%
   JoinLives: '&7You have &3%AMOUNT% &7lives on this course!'
   TimerStarted: Timer started!
@@ -52,7 +52,6 @@ Parkour:
     Winner: Congratulations! You beat &b%PLAYER% &fat &b%COURSE%!
     Loser: '&b%PLAYER% &fhas completed &b%COURSE% &fbefore you!'
 Event:
-  Join: This server uses &bParkour &3%VERSION%
   Checkpoint: 'Checkpoint set to '
   AllCheckpoints: All checkpoints achieved!
   HideAll1: All players have magically reappeared!
