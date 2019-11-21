@@ -1,9 +1,9 @@
 # ------------------------------------ #
 #      BuildBattlePro config.yml
 # ------------------------------------ #
-# 
+#
 # Plugin's prefix
-prefix: '&8[&eBuildBattlePro&8]&r '
+prefix: '&f[&f&lBuild&3&lBattle&f]&r '
 stats:
   type: FLATFILE
   async_save_player_data: false
