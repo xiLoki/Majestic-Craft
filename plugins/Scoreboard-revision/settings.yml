@@ -52,8 +52,10 @@ board:
       interval: 5
       liner:
       - '&f------------------------'
+      - '&3------------------------'
       - '&b------------------------'
       - '&3------------------------'
+      - '&f------------------------'
     2:
       interval: 80
       liner:
@@ -95,14 +97,24 @@ board:
     11:
       interval: 80
       liner:
-      - 'This is an awesome plugin'
+      - '&fDon't forget to claim'
+      - '&3Don't forget to claim'
+      - '&bDon't forget to claim'
+      - '&3Don't forget to claim'
+      - '&fDon't forget to claim'
     12:
       interval: 80
       liner:
-      - 'made by HelloitsRien.'
+      - '&fyour daily reward'
+      - '&3your daily reward'
+      - '&byour daily reward'
+      - '&3your daily reward'
+      - '&fyour daily reward'
     50:
       interval: 5
       liner:
       - '&f------------------------'
+      - '&3------------------------'
       - '&b------------------------'
       - '&3------------------------'
+      - '&f------------------------'
