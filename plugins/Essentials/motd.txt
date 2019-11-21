@@ -1,4 +1,14 @@
-&6Welcome, {PLAYER}&6!
-&6Type &c/help&6 for a list of commands.
-&6Type &c/list&6 to see who else is online.
-&6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}
+&b_ _ _                             ,___
+&b( / ) )       o        _/_o       /   /         /)_/_
+&b/ / / __,   ,  _  (   / ,  _,   /    _   __,  // /
+&b/ / (_(_/(__/|_(/_/_)_(__(_(__  (___// (_(_/(_//_(__
+&b           /)                               /)
+&b          (/                               (/
+
+&b=====================================================
+&fWelcome &3&l{PLAYER}&r&f, are you ready to start Playing
+awesome minigames & more ? Go ahead, get your clock and
+select one of our games :)
+
+&fType &3&l/help &r&ffor a complete list of default player commands.
+&fType &3&l/support &r&fto report a player, bug or ask questions directly to staff.
