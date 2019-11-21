@@ -1,0 +1,8 @@
+join: '&7[&6TNTRun&7]'
+subjoin: '&6{PLAYER} &7joined'
+win: '&6You won'
+subwin: '&7Congratulations'
+starting: '&7[&6TNTRun&7]'
+substarting: '&7Starting in &6{COUNT}'
+start: '&7[&6TNTRun&7]'
+substart: '&7The Game has started'

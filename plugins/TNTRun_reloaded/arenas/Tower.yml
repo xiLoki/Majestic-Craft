@@ -1,0 +1,46 @@
+world: Creators
+p1:
+  ==: Vector
+  x: -76.0
+  y: -3.0
+  z: -79.0
+p2:
+  ==: Vector
+  x: -20.0
+  y: 41.0
+  z: -17.0
+gameleveldestroydelay: 8
+loselevel:
+  p1:
+    ==: Vector
+    x: -72.0
+    y: 0.0
+    z: -79.0
+  p2:
+    ==: Vector
+    x: -20.0
+    y: 2.0
+    z: -20.0
+spawnpoint:
+  ==: Vector
+  x: -59.05126796425385
+  y: 25.0
+  z: -47.58124559817846
+spectatorspawn:
+  ==: Vector
+  x: -26.71080620215733
+  y: 34.0
+  z: -47.54232268078662
+maxPlayers: 15
+minPlayers: 2
+votePercent: 0.75
+timelimit: 300
+countdown: 10
+teleportto: PREVIOUS
+damageenabled: 'NO'
+enableKits: false
+regenerationdelay: 60
+joinfee: 0.0
+reward:
+  money: 0
+  xp: 0

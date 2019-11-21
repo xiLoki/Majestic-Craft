@@ -1,0 +1,6 @@
+signs:
+  join: {}
+  leave: {}
+  auto-join: {}
+  spectate: {}
+import-old-signs: false

@@ -1,0 +1,121 @@
+# ------------------------------------ #
+#      BuildBattlePro config.yml
+# ------------------------------------ #
+# 
+# Plugin's prefix
+prefix: '&8[&eBuildBattlePro&8]&r '
+stats:
+  type: FLATFILE
+  async_save_player_data: false
+mysql:
+  host: dbHost
+  port: 3306
+  username: dbUser
+  database: dbName
+  password: dbPass
+bungeecord:
+  use_bungee: false
+  fallback_servers:
+  - lobby1
+  auto_join_players: true
+  change_motd: false
+parties:
+  enabled: true
+  max_players: 5
+auto-restart:
+  enabled: false
+  games-needed: 10
+  restart-command: stop
+change_floor_npc:
+  type: VILLAGER
+teleport_to_main_lobby_on_join: false
+leaderboards_refresh_time: 10
+plugin_loading:
+  load_plugin_later: false
+  load_after: 10
+main_command:
+  name: buildbattle
+  description: Main BuildBattle command
+  aliases:
+  - bb
+  - bbpro
+  - buildbattlepro
+set_theme_command:
+  name: settheme
+  description: Settheme command for BuildBattle
+  aliases:
+  - themeset
+arena:
+  lobbyTime: 30
+  defaultGameTime: 300
+  votingTime: 13
+  voting_for_themes:
+    enabled: true
+    themeVotingTime: 15
+    themesToVote: 5
+    super_votes_enabled: true
+  fair_vote:
+    enabled: true
+  endTime: 10
+  default_floor: WOOD:2
+  arena_chat: true
+  team_chat: true
+  auto_join_spectate: true
+  announce_new_most_points: true
+  replace_block_behind_signs: true
+  show_game_scoreboard: true
+  show_main_lobby_scoreboard: true
+  enable_reports: true
+  show_vote_in_subtitle: true
+  automatic_grow: true
+  restrict_player_movement: true
+  restrict_only_player_Y_movement: false
+  remove_players_after_game: true
+  end_commands:
+  - eco give %winner% 100
+  plot_options:
+    heads: true
+    change_floor: true
+    time: true
+    weather: true
+    biome_selector: true
+    banner_creator: true
+    particles: true
+    clear_plot: true
+  particles:
+    max_particles_per_player: 20
+    offset: 0.5
+    amount_to_spawn: 1
+    refresh_time: 0.5
+  win_fireworks:
+    enabled: true
+    firework_waves: 3
+    amount_per_corner: 5
+  allowed_commands:
+  - bb
+  - buildbattle
+  restricted_blocks:
+  - BEDROCK
+rewards:
+  give_after_game_ends: true
+  PointsAPI:
+    enabled: false
+    placement:
+      '1': 50
+      '2': 25
+      '3': 10
+  Vault:
+    enabled: false
+    placement:
+      '1': 50
+      '2': 25
+      '3': 10
+  Command:
+    enabled: false
+    placement:
+      '1':
+      - give %player% diamond 3
+      '2':
+      - give %player% diamond 2
+      '3':
+      - give %player% diamond 1

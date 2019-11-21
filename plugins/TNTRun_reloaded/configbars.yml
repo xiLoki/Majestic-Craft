@@ -1,0 +1,3 @@
+waiting: '&6Minimum players:&r {MIN}&6, current player count:&r {COUNT}'
+starting: '&6Arena starts in:&r {SECONDS} seconds'
+playing: '&6Time left:&r {SECONDS} &6Players in game count:&r {COUNT}'

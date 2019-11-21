@@ -95,6 +95,9 @@ worldsAliaz:
   Kingdoms: Kingdoms
   Creatorworld: Creatorworld
   Spawn: Spawn
+  skyworld_nether: skyworld_nether
+  Creators: Creators
+  skyworld: skyworld
 overrides: {}
 Bypass:
   cooldown:

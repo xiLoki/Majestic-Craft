@@ -1,0 +1,20 @@
+solo-themes:
+- TV
+- Car
+- Winter
+- School
+- House
+- Mobile
+- Beach
+team-themes:
+- TV
+- Car
+- Winter
+- School
+- House
+- Mobile
+- Beach
+blacklisted-themes:
+- Some
+- Ugly
+- Words

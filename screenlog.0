@@ -6,272 +6,302 @@ Please use CMSClassUnloadingEnabled in place of CMSPermGenSweepingEnabled in the
 *** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
 *** Server will start in 20 seconds ***
 Loading libraries, please wait...
-[17:01:53] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[17:01:53] [Server thread/INFO]: Loading properties
-[17:01:53] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-9de398a-9c887d4 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
-[17:01:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:01:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:01:53] [Server thread/INFO]: Debug logging is disabled
-[17:01:53] [Server thread/INFO]: Default game type: SURVIVAL
-[17:01:53] [Server thread/INFO]: Generating keypair
-[17:01:54] [Server thread/INFO]: Starting Minecraft server on 51.89.152.59:2078
-[17:01:54] [Server thread/INFO]: Using epoll channel type
-[17:01:57] [Server thread/WARN]: Plugin HideItem v1.1 does not specify an api-version.
-[17:01:57] [Server thread/WARN]: Plugin KitPvP v2.0.7 does not specify an api-version.
-[17:01:57] [Server thread/WARN]: Plugin AdvancedBan v2.1.5-RELEASE does not specify an api-version.
-[17:01:57] [Server thread/INFO]: [AsyncWorldEdit] Injector platform set to: InjectorBukkit
-[17:01:57] [Server thread/INFO]: [AsyncWorldEdit] Injecting NMS classes...
-[17:01:57] [Server thread/INFO]: [AsyncWorldEdit] Injecting WorldEdit classes...
-[17:01:58] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.util.eventbus.EventBus
-[17:01:58] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.math.BlockVector2
-[17:01:58] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.math.BlockVector3
-[17:01:58] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.math.Vector2
-[17:01:58] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.math.Vector3
-[17:01:58] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.world.block.BlockStateHolder
-[17:01:58] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.world.block.BaseBlock
-[17:01:58] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.world.block.BlockState
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.entity.BaseEntity
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.util.Location
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.world.biome.BiomeType
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.world.weather.WeatherType
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.EditSession
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.function.operation.Operations
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.extension.platform.PlayerProxy
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.util.collection.LocatedBlockList
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.extent.reorder.MultiStageReorder
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.extent.reorder.ChunkBatchingExtent
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.AbstractRegion
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.EllipsoidRegion
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.ConvexPolyhedralRegion
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.TransformRegion
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.RegionIntersection
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.NullRegion
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.Polygonal2DRegion
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.CylinderRegion
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.CuboidRegion
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.command.SnapshotUtilCommands
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.command.ScriptingCommands
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.command.SchematicCommands
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.command.RegionCommands
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.command.UtilityCommandsRegistration
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.command.RegionCommandsRegistration
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/entity/PlayerWrapper
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/entity/NoPermsPlayer
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/extension/platform/NoPermsActor
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/injector/injected/entity/IPlayerFactory
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/injector/injected/extension/platform/IActorFactory
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] Injector Enabled
-[17:01:59] [Server thread/INFO]: [AsyncWorldEdit] New class factory set to: org.primesoft.asyncworldedit.asyncinjector.async.AsyncClassFactory
-[17:01:59] [Server thread/WARN]: Plugin OldPvP v1.9 does not specify an api-version.
-[17:01:59] [Server thread/WARN]: Plugin CustomHelp v0.5 does not specify an api-version.
-[17:01:59] [Server thread/WARN]: Plugin ServerListPlus v3.4.8 does not specify an api-version.
-[17:01:59] [Server thread/WARN]: Plugin StatsSB v2.5.7 does not specify an api-version.
-[17:01:59] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.1;61bc012
-[17:02:00] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1784b0e7]
-[17:02:00] [Server thread/INFO]: [HideItem] Loading HideItem v1.1
-[17:02:00] [Server thread/INFO]: [KitPvP] Loading KitPvP v2.0.7
-[17:02:00] [Server thread/INFO]: [GroupManager] Loading GroupManager v0.2.0
-[17:02:00] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.1.0
-[17:02:00] [Server thread/INFO]: [AdvancedBan] Loading AdvancedBan v2.1.5-RELEASE
-[17:02:00] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.0
-[17:02:00] [Server thread/INFO]: [BuycraftX] Loading BuycraftX v12.0.2
-[17:02:00] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v3.0.0-b762
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] Loading AsyncWorldEdit v3.6.11
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] Plugin installed
-[17:02:00] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v3.0.0-b459
-[17:02:00] [Server thread/INFO]: [OldPvP] Loading OldPvP v1.9
-[17:02:00] [Server thread/INFO]: [CustomHelp] Loading CustomHelp v0.5
-[17:02:00] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
-[17:02:00] [Server thread/INFO]: [ServerListPlus] Loading ServerListPlus v3.4.8
-[17:02:00] [Server thread/INFO]: [Wild] Loading Wild v2.13-8ecba61
-[17:02:00] [Server thread/INFO]: [Companions] Loading Companions v1.5.2
-[17:02:00] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.1.0
-[17:02:00] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.0;02b731f
-[17:02:00] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.18.0
-[17:02:00] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.2.0
-[17:02:00] [Server thread/INFO]: [StatsSB] Loading StatsSB v2.5.7
-[17:02:00] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.1.0
-[17:02:00] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.1.0
-[17:02:00] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.17.1.0
-[17:02:00] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.110
-[17:02:00] [Server thread/INFO]: mcMMO has registered WG flags successfully!
-[17:02:00] [Server thread/INFO]: [ItemJoin] Loading ItemJoin v5.0.5-RELEASE-b324
-[17:02:00] [Server thread/INFO]: [HungerGames] Loading HungerGames v4.13.0
-[17:02:00] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.1.0
-[17:02:00] [Server thread/INFO]: [Jobs] Loading Jobs v4.14.3
-[17:02:00] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.1;61bc012
-[17:02:00] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[17:02:00] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R4 as the Bukkit adapter
-[17:02:00] [Server thread/WARN]: [WorldEdit] ====================================================
-[17:02:00] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
-[17:02:00] [Server thread/WARN]: [WorldEdit]  as your server software. 
-[17:02:00] [Server thread/WARN]: [WorldEdit]   
-[17:02:00] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
-[17:02:00] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
-[17:02:00] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
-[17:02:00] [Server thread/WARN]: [WorldEdit]   
-[17:02:00] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[17:02:00] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
-[17:02:00] [Server thread/WARN]: [WorldEdit]   
-[17:02:00] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
-[17:02:00] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[17:02:00] [Server thread/WARN]: [WorldEdit]   
-[17:02:00] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[17:02:00] [Server thread/WARN]: [WorldEdit] ====================================================
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] Enabling AsyncWorldEdit v3.6.11
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] Warning: Unable to get class com.sk89q.worldedit.extent.reorder.MultiStageReorder$Stage3Committer
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] Warning: Unable to get class com.sk89q.worldedit.extent.reorder.MultiStageReorder$Stage3Committer
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] Platform set to Bukkit API
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] ===================================================================================
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] =     ___                         _       __           __    ________    ___ __   =
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] =    /   |  _______  ______  ____| |     / /___  _____/ /___/ / ____/___/ (_) /_  =
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] =   / /| | / ___/ / / / __ \/ ___/ | /| / / __ \/ ___/ / __  / __/ / __  / / __/  =
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] =  / ___ |(__  ) /_/ / / / / /__ | |/ |/ / /_/ / /  / / /_/ / /___/ /_/ / / /_    =
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] = /_/  |_/____/\__, /_/ /_/\___/ |__/|__/\____/_/  /_/\__,_/_____/\__,_/_/\__/    =
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] =             /____/                                                              =
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] = Author: SBPrime                                                                 =
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] =                                ________________                                 =
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] =                            ___/  free version  \___                             =
-[17:02:00] [Server thread/INFO]: [AsyncWorldEdit] ===================================================================================
-[17:02:10] [Server thread/INFO]: [AsyncWorldEdit] Initializing WorldEdit.
-[17:02:10] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
-[17:02:10] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
-[17:02:10] [Server thread/INFO]: [AsyncWorldEdit] No matching adapter found for Bukkit.v1_14_R1, DirectChunkAPI disabled
-[17:02:10] [Server thread/INFO]: [AsyncWorldEdit] PlotMeFix set to class org.primesoft.asyncworldedit.plotme.NullFix.
-[17:02:10] [Server thread/INFO]: [AsyncWorldEdit] Enabled
-[17:02:10] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
-[17:02:11] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[17:02:11] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
-[17:02:11] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[17:02:11] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
-[17:02:11] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
-[17:02:11] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[17:02:11] [Server thread/INFO]: Preparing level "Survival"
-[17:02:11] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[17:02:11] [Thread-11/INFO]: [AsyncWorldEdit] You have an old version of the plugin. Your version: 3.6.11, available version: 3.6.14
-[17:02:11] [Server thread/INFO]: Loaded 6 recipes
-[17:02:11] [Server thread/INFO]: -------- World Settings For [Survival] --------
-[17:02:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[17:02:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:02:11] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:02:11] [Server thread/INFO]: Mob Spawn Range: 6
-[17:02:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:02:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[17:02:11] [Server thread/INFO]: Max TNT Explosions: 100
-[17:02:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:02:11] [Server thread/INFO]: View Distance: 10
-[17:02:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:02:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:02:11] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:02:11] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:02:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:02:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:02:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:02:11] [Server thread/INFO]: -------- World Settings For [Survival_nether] --------
-[17:02:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[17:02:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:02:11] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:02:11] [Server thread/INFO]: Mob Spawn Range: 6
-[17:02:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:02:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[17:02:11] [Server thread/INFO]: Max TNT Explosions: 100
-[17:02:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:02:11] [Server thread/INFO]: View Distance: 10
-[17:02:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:02:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:02:11] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:02:11] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:02:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:02:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:02:11] [Server thread/INFO]: -------- World Settings For [Survival_the_end] --------
-[17:02:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:02:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[17:02:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:02:11] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:02:11] [Server thread/INFO]: Mob Spawn Range: 6
-[17:02:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:02:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[17:02:11] [Server thread/INFO]: Max TNT Explosions: 100
-[17:02:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:02:11] [Server thread/INFO]: View Distance: 10
-[17:02:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:02:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:02:11] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:02:11] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:02:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:02:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:02:11] [Server thread/INFO]: Preparing start region for dimension 'Survival'/minecraft:overworld
-[17:02:12] [Server thread/INFO]: Preparing spawn area: 0%
-[17:02:12] [Server thread/INFO]: Preparing spawn area: 0%
-[17:02:12] [Server thread/INFO]: Preparing spawn area: 0%
-[17:02:15] [Server-Worker-3/INFO]: Preparing spawn area: 83%
-[17:02:15] [Server-Worker-4/INFO]: Preparing spawn area: 83%
-[17:02:15] [Server-Worker-4/INFO]: Preparing spawn area: 83%
-[17:02:15] [Server-Worker-4/INFO]: Preparing spawn area: 83%
-[17:02:15] [Server-Worker-5/INFO]: Preparing spawn area: 99%
-[17:02:15] [Server thread/INFO]: Time elapsed: 3876 ms
-[17:02:15] [Server thread/INFO]: Preparing start region for dimension 'Survival_nether'/minecraft:the_nether
-[17:02:16] [Server thread/INFO]: Preparing spawn area: 0%
-[17:02:16] [Server-Worker-7/INFO]: Preparing spawn area: 2%
-[17:02:16] [Server-Worker-6/INFO]: Preparing spawn area: 83%
-[17:02:17] [Server-Worker-9/INFO]: Preparing spawn area: 83%
-[17:02:17] [Server-Worker-3/INFO]: Preparing spawn area: 88%
-[17:02:18] [Server-Worker-4/INFO]: Preparing spawn area: 98%
-[17:02:18] [Server thread/INFO]: Time elapsed: 2587 ms
-[17:02:18] [Server thread/INFO]: Preparing start region for dimension 'Survival_the_end'/minecraft:the_end
-[17:02:18] [Server thread/INFO]: Preparing spawn area: 0%
-[17:02:18] [Server-Worker-4/INFO]: Preparing spawn area: 83%
-[17:02:19] [Server thread/INFO]: Time elapsed: 831 ms
-[17:02:19] [Server thread/INFO]: [HideItem] Enabling HideItem v1.1
-[17:02:19] [Server thread/ERROR]: Error occurred while enabling HideItem v1.1 (Is it up to date?)
+[17:01:04] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[17:01:04] [Server thread/INFO]: Loading properties
+[17:01:04] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-9de398a-9c887d4 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[17:01:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:01:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:01:04] [Server thread/INFO]: Debug logging is disabled
+[17:01:04] [Server thread/INFO]: Default game type: SURVIVAL
+[17:01:04] [Server thread/INFO]: Generating keypair
+[17:01:05] [Server thread/INFO]: Starting Minecraft server on 51.89.152.59:2078
+[17:01:05] [Server thread/INFO]: Using epoll channel type
+[17:01:08] [Server thread/WARN]: Plugin HideItem v1.1 does not specify an api-version.
+[17:01:08] [Server thread/WARN]: Plugin AdvancedBan v2.1.5-RELEASE does not specify an api-version.
+[17:01:08] [Server thread/INFO]: [AsyncWorldEdit] Injector platform set to: InjectorBukkit
+[17:01:08] [Server thread/INFO]: [AsyncWorldEdit] Injecting NMS classes...
+[17:01:08] [Server thread/INFO]: [AsyncWorldEdit] Injecting WorldEdit classes...
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.util.eventbus.EventBus
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.math.BlockVector2
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.math.BlockVector3
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.math.Vector2
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.math.Vector3
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.world.block.BlockStateHolder
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.world.block.BaseBlock
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.world.block.BlockState
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.entity.BaseEntity
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.util.Location
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.world.biome.BiomeType
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.world.weather.WeatherType
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.EditSession
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.function.operation.Operations
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.extension.platform.PlayerProxy
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.util.collection.LocatedBlockList
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.extent.reorder.MultiStageReorder
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.extent.reorder.ChunkBatchingExtent
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.AbstractRegion
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.EllipsoidRegion
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.ConvexPolyhedralRegion
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.TransformRegion
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.RegionIntersection
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.NullRegion
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.Polygonal2DRegion
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.CylinderRegion
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.regions.CuboidRegion
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.command.SnapshotUtilCommands
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.command.ScriptingCommands
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.command.SchematicCommands
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.command.RegionCommands
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.command.UtilityCommandsRegistration
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Modiffy class com.sk89q.worldedit.command.RegionCommandsRegistration
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/entity/PlayerWrapper
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/entity/NoPermsPlayer
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/extension/platform/NoPermsActor
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/injector/injected/entity/IPlayerFactory
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/injector/injected/extension/platform/IActorFactory
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] Injector Enabled
+[17:01:09] [Server thread/INFO]: [AsyncWorldEdit] New class factory set to: org.primesoft.asyncworldedit.asyncinjector.async.AsyncClassFactory
+[17:01:09] [Server thread/WARN]: Plugin OldPvP v1.9 does not specify an api-version.
+[17:01:09] [Server thread/WARN]: Plugin CustomHelp v0.5 does not specify an api-version.
+[17:01:09] [Server thread/WARN]: Plugin ServerListPlus v3.4.8 does not specify an api-version.
+[17:01:09] [Server thread/WARN]: Plugin DailyRewards v1.3.7d does not specify an api-version.
+[17:01:09] [Server thread/WARN]: Plugin Scoreboard-revision vR3 1.4.2 RELEASE does not specify an api-version.
+[17:01:09] [Server thread/WARN]: Plugin KitPvP v2.0.7 does not specify an api-version.
+[17:01:10] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.1;61bc012
+[17:01:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@571c7d05]
+[17:01:10] [Server thread/INFO]: [HideItem] Loading HideItem v1.1
+[17:01:10] [Server thread/INFO]: [GroupManager] Loading GroupManager v0.2.0
+[17:01:10] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.4
+[17:01:10] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.1.0
+[17:01:10] [Server thread/INFO]: [AdvancedBan] Loading AdvancedBan v2.1.5-RELEASE
+[17:01:10] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.0
+[17:01:10] [Server thread/INFO]: [BuycraftX] Loading BuycraftX v12.0.2
+[17:01:10] [Server thread/INFO]: [Clans] Loading Clans v0.3.8
+[17:01:10] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v3.0.0-b762
+[17:01:10] [Server thread/INFO]: [AsyncWorldEdit] Loading AsyncWorldEdit v3.6.11
+[17:01:10] [Server thread/INFO]: [AsyncWorldEdit] Plugin installed
+[17:01:10] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v3.0.0-b459
+[17:01:10] [Server thread/INFO]: [OldPvP] Loading OldPvP v1.9
+[17:01:10] [Server thread/INFO]: [NoteBlockAPI] Loading NoteBlockAPI v1.4.4
+[17:01:10] [Server thread/INFO]: [CustomHelp] Loading CustomHelp v0.5
+[17:01:10] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[17:01:10] [Server thread/INFO]: [ServerListPlus] Loading ServerListPlus v3.4.8
+[17:01:10] [Server thread/INFO]: [DailyRewards] Loading DailyRewards v1.3.7d
+[17:01:10] [Server thread/INFO]: [Wild] Loading Wild v2.13-8ecba61
+[17:01:10] [Server thread/INFO]: [Companions] Loading Companions v1.5.2
+[17:01:10] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.1.0
+[17:01:10] [Server thread/INFO]: [Scoreboard-revision] Loading Scoreboard-revision vR3 1.4.2 RELEASE
+[17:01:10] [Server thread/INFO]: [KitPvP] Loading KitPvP v2.0.7
+[17:01:10] [Server thread/INFO]: [BuildBattlePro] Loading BuildBattlePro v6.3.6
+[17:01:10] [Server thread/INFO]: [DungeonsXL] Loading DungeonsXL v0.18-SNAPSHOT-771
+[17:01:10] [Server thread/INFO]: [BlockParty] Loading BlockParty v2.0.3.4-RELEASE
+[17:01:10] [Server thread/INFO]: [BlockParty] Using BlockPlacer version v1_13_R1
+[17:01:10] [Server thread/INFO]: [BlockParty] Loading VersionedMaterial.
+[17:01:10] [Server thread/INFO]: [BlockParty] Using materials.Sign version v1_14_R1
+[17:01:10] [Server thread/INFO]: [BlockParty] Using materials.Door version v1_13_R1
+[17:01:10] [Server thread/INFO]: [BlockParty] Using materials.FireCharge version v1_13_R1
+[17:01:10] [Server thread/INFO]: [BlockParty] Using materials.SkeletonSkull version v1_13_R1
+[17:01:10] [Server thread/INFO]: [BlockParty] Using materials.Terracotta version v1_13_R1
+[17:01:10] [Server thread/INFO]: [BlockParty] Using materials.Wool version v1_13_R1
+[17:01:10] [Server thread/INFO]: [BlockParty] Using materials.Carpet version v1_13_R1
+[17:01:10] [Server thread/INFO]: [BlockParty] Using materials.StainedGlass version v1_13_R1
+[17:01:10] [Server thread/INFO]: [BlockParty] Using materials.StainedGlassPane version v1_13_R1
+[17:01:10] [Server thread/INFO]: [BlockParty] Using materials.MusicDisc version v1_13_R1
+[17:01:10] [Server thread/INFO]: *******************************
+[17:01:10] [Server thread/INFO]: *  BlockParty v2.0.3.4-RELEASE
+[17:01:10] [Server thread/INFO]: *  Authors: [Leon167, pauhull]
+[17:01:10] [Server thread/INFO]: *  Music Server: Offline
+[17:01:10] [Server thread/INFO]: *******************************
+[17:01:10] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.0;02b731f
+[17:01:10] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.18.0
+[17:01:10] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.2.0
+[17:01:10] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.1.0
+[17:01:10] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.1.0
+[17:01:10] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.17.1.0
+[17:01:10] [Server thread/INFO]: [Parkour] Loading Parkour v5.3
+[17:01:10] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.110
+[17:01:10] [Server thread/INFO]: mcMMO has registered WG flags successfully!
+[17:01:10] [Server thread/INFO]: [ItemJoin] Loading ItemJoin v5.0.5-RELEASE-b324
+[17:01:10] [Server thread/INFO]: [HungerGames] Loading HungerGames v4.13.0
+[17:01:10] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.1.0
+[17:01:10] [Server thread/INFO]: [TNTRun_reloaded] Loading TNTRun_reloaded v8.6
+[17:01:10] [Server thread/INFO]: [uSkyBlock] Loading uSkyBlock v2.8.5
+[17:01:10] [Server thread/INFO]: [Jobs] Loading Jobs v4.14.3
+[17:01:10] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.1;61bc012
+[17:01:10] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:01:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R4 as the Bukkit adapter
+[17:01:11] [Server thread/WARN]: [WorldEdit] ====================================================
+[17:01:11] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
+[17:01:11] [Server thread/WARN]: [WorldEdit]  as your server software. 
+[17:01:11] [Server thread/WARN]: [WorldEdit]   
+[17:01:11] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
+[17:01:11] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
+[17:01:11] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
+[17:01:11] [Server thread/WARN]: [WorldEdit]   
+[17:01:11] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[17:01:11] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
+[17:01:11] [Server thread/WARN]: [WorldEdit]   
+[17:01:11] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
+[17:01:11] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[17:01:11] [Server thread/WARN]: [WorldEdit]   
+[17:01:11] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[17:01:11] [Server thread/WARN]: [WorldEdit] ====================================================
+[17:01:11] [Server thread/INFO]: [AsyncWorldEdit] Enabling AsyncWorldEdit v3.6.11
+[17:01:11] [Server thread/INFO]: [AsyncWorldEdit] Warning: Unable to get class com.sk89q.worldedit.extent.reorder.MultiStageReorder$Stage3Committer
+[17:01:11] [Server thread/INFO]: [AsyncWorldEdit] Warning: Unable to get class com.sk89q.worldedit.extent.reorder.MultiStageReorder$Stage3Committer
+[17:01:11] [Server thread/INFO]: [AsyncWorldEdit] Platform set to Bukkit API
+[17:01:11] [Server thread/INFO]: [AsyncWorldEdit] ===================================================================================
+[17:01:11] [Server thread/INFO]: [AsyncWorldEdit] =     ___                         _       __           __    ________    ___ __   =
+[17:01:11] [Server thread/INFO]: [AsyncWorldEdit] =    /   |  _______  ______  ____| |     / /___  _____/ /___/ / ____/___/ (_) /_  =
+[17:01:11] [Server thread/INFO]: [AsyncWorldEdit] =   / /| | / ___/ / / / __ \/ ___/ | /| / / __ \/ ___/ / __  / __/ / __  / / __/  =
+[17:01:11] [Server thread/INFO]: [AsyncWorldEdit] =  / ___ |(__  ) /_/ / / / / /__ | |/ |/ / /_/ / /  / / /_/ / /___/ /_/ / / /_    =
+[17:01:11] [Server thread/INFO]: [AsyncWorldEdit] = /_/  |_/____/\__, /_/ /_/\___/ |__/|__/\____/_/  /_/\__,_/_____/\__,_/_/\__/    =
+[17:01:11] [Server thread/INFO]: [AsyncWorldEdit] =             /____/                                                              =
+[17:01:11] [Server thread/INFO]: [AsyncWorldEdit] = Author: SBPrime                                                                 =
+[17:01:11] [Server thread/INFO]: [AsyncWorldEdit] =                                ________________                                 =
+[17:01:11] [Server thread/INFO]: [AsyncWorldEdit] =                            ___/  free version  \___                             =
+[17:01:11] [Server thread/INFO]: [AsyncWorldEdit] ===================================================================================
+[17:01:21] [Server thread/INFO]: [AsyncWorldEdit] Initializing WorldEdit.
+[17:01:21] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
+[17:01:21] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
+[17:01:21] [Server thread/INFO]: [AsyncWorldEdit] No matching adapter found for Bukkit.v1_14_R1, DirectChunkAPI disabled
+[17:01:21] [Server thread/INFO]: [AsyncWorldEdit] PlotMeFix set to class org.primesoft.asyncworldedit.plotme.NullFix.
+[17:01:21] [Server thread/INFO]: [AsyncWorldEdit] Enabled
+[17:01:21] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[17:01:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[17:01:21] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[17:01:21] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:01:21] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[17:01:21] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[17:01:21] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:01:21] [Server thread/INFO]: [uSkyBlock] Enabling uSkyBlock v2.8.5
+[17:01:21] [Server thread/INFO]: [uSkyBlock] 1 schematics loaded.
+[17:01:21] [Thread-11/INFO]: [AsyncWorldEdit] You have an old version of the plugin. Your version: 3.6.11, available version: 3.6.14
+[17:01:24] [Server thread/INFO]: No plugins/uSkyBlock/lastIslandConfig.yml found, it will be created
+[17:01:24] [Server thread/WARN]: [uSkyBlock] ====================================================
+[17:01:24] [Server thread/WARN]: [uSkyBlock]  uSkyBlock works better if you use Paper 
+[17:01:24] [Server thread/WARN]: [uSkyBlock]  as your server software. 
+[17:01:24] [Server thread/WARN]: [uSkyBlock] ====================================================
+[17:01:24] [Server thread/INFO]: Preparing level "Survival"
+[17:01:24] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[17:01:24] [Server thread/INFO]: Loaded 6 recipes
+[17:01:24] [Server thread/INFO]: -------- World Settings For [Survival] --------
+[17:01:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:24] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:24] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:24] [Server thread/INFO]: View Distance: 10
+[17:01:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:01:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:24] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:01:24] [Server thread/INFO]: -------- World Settings For [Survival_nether] --------
+[17:01:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:24] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:24] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:24] [Server thread/INFO]: View Distance: 10
+[17:01:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:01:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:24] [Server thread/INFO]: -------- World Settings For [Survival_the_end] --------
+[17:01:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:24] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:24] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:24] [Server thread/INFO]: View Distance: 10
+[17:01:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:01:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:24] [Server thread/INFO]: Preparing start region for dimension 'Survival'/minecraft:overworld
+[17:01:25] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:25] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:25] [Server thread/INFO]: Time elapsed: 1022 ms
+[17:01:25] [Server thread/INFO]: Preparing start region for dimension 'Survival_nether'/minecraft:the_nether
+[17:01:26] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:26] [Server-Worker-5/INFO]: Preparing spawn area: 1%
+[17:01:26] [Server-Worker-8/INFO]: Preparing spawn area: 83%
+[17:01:27] [Server-Worker-3/INFO]: Preparing spawn area: 83%
+[17:01:27] [Server-Worker-1/INFO]: Preparing spawn area: 84%
+[17:01:28] [Server-Worker-8/INFO]: Preparing spawn area: 89%
+[17:01:28] [Server-Worker-3/INFO]: Preparing spawn area: 96%
+[17:01:29] [Server thread/INFO]: Time elapsed: 3123 ms
+[17:01:29] [Server thread/INFO]: Preparing start region for dimension 'Survival_the_end'/minecraft:the_end
+[17:01:29] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:29] [Server-Worker-5/INFO]: Preparing spawn area: 83%
+[17:01:29] [Server thread/INFO]: Time elapsed: 935 ms
+[17:01:29] [Server thread/INFO]: [HideItem] Enabling HideItem v1.1
+[17:01:29] [Server thread/ERROR]: Error occurred while enabling HideItem v1.1 (Is it up to date?)
 java.lang.NumberFormatException: For input string: ""
         at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_211]
         at java.lang.Integer.parseInt(Integer.java:592) ~[?:1.8.0_211]
@@ -286,32 +316,31 @@ java.lang.NumberFormatException: For input string: ""
         at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258) [spigot.jar:git-Spigot-9de398a-9c887d4]
         at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776) [spigot.jar:git-Spigot-9de398a-9c887d4]
         at java.lang.Thread.run(Thread.java:748) [?:1.8.0_211]
-[17:02:19] [Server thread/INFO]: [KitPvP] Enabling KitPvP v2.0.7
-[17:02:19] [Server thread/INFO]: [KIT-PVP] Enabling KitPvP version 2.0.7...
-[17:02:19] [Server thread/INFO]: [KIT-PVP] Done!
-[17:02:19] [Server thread/INFO]: [GroupManager] Enabling GroupManager v0.2.0
-[17:02:19] [Server thread/INFO]: GroupManager - INFO - World Found: world
-[17:02:19] [Server thread/INFO]: GroupManager - INFO - World Found: spawn
-[17:02:19] [Server thread/INFO]: GroupManager - INFO - World Found: survival
-[17:02:19] [Server thread/INFO]: GroupManager - INFO - World Found: survival_nether
-[17:02:19] [Server thread/INFO]: GroupManager - INFO - World Found: Survival
-[17:02:19] [Server thread/INFO]: GroupManager - INFO - World Found: survival_the_end
-[17:02:19] [Server thread/INFO]: GroupManager - INFO - Superperms support enabled.
-[17:02:19] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
-[17:02:19] [Server thread/INFO]: GroupManager - INFO - Backups will be retained for 24 hours!
-[17:02:19] [Server thread/INFO]: GroupManager version 0.2.0 is enabled!
-[17:02:19] [Server thread/INFO]: WEPIF: GroupManager detected! Using GroupManager for permissions.
-[17:02:19] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
-[17:02:19] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat hooked.
-[17:02:19] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.1.0
-[17:02:19] [Server thread/INFO]: [ClearLag] Loading modules...
-[17:02:19] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[17:02:19] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[17:02:19] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[17:02:19] [Thread-12/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.14]...
-[17:02:19] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.1.5-RELEASE
-[17:02:19] [Thread-12/INFO]: [ClearLag] No updates found!
-[17:02:20] [Server thread/INFO]: 
+[17:01:29] [Server thread/INFO]: [GroupManager] Enabling GroupManager v0.2.0
+[17:01:30] [Server thread/INFO]: GroupManager - INFO - World Found: world
+[17:01:30] [Server thread/INFO]: GroupManager - INFO - World Found: spawn
+[17:01:30] [Server thread/INFO]: GroupManager - INFO - World Found: survival
+[17:01:30] [Server thread/INFO]: GroupManager - INFO - World Found: survival_nether
+[17:01:30] [Server thread/INFO]: GroupManager - INFO - World Found: Survival
+[17:01:30] [Server thread/INFO]: GroupManager - INFO - World Found: survival_the_end
+[17:01:30] [Server thread/INFO]: GroupManager - INFO - Superperms support enabled.
+[17:01:30] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
+[17:01:30] [Server thread/INFO]: GroupManager - INFO - Backups will be retained for 24 hours!
+[17:01:30] [Server thread/INFO]: GroupManager version 0.2.0 is enabled!
+[17:01:30] [Server thread/INFO]: WEPIF: GroupManager detected! Using GroupManager for permissions.
+[17:01:30] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[17:01:30] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat hooked.
+[17:01:30] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.4
+[17:01:30] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[17:01:30] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.1.0
+[17:01:30] [Server thread/INFO]: [ClearLag] Loading modules...
+[17:01:30] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[17:01:30] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[17:01:30] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[17:01:30] [Thread-12/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.14]...
+[17:01:30] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.1.5-RELEASE
+[17:01:30] [Thread-12/INFO]: [ClearLag] No updates found!
+[17:01:30] [Server thread/INFO]: 
  
 []=====[Enabling AdvancedBan]=====[]
 | Information:
@@ -328,368 +357,649 @@ java.lang.NumberFormatException: For input string: ""
 |   There is a new version available! [2.1.5]
 []================================[]
  
-[17:02:20] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.0
-[17:02:20] [Server thread/INFO]: [BuycraftX] Enabling BuycraftX v12.0.2
-[17:02:20] [Server thread/INFO]: [BuycraftX] Validating your server key...
-[17:02:20] [Server thread/INFO]: [BuycraftX] Fetching all server packages...
-[17:02:21] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v3.0.0-b762
-[17:02:21] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v3.0.0-b762" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
-[17:02:21] [Server thread/INFO]: -------- World Settings For [Spawn] --------
-[17:02:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:02:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[17:02:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:02:21] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:02:21] [Server thread/INFO]: Mob Spawn Range: 6
-[17:02:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:02:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[17:02:21] [Server thread/INFO]: Max TNT Explosions: 100
-[17:02:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:02:21] [Server thread/INFO]: View Distance: 10
-[17:02:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:02:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:02:21] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:02:21] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:02:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:02:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:02:22] [Server thread/INFO]: Preparing start region for dimension 'Spawn'/minecraft:overworld
-[17:02:22] [Server thread/INFO]: Preparing spawn area: 0%
-[17:02:22] [Server thread/INFO]: Time elapsed: 301 ms
-[17:02:22] [Server thread/INFO]: -------- World Settings For [Kingdoms] --------
-[17:02:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:02:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[17:02:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:02:22] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:02:22] [Server thread/INFO]: Mob Spawn Range: 6
-[17:02:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:02:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[17:02:22] [Server thread/INFO]: Max TNT Explosions: 100
-[17:02:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:02:22] [Server thread/INFO]: View Distance: 10
-[17:02:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:02:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:02:22] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:02:22] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:02:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:02:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:02:22] [Server thread/INFO]: Preparing start region for dimension 'Kingdoms'/minecraft:overworld
-[17:02:22] [Server thread/INFO]: Preparing spawn area: 0%
-[17:02:22] [Server thread/INFO]: Preparing spawn area: 0%
-[17:02:25] [Server-Worker-10/INFO]: Preparing spawn area: 83%
-[17:02:25] [Server-Worker-9/INFO]: Preparing spawn area: 83%
-[17:02:25] [Server-Worker-10/INFO]: Preparing spawn area: 83%
-[17:02:25] [Server-Worker-4/INFO]: Preparing spawn area: 83%
-[17:02:25] [Server-Worker-5/INFO]: Preparing spawn area: 83%
-[17:02:25] [Server-Worker-9/INFO]: Preparing spawn area: 96%
-[17:02:26] [Server thread/INFO]: Preparing spawn area: 97%
-[17:02:26] [Server thread/INFO]: Time elapsed: 4401 ms
-[17:02:26] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
-[17:02:27] [Server thread/INFO]: [Multiverse-Core] Version 3.0.0-b762 (API v22) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
-[17:02:27] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v3.0.0-b459
-[17:02:27] [Server thread/INFO]: [Multiverse-Inventories 3.0.0-b459] enabled.
-[17:02:27] [Server thread/INFO]: [OldPvP] Enabling OldPvP v1.9
-[17:02:27] [Server thread/INFO]: [OldPvP] Your server is running version v1_14_R1
-[17:02:27] [Server thread/INFO]: [1.8 PvP] Error occured, please report on the forums!
-[17:02:27] [Server thread/INFO]: [CustomHelp] Enabling CustomHelp v0.5
-[17:02:27] [Server thread/INFO]: [ServerListPlus] Enabling ServerListPlus v3.4.8
-[17:02:27] [Server thread/ERROR]: [ServerListPlus] ProtocolLib IS NOT INSTALLED! Most features will NOT work!
-[17:02:27] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
-[17:02:27] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
-[17:02:27] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
-[17:02:27] [Server thread/WARN]: [ServerListPlus] [Core] Configuration is not enabled, nothing will be changed on the server! Please execute /slp enable to enable the configuration.
-[17:02:27] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
-[17:02:27] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
-[17:02:27] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.4.8 enabled.
-[17:02:27] [Server thread/INFO]: [Wild] Enabling Wild v2.13-8ecba61
-[17:02:27] [Server thread/INFO]: [Wild]  = = = = = = = = = = = = = = = = = = = =
-[17:02:27] [Server thread/INFO]: [Wild]  
-[17:02:27] [Server thread/WARN]: [Wild] Btw, dis wild plugin (and ur server) would be a bazillion times
-[17:02:27] [Server thread/WARN]: [Wild] faster and wilder if u switch 2 Paper.
-[17:02:27] [Server thread/WARN]: [Wild] Until then, we'll just go wild at ur serburs slower/laggier pace.
-[17:02:27] [Server thread/WARN]: [Wild]  
-[17:02:27] [Server thread/WARN]: [Wild] Learn and get Paper (it's ez) at https://papermc.io
-[17:02:27] [Server thread/INFO]: [Wild]  
-[17:02:27] [Server thread/INFO]: [Wild]  = = = = = = = = = = = = = = = = = = = =
-[17:02:27] [Server thread/INFO]: [Companions] Enabling Companions v1.5.2
-[17:02:27] [Server thread/INFO]: 
+[17:01:30] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.0
+[17:01:30] [Server thread/INFO]: [BuycraftX] Enabling BuycraftX v12.0.2
+[17:01:30] [Server thread/INFO]: [BuycraftX] Validating your server key...
+[17:01:31] [Server thread/INFO]: [BuycraftX] Fetching all server packages...
+[17:01:32] [Server thread/INFO]: [Clans] Enabling Clans v0.3.8
+[17:01:32] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v3.0.0-b762
+[17:01:32] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v3.0.0-b762" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[17:01:32] [Server thread/INFO]: -------- World Settings For [skyworld_nether] --------
+[17:01:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:32] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:32] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:32] [Server thread/INFO]: View Distance: 10
+[17:01:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:01:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:32] [Server thread/INFO]: Preparing start region for dimension 'skyworld_nether'/minecraft:the_nether
+[17:01:32] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:33] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[17:01:33] [Server thread/INFO]: Time elapsed: 889 ms
+[17:01:33] [Server thread/INFO]: -------- World Settings For [Creators] --------
+[17:01:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:33] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:33] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:33] [Server thread/INFO]: View Distance: 10
+[17:01:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:01:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:33] [Server thread/INFO]: Preparing start region for dimension 'Creators'/minecraft:overworld
+[17:01:33] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:34] [Server thread/INFO]: Preparing spawn area: 74%
+[17:01:34] [Server thread/INFO]: Time elapsed: 712 ms
+[17:01:34] [Server thread/INFO]: -------- World Settings For [skyworld] --------
+[17:01:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:34] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:34] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:34] [Server thread/INFO]: View Distance: 10
+[17:01:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:01:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:34] [Server thread/INFO]: Preparing start region for dimension 'skyworld'/minecraft:overworld
+[17:01:34] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:34] [Server thread/INFO]: Time elapsed: 383 ms
+[17:01:34] [Server thread/INFO]: -------- World Settings For [Spawn] --------
+[17:01:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:34] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:34] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:34] [Server thread/INFO]: View Distance: 10
+[17:01:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:01:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:34] [Server thread/INFO]: Preparing start region for dimension 'Spawn'/minecraft:overworld
+[17:01:34] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:34] [Server thread/INFO]: Time elapsed: 279 ms
+[17:01:34] [Server thread/INFO]: -------- World Settings For [Kingdoms] --------
+[17:01:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:01:34] [Server thread/INFO]: Mob Spawn Range: 6
+[17:01:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:01:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:01:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:01:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:01:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:01:34] [Server thread/INFO]: Max TNT Explosions: 100
+[17:01:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:01:34] [Server thread/INFO]: View Distance: 10
+[17:01:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:01:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:01:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:01:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:01:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:01:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:01:34] [Server thread/INFO]: Preparing start region for dimension 'Kingdoms'/minecraft:overworld
+[17:01:35] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:35] [Server thread/INFO]: Preparing spawn area: 0%
+[17:01:37] [Server-Worker-10/INFO]: Preparing spawn area: 83%
+[17:01:37] [Server-Worker-6/INFO]: Preparing spawn area: 83%
+[17:01:37] [Server-Worker-6/INFO]: Preparing spawn area: 83%
+[17:01:37] [Server-Worker-6/INFO]: Preparing spawn area: 83%
+[17:01:37] [Server-Worker-5/INFO]: Preparing spawn area: 96%
+[17:01:38] [Server-Worker-11/INFO]: Preparing spawn area: 96%
+[17:01:38] [Server-Worker-5/INFO]: Preparing spawn area: 99%
+[17:01:39] [Server thread/INFO]: Time elapsed: 4228 ms
+[17:01:39] [Server thread/INFO]: [Multiverse-Core] 8 - World(s) loaded.
+[17:01:40] [Server thread/INFO]: [Multiverse-Core] Version 3.0.0-b762 (API v22) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[17:01:40] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v3.0.0-b459
+[17:01:40] [Server thread/INFO]: [Multiverse-Inventories 3.0.0-b459] enabled.
+[17:01:40] [Server thread/INFO]: [OldPvP] Enabling OldPvP v1.9
+[17:01:40] [Server thread/INFO]: [OldPvP] Your server is running version v1_14_R1
+[17:01:40] [Server thread/INFO]: [1.8 PvP] Error occured, please report on the forums!
+[17:01:40] [Server thread/INFO]: [NoteBlockAPI] Enabling NoteBlockAPI v1.4.4
+[17:01:40] [Server thread/INFO]: [CustomHelp] Enabling CustomHelp v0.5
+[17:01:40] [Server thread/INFO]: [ServerListPlus] Enabling ServerListPlus v3.4.8
+[17:01:40] [Server thread/ERROR]: [ServerListPlus] ProtocolLib IS NOT INSTALLED! Most features will NOT work!
+[17:01:40] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[17:01:40] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[17:01:40] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[17:01:40] [Server thread/ERROR]: [ServerListPlus] ProtocolLib IS NOT INSTALLED! Most features will NOT work!
+[17:01:40] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
+[17:01:40] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
+[17:01:40] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.4.8 enabled.
+[17:01:40] [Server thread/INFO]: [DailyRewards] Enabling DailyRewards v1.3.7d
+[17:01:40] [Server thread/INFO]: Daily Rewards: Checking for updates...
+[17:01:40] [Server thread/INFO]: Daily Rewards: No updates available. Plugin is up to date!
+[17:01:40] [Server thread/INFO]: [Wild] Enabling Wild v2.13-8ecba61
+[17:01:40] [Server thread/INFO]: [Wild]  = = = = = = = = = = = = = = = = = = = =
+[17:01:40] [Server thread/INFO]: [Wild]  
+[17:01:40] [Server thread/WARN]: [Wild] Btw, dis wild plugin (and ur server) would be a bazillion times
+[17:01:40] [Server thread/WARN]: [Wild] faster and wilder if u switch 2 Paper.
+[17:01:40] [Server thread/WARN]: [Wild] Until then, we'll just go wild at ur serburs slower/laggier pace.
+[17:01:40] [Server thread/WARN]: [Wild]  
+[17:01:40] [Server thread/WARN]: [Wild] Learn and get Paper (it's ez) at https://papermc.io
+[17:01:40] [Server thread/INFO]: [Wild]  
+[17:01:40] [Server thread/INFO]: [Wild]  = = = = = = = = = = = = = = = = = = = =
+[17:01:40] [Server thread/INFO]: [Companions] Enabling Companions v1.5.2
+[17:01:41] [Server thread/INFO]: 
 §6Companions§7 by Astero§6 is loading up...
 
-[17:02:27] [Server thread/INFO]: §6>§7 YAML files are loaded up!
-[17:02:29] [Server thread/INFO]: §6>§7 Caching files is done!
-[17:02:29] [Server thread/INFO]: 
+[17:01:41] [Server thread/INFO]: §6>§7 YAML files are loaded up!
+[17:01:41] [Server thread/INFO]: §6>§7 Caching files is done!
+[17:01:41] [Server thread/INFO]: 
 §6(!) §eVault and an Economy plugin has been found, the plugin will be using them.
 
-[17:02:29] [Server thread/INFO]: §6>§7 Misc files are loaded up!
-[17:02:29] [Server thread/INFO]: §6>§7 Event Listeners are loaded up!
-[17:02:29] [Server thread/INFO]: §6>§7 Commands are loaded up!
-[17:02:29] [Server thread/INFO]: 
+[17:01:41] [Server thread/INFO]: §6>§7 Misc files are loaded up!
+[17:01:41] [Server thread/INFO]: §6>§7 Event Listeners are loaded up!
+[17:01:41] [Server thread/INFO]: §6>§7 Commands are loaded up!
+[17:01:41] [Server thread/INFO]: 
 §6              >--------------------------<
-[17:02:29] [Server thread/INFO]: §6              A total of §e19§6 Companions have
-[17:02:29] [Server thread/INFO]: §6                    been loaded up.
-[17:02:29] [Server thread/INFO]: §6              >--------------------------< 
+[17:01:41] [Server thread/INFO]: §6              A total of §e19§6 Companions have
+[17:01:41] [Server thread/INFO]: §6                    been loaded up.
+[17:01:41] [Server thread/INFO]: §6              >--------------------------< 
 
-[17:02:29] [Server thread/INFO]: §6Companions§7 by Astero§6 has been sucessfully loaded up!
+[17:01:41] [Server thread/INFO]: §6Companions§7 by Astero§6 has been sucessfully loaded up!
 
-[17:02:29] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.1.0
-[17:02:29] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[17:02:29] [Server thread/INFO]: No kits found to migrate.
-[17:02:29] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[17:02:29] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[17:02:29] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[17:02:29] [Server thread/INFO]: Loaded 20977 items from items.json.
-[17:02:29] [Server thread/INFO]: Using locale en_US
-[17:02:29] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[17:02:29] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[17:02:29] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
-[17:02:29] [Server thread/INFO]: [Essentials] Using Vault based permissions (GroupManager)
-[17:02:29] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.0;02b731f
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Survival) TNT ignition is PERMITTED.
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Survival) Lighters are PERMITTED.
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Survival) Lava fire is blocked.
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Survival) Fire spread is UNRESTRICTED.
-[17:02:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival'
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Survival_nether) TNT ignition is PERMITTED.
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Survival_nether) Lighters are PERMITTED.
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Survival_nether) Lava fire is blocked.
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Survival_nether) Fire spread is UNRESTRICTED.
-[17:02:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival_nether'
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Survival_the_end) TNT ignition is PERMITTED.
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Survival_the_end) Lighters are PERMITTED.
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Survival_the_end) Lava fire is blocked.
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Survival_the_end) Fire spread is UNRESTRICTED.
-[17:02:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival_the_end'
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Spawn) TNT ignition is PERMITTED.
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Spawn) Lighters are PERMITTED.
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Spawn) Lava fire is blocked.
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Spawn) Fire spread is UNRESTRICTED.
-[17:02:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn'
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Kingdoms) TNT ignition is PERMITTED.
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Kingdoms) Lighters are PERMITTED.
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Kingdoms) Lava fire is blocked.
-[17:02:29] [Server thread/INFO]: [WorldGuard] (Kingdoms) Fire spread is UNRESTRICTED.
-[17:02:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Kingdoms'
-[17:02:29] [Server thread/INFO]: [WorldGuard] Loading region data...
-[17:02:29] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.18.0
-[17:02:29] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.2.0
-[17:02:29] [Server thread/INFO]: [StatsSB] Enabling StatsSB v2.5.7
-[17:02:29] [Server thread/INFO]: [StatsSB] MySQL-Enabled is: false
-[17:02:29] [Server thread/INFO]: [StatsSB] Vault Detected! Enabling Economy Capability.
-[17:02:29] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.1.0
-[17:02:29] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
-[17:02:29] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.1.0
-[17:02:29] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.17.1.0
-[17:02:29] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.110
-[17:02:31] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
-[17:02:31] [Server thread/INFO]: [mcMMO] registered subskill: Roll
-[17:02:31] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
-[17:02:31] [Server thread/INFO]: [ItemJoin] Enabling ItemJoin v5.0.5-RELEASE-b324
-[17:02:31] [Server thread/INFO]: [ItemJoin] Fetched [{ Multiverse-Core, Multiverse-Inventories, WorldGuard, Vault }]
-[17:02:31] [Server thread/INFO]: [ItemJoin] Checking for updates...
-[17:02:31] [Server thread/INFO]: [ItemJoin] You are up to date!
-[17:02:31] [Server thread/INFO]: [ItemJoin] has been Enabled.
-[17:02:31] [Server thread/INFO]: [HungerGames] Enabling HungerGames v4.13.0
-[17:02:31] [Server thread/INFO]: [HungerGames] Config loaded!
-[17:02:31] [Server thread/INFO]: [HungerGames] Metrics have been enabled
-[17:02:31] [Server thread/INFO]: [HungerGames] MythicMobs not found, MythicMobs hooks have been disabled
-[17:02:31] [Server thread/INFO]: [HungerGames] language.yml loaded
-[17:02:32] [Server thread/INFO]: [HungerGames] Loaded kits
-[17:02:32] [Server thread/INFO]: [HungerGames] 66 Random items have been loaded!
-[17:02:32] [Server thread/INFO]: [HungerGames] 2 Random bonus items have been loaded!
-[17:02:32] [Server thread/INFO]: [HungerGames] No Arenas to load.
-[17:02:32] [Server thread/INFO]: [HungerGames] PAPI not found, Placeholders have been disabled
-[17:02:32] [Server thread/INFO]: [HungerGames] mcMMO found, mcMMO event hooks enabled
-[17:02:32] [Server thread/INFO]: [HungerGames] HungerGames has been enabled!
-[17:02:32] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.1.0
-[17:02:32] [Server thread/INFO]: [Jobs] Enabling Jobs v4.14.3
-[17:02:32] [DiscordSRV - Initialization/WARN]: [DiscordSRV] 
+[17:01:41] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.1.0
+[17:01:41] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[17:01:41] [Server thread/INFO]: No kits found to migrate.
+[17:01:41] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[17:01:41] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[17:01:41] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[17:01:41] [Server thread/INFO]: Loaded 20977 items from items.json.
+[17:01:41] [Server thread/INFO]: Using locale en_US
+[17:01:41] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:01:41] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:01:41] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[17:01:41] [Server thread/INFO]: [Essentials] Using Vault based permissions (GroupManager)
+[17:01:41] [Server thread/INFO]: [Scoreboard-revision] Enabling Scoreboard-revision vR3 1.4.2 RELEASE
+[17:01:41] [Server thread/INFO]: [Scoreboard-revision] Loaded app handler for board: board
+[17:01:41] [Server thread/INFO]: Scoreboard is online! Scoreboard version: R3 1.4.2 RELEASE (UP TO DATE)
+[17:01:41] [Server thread/INFO]: [KitPvP] Enabling KitPvP v2.0.7
+[17:01:41] [Server thread/INFO]: [KIT-PVP] Enabling KitPvP version 2.0.7...
+[17:01:41] [Server thread/INFO]: [KIT-PVP] Discovered PlaceholderAPI, now hooking into it.
+[17:01:41] [Server thread/INFO]: [KIT-PVP] Done!
+[17:01:41] [Server thread/INFO]: [BuildBattlePro] Enabling BuildBattlePro v6.3.6
+[17:01:41] [Server thread/INFO]:                         BuildBattlePro v.6.3.6
+[17:01:41] [Server thread/INFO]: [BuildBattlePro] Fallback servers loaded !
+[17:01:41] [Server thread/INFO]: [BuildBattlePro] Restricted blocks loaded !
+[17:01:41] [Server thread/INFO]: [BuildBattlePro] Loaded 7 Solo Themes !
+[17:01:41] [Server thread/INFO]: [BuildBattlePro] Loaded 7 Team Themes !
+[17:01:41] [Server thread/INFO]: [BuildBattlePro] Loaded 3 Restriced Themes !
+[17:01:42] [Server thread/INFO]: [BuildBattlePro] Successfully hooked into HolographicDisplays !
+[17:01:42] [Server thread/INFO]: [BuildBattlePro] Successfully hooked into Vault !
+[17:01:42] [Server thread/INFO]: [BuildBattlePro] Successfully hooked into PlaceholderAPI !
+[17:01:42] [Server thread/INFO]: [BuildBattlePro] [Warning] WorldEdit is not supported for versions 1.13 and above. Report features will be disabled !
+[17:01:42] [Server thread/INFO]:                            by TheRealDrawe
+[17:01:42] [Server thread/INFO]: [DungeonsXL] Enabling DungeonsXL v0.18-SNAPSHOT-771
+[17:01:42] [Server thread/INFO]: [##########[DungeonsXL]##########]
+[17:01:42] [Server thread/INFO]: Internals: [v1_14_R1]
+[17:01:42] [Server thread/INFO]: Spigot API: [true]
+[17:01:42] [Server thread/INFO]: Paper API: [false]
+[17:01:42] [Server thread/INFO]: Economy: [true]
+[17:01:42] [Server thread/INFO]: Permissions: [true]
+[17:01:42] [Server thread/INFO]: Metrics: [https://bstats.org/plugin/bukkit/DungeonsXL]
+[17:01:42] [Server thread/INFO]: SpigotMC ID: [9488]
+[17:01:42] [Server thread/INFO]: [###############################]
+[17:01:42] [Server thread/INFO]: Could not find compatible Factions plugin. The game type PVP_FACTIONS_BATTLEFIELD will not get enabled...
+[17:01:42] [Server thread/INFO]: [DungeonsXL] Could not find compatible Citizens plugin. The mob provider Citizens ("CI") will not get enabled...
+[17:01:42] [Server thread/INFO]: [DungeonsXL] Successfully loaded Vignette module "Inventory".
+[17:01:42] [Server thread/INFO]: [BlockParty] Enabling BlockParty v2.0.3.4-RELEASE
+[17:01:42] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.0;02b731f
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Survival) TNT ignition is PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Survival) Lighters are PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Survival) Lava fire is blocked.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Survival) Fire spread is UNRESTRICTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival'
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Survival_nether) TNT ignition is PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Survival_nether) Lighters are PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Survival_nether) Lava fire is blocked.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Survival_nether) Fire spread is UNRESTRICTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival_nether'
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Survival_the_end) TNT ignition is PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Survival_the_end) Lighters are PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Survival_the_end) Lava fire is blocked.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Survival_the_end) Fire spread is UNRESTRICTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival_the_end'
+[17:01:42] [Server thread/INFO]: [WorldGuard] (skyworld_nether) TNT ignition is PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (skyworld_nether) Lighters are PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (skyworld_nether) Lava fire is blocked.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (skyworld_nether) Fire spread is UNRESTRICTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'skyworld_nether'
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Creators) TNT ignition is PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Creators) Lighters are PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Creators) Lava fire is blocked.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Creators) Fire spread is UNRESTRICTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Creators'
+[17:01:42] [Server thread/INFO]: [WorldGuard] (skyworld) TNT ignition is PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (skyworld) Lighters are PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (skyworld) Lava fire is blocked.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (skyworld) Fire spread is UNRESTRICTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'skyworld'
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Spawn) TNT ignition is PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Spawn) Lighters are PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Spawn) Lava fire is blocked.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Spawn) Fire spread is UNRESTRICTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn'
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Kingdoms) TNT ignition is PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Kingdoms) Lighters are PERMITTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Kingdoms) Lava fire is blocked.
+[17:01:42] [Server thread/INFO]: [WorldGuard] (Kingdoms) Fire spread is UNRESTRICTED.
+[17:01:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Kingdoms'
+[17:01:42] [Server thread/INFO]: [WorldGuard] Loading region data...
+[17:01:42] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.18.0
+[17:01:42] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.2.0
+[17:01:42] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.1.0
+[17:01:42] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[17:01:42] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.1.0
+[17:01:43] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.17.1.0
+[17:01:43] [Server thread/INFO]: [Parkour] Enabling Parkour v5.3
+[17:01:43] [Server thread/INFO]: [Parkour] [Vault] Successfully linked. Version: 1.7.2-b107
+[17:01:43] [Server thread/INFO]: [Parkour] [PlaceholderAPI] Successfully linked. Version: 2.10.4
+[17:01:43] [Server thread/INFO]: [Parkour] Enabled Parkour v5.3
+[17:01:43] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.110
+[17:01:43] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
+[17:01:43] [Server thread/INFO]: [mcMMO] registered subskill: Roll
+[17:01:43] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[17:01:43] [Server thread/INFO]: [ItemJoin] Enabling ItemJoin v5.0.5-RELEASE-b324
+[17:01:43] [Server thread/INFO]: [ItemJoin] Fetched [{ Multiverse-Core, Multiverse-Inventories, WorldGuard, PlaceholderAPI, Vault }]
+[17:01:43] [Server thread/INFO]: [ItemJoin] Checking for updates...
+[17:01:43] [Server thread/INFO]: [ItemJoin] You are up to date!
+[17:01:43] [Server thread/INFO]: [ItemJoin] has been Enabled.
+[17:01:43] [Server thread/INFO]: [HungerGames] Enabling HungerGames v4.13.0
+[17:01:43] [Server thread/INFO]: [HungerGames] Config loaded!
+[17:01:43] [Server thread/INFO]: [HungerGames] Metrics have been enabled
+[17:01:43] [Server thread/INFO]: [HungerGames] MythicMobs not found, MythicMobs hooks have been disabled
+[17:01:43] [Server thread/INFO]: [HungerGames] language.yml loaded
+[17:01:44] [Server thread/INFO]: [HungerGames] Loaded kits
+[17:01:44] [Server thread/INFO]: [HungerGames] 66 Random items have been loaded!
+[17:01:44] [Server thread/INFO]: [HungerGames] 2 Random bonus items have been loaded!
+[17:01:44] [Server thread/INFO]: [HungerGames] No Arenas to load.
+[17:01:44] [Server thread/INFO]: [HungerGames] PAPI found, Placeholders have been enabled
+[17:01:44] [Server thread/INFO]: [HungerGames] mcMMO found, mcMMO event hooks enabled
+[17:01:44] [Server thread/INFO]: [HungerGames] HungerGames has been enabled!
+[17:01:44] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.1.0
+[17:01:44] [Server thread/INFO]: [TNTRun_reloaded] Enabling TNTRun_reloaded v8.6
+[17:01:44] [Server thread/INFO]: [TNTRun_reloaded] Successfully linked with mcMMO, version 2.1.110
+[17:01:44] [Server thread/INFO]: [TNTRun_reloaded] Successfully linked with PlaceholderAPI, version 2.10.4
+[17:01:44] [Server thread/INFO]: [TNTRun_reloaded] Successfully linked with Vault, version 1.7.2-b107
+[17:01:44] [Server thread/INFO]: [TNTRun_reloaded] Vault: economy enabled.
+[17:01:44] [Server thread/INFO]: [TNTRun_reloaded] Attempting to start metrics (bStats)...
+[17:01:44] [Server thread/INFO]: [TNTRun_reloaded] Metrics is enabled on this server - metrics started
+[17:01:44] [Server thread/INFO]: [Jobs] Enabling Jobs v4.14.3
+[17:01:45] [DiscordSRV - Initialization/WARN]: [DiscordSRV] 
 
-The current build of DiscordSRV is outdated by 17 commits! Get the latest build at your favorite distribution center.
+The current build of DiscordSRV is outdated by 33 commits! Get the latest build at your favorite distribution center.
 
 Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
 Bukkit Dev: http://dev.bukkit.org/bukkit-plugins/discordsrv/
 Source: https://github.com/DiscordSRV/DiscordSRV
 
-[17:02:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] §8===============================================================================
-[17:02:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] §a         Need a server host? Try PebbleHost! Plans starting at $1/GB!
-[17:02:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] §a Use promo code "DISCORDSRV" at checkout for 15% off your first three bills!
-[17:02:32] [DiscordSRV - Initialization/INFO]: [DiscordSRV] §8===============================================================================
-[17:02:33] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] DiscordSRV failed to connect to Discord. Reason: The provided token is invalid!
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 8 titles!
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 75 protected blocks timers!
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 989 custom item names!
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 66 custom entity names!
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 37 custom enchant names!
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 16 custom color names!
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 4 shop items!
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 1 quests for Woodcutter
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 1 quests for Miner
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 1 quests for Builder
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 1 quests for Digger
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 1 quests for Farmer
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 1 quests for Hunter
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 1 quests for Explorer
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 1 quests for Crafter
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 1 quests for Fisherman
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 1 quests for Weaponsmith
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 1 quests for Brewer
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 1 quests for Enchanter
-[17:02:33] [Server thread/INFO]: [Jobs] Loaded 12 jobs!
-[17:02:33] [Server thread/INFO]: [Jobs] Explorer job manager registered!
-[17:02:33] [Jobs-DatabaseSaveTask/INFO]: [Jobs] Started database save task.
-[17:02:33] [Jobs-BufferedPaymentThread/INFO]: [Jobs] Started buffered payment thread.
-[17:02:33] [Server thread/INFO]: [Jobs] Preloaded 1 players data in 0.0
-[17:02:33] [Server thread/INFO]: [Jobs] mcMMO2.1.110 was found - Enabling capabilities.
-[17:02:33] [Server thread/INFO]: [Jobs] Registered McMMO 2.x listener
-[17:02:33] [Server thread/INFO]: [Jobs] WorldGuard detected.
-[17:02:34] [Server thread/INFO]: [Jobs] Loading explorer data
-[17:02:34] [Server thread/INFO]: [Jobs] Loaded explorer data (39)
-[17:02:34] [Server thread/INFO]: [Jobs] Plugin has been enabled successfully.
-[17:02:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:02:34] [Server thread/INFO]: Done (23.471s)! For help, type "help"
-[17:02:34] [Server thread/INFO]: Starting GS4 status listener
-[17:02:34] [Query Listener #1/INFO]: Query running on 51.89.152.59:2079
-[17:02:34] [Server thread/INFO]: [AsyncWorldEdit] Loading plugins...
-[17:02:34] [Server thread/INFO]: [Jobs] Successfully linked with Vault.
-[17:02:34] [Craft Scheduler Thread - 1/INFO]: [KIT-PVP] No new update found. You are on the latest version.
-[17:02:36] [Server thread/INFO]: GroupManager - INFO - Bukkit Permissions Updated!
-[17:02:36] [Craft Scheduler Thread - 1/INFO]: [Vault] Checking for Updates ... 
-[17:02:36] [Craft Scheduler Thread - 3/INFO]: [BuycraftX] Fetching all due players...
-[17:02:36] [Craft Scheduler Thread - 1/INFO]: [Vault] No new version available
-[17:02:37] [Craft Scheduler Thread - 3/INFO]: [BuycraftX] Fetched due players (0 found).
-[17:07:38] [Craft Scheduler Thread - 10/INFO]: [BuycraftX] Fetching all due players...
-[17:07:38] [Craft Scheduler Thread - 10/INFO]: [BuycraftX] Fetched due players (0 found).
-[17:10:23] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
-[17:12:38] [Craft Scheduler Thread - 11/INFO]: [BuycraftX] Fetching all due players...
-[17:12:38] [Craft Scheduler Thread - 11/INFO]: [BuycraftX] Fetched due players (0 found).
-[17:17:38] [Craft Scheduler Thread - 12/INFO]: [BuycraftX] Fetching all due players...
-[17:17:38] [Craft Scheduler Thread - 12/INFO]: [BuycraftX] Fetched due players (0 found).
-[17:22:38] [Craft Scheduler Thread - 15/INFO]: [BuycraftX] Fetching all due players...
-[17:22:39] [Craft Scheduler Thread - 15/INFO]: [BuycraftX] Fetched due players (0 found).
-[17:27:39] [Craft Scheduler Thread - 16/INFO]: [BuycraftX] Fetching all due players...
-[17:27:39] [Craft Scheduler Thread - 16/INFO]: [BuycraftX] Fetched due players (0 found).
-[17:32:14] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
-[17:32:14] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
-[17:32:39] [Craft Scheduler Thread - 19/INFO]: [BuycraftX] Fetching all due players...
-[17:32:40] [Craft Scheduler Thread - 19/INFO]: [BuycraftX] Fetched due players (0 found).
-[17:37:40] [Craft Scheduler Thread - 20/INFO]: [BuycraftX] Fetching all due players...
-[17:37:40] [Craft Scheduler Thread - 20/INFO]: [BuycraftX] Fetched due players (0 found).
-[17:38:35] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
-[17:42:40] [Craft Scheduler Thread - 21/INFO]: [BuycraftX] Fetching all due players...
-[17:42:41] [Craft Scheduler Thread - 21/INFO]: [BuycraftX] Fetched due players (0 found).
-[17:47:41] [Craft Scheduler Thread - 24/INFO]: [BuycraftX] Fetching all due players...
-[17:47:41] [Craft Scheduler Thread - 24/INFO]: [BuycraftX] Fetched due players (0 found).
-[17:51:57] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
-[17:52:41] [Craft Scheduler Thread - 25/INFO]: [BuycraftX] Fetching all due players...
-[17:52:42] [Craft Scheduler Thread - 25/INFO]: [BuycraftX] Fetched due players (0 found).
-[17:57:42] [Craft Scheduler Thread - 26/INFO]: [BuycraftX] Fetching all due players...
-[17:57:42] [Craft Scheduler Thread - 26/INFO]: [BuycraftX] Fetched due players (0 found).
-[18:02:24] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
-[18:02:24] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
-[18:02:34] [Craft Scheduler Thread - 28/INFO]: §6(Companions) >§7 Saving files right now, it MIGHT lag momentarily.
-[18:02:34] [Craft Scheduler Thread - 28/INFO]: §6(Companions) >§7 Files are successfully saved! :)
-[18:02:42] [Craft Scheduler Thread - 27/INFO]: [BuycraftX] Fetching all due players...
-[18:02:43] [Craft Scheduler Thread - 27/INFO]: [BuycraftX] Fetched due players (0 found).
-[18:07:43] [Craft Scheduler Thread - 31/INFO]: [BuycraftX] Fetching all due players...
-[18:07:43] [Craft Scheduler Thread - 31/INFO]: [BuycraftX] Fetched due players (0 found).
-[18:12:43] [Craft Scheduler Thread - 32/INFO]: [BuycraftX] Fetching all due players...
-[18:12:44] [Craft Scheduler Thread - 32/INFO]: [BuycraftX] Fetched due players (0 found).
-[18:17:44] [Craft Scheduler Thread - 32/INFO]: [BuycraftX] Fetching all due players...
-[18:17:44] [Craft Scheduler Thread - 32/INFO]: [BuycraftX] Fetched due players (0 found).
-[18:22:44] [Craft Scheduler Thread - 36/INFO]: [BuycraftX] Fetching all due players...
-[18:22:45] [Craft Scheduler Thread - 36/INFO]: [BuycraftX] Fetched due players (0 found).
-[18:27:45] [Craft Scheduler Thread - 37/INFO]: [BuycraftX] Fetching all due players...
-[18:27:46] [Craft Scheduler Thread - 37/INFO]: [BuycraftX] Fetched due players (0 found).
-[18:32:34] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
-[18:32:34] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
-[18:32:46] [Craft Scheduler Thread - 41/INFO]: [BuycraftX] Fetching all due players...
-[18:32:46] [Craft Scheduler Thread - 41/INFO]: [BuycraftX] Fetched due players (0 found).
-[18:37:46] [Craft Scheduler Thread - 42/INFO]: [BuycraftX] Fetching all due players...
-[18:37:46] [Craft Scheduler Thread - 42/INFO]: [BuycraftX] Fetched due players (0 found).
-[18:42:46] [Craft Scheduler Thread - 43/INFO]: [BuycraftX] Fetching all due players...
-[18:42:47] [Craft Scheduler Thread - 43/INFO]: [BuycraftX] Fetched due players (0 found).
-[18:47:47] [Craft Scheduler Thread - 45/INFO]: [BuycraftX] Fetching all due players...
-[18:47:47] [Craft Scheduler Thread - 45/INFO]: [BuycraftX] Fetched due players (0 found).
-[18:48:50] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
-[18:52:47] [Craft Scheduler Thread - 47/INFO]: [BuycraftX] Fetching all due players...
-[18:52:48] [Craft Scheduler Thread - 47/INFO]: [BuycraftX] Fetched due players (0 found).
-[18:57:48] [Craft Scheduler Thread - 48/INFO]: [BuycraftX] Fetching all due players...
-[18:57:49] [Craft Scheduler Thread - 48/INFO]: [BuycraftX] Fetched due players (0 found).
-[19:02:34] [Craft Scheduler Thread - 50/INFO]: §6(Companions) >§7 Saving files right now, it MIGHT lag momentarily.
-[19:02:34] [Craft Scheduler Thread - 50/INFO]: §6(Companions) >§7 Files are successfully saved! :)
-[19:02:44] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
-[19:02:44] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
-[19:02:48] [Craft Scheduler Thread - 49/INFO]: [BuycraftX] Fetching all due players...
-[19:02:49] [Craft Scheduler Thread - 49/INFO]: [BuycraftX] Fetched due players (0 found).
-[19:03:47] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
-[19:07:49] [Craft Scheduler Thread - 53/INFO]: [BuycraftX] Fetching all due players...
-[19:07:49] [Craft Scheduler Thread - 53/INFO]: [BuycraftX] Fetched due players (0 found).
-[19:12:49] [Craft Scheduler Thread - 53/INFO]: [BuycraftX] Fetching all due players...
-[19:12:50] [Craft Scheduler Thread - 53/INFO]: [BuycraftX] Fetched due players (0 found).
-[19:17:50] [Craft Scheduler Thread - 57/INFO]: [BuycraftX] Fetching all due players...
-[19:17:50] [Craft Scheduler Thread - 57/INFO]: [BuycraftX] Fetched due players (0 found).
-[19:22:50] [Craft Scheduler Thread - 58/INFO]: [BuycraftX] Fetching all due players...
-[19:22:50] [Craft Scheduler Thread - 58/INFO]: [BuycraftX] Fetched due players (0 found).
-[19:27:50] [Craft Scheduler Thread - 59/INFO]: [BuycraftX] Fetching all due players...
-[19:27:50] [Craft Scheduler Thread - 59/INFO]: [BuycraftX] Fetched due players (0 found).
-[19:32:22] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
-[19:32:50] [Craft Scheduler Thread - 60/INFO]: [BuycraftX] Fetching all due players...
-[19:32:50] [Craft Scheduler Thread - 60/INFO]: [BuycraftX] Fetched due players (0 found).
-[19:32:54] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
-[19:32:54] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
-[19:37:50] [Craft Scheduler Thread - 63/INFO]: [BuycraftX] Fetching all due players...
-[19:37:51] [Craft Scheduler Thread - 63/INFO]: [BuycraftX] Fetched due players (0 found).
-[19:42:51] [Craft Scheduler Thread - 64/INFO]: [BuycraftX] Fetching all due players...
-[19:42:51] [Craft Scheduler Thread - 64/INFO]: [BuycraftX] Fetched due players (0 found).
-[19:47:51] [Craft Scheduler Thread - 67/INFO]: [BuycraftX] Fetching all due players...
-[19:47:51] [Craft Scheduler Thread - 67/INFO]: [BuycraftX] Fetched due players (0 found).
-[19:47:54] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
-[19:52:51] [Craft Scheduler Thread - 68/INFO]: [BuycraftX] Fetching all due players...
-[19:52:51] [Craft Scheduler Thread - 68/INFO]: [BuycraftX] Fetched due players (0 found).
-[19:57:51] [Craft Scheduler Thread - 69/INFO]: [BuycraftX] Fetching all due players...
-[19:57:52] [Craft Scheduler Thread - 69/INFO]: [BuycraftX] Fetched due players (0 found).
-[20:02:34] [Craft Scheduler Thread - 71/INFO]: §6(Companions) >§7 Saving files right now, it MIGHT lag momentarily.
-[20:02:34] [Craft Scheduler Thread - 71/INFO]: §6(Companions) >§7 Files are successfully saved! :)
-[20:02:52] [Craft Scheduler Thread - 69/INFO]: [BuycraftX] Fetching all due players...
-[20:02:52] [Craft Scheduler Thread - 69/INFO]: [BuycraftX] Fetched due players (0 found).
-[20:03:04] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
-[20:03:04] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
-[20:07:52] [Craft Scheduler Thread - 73/INFO]: [BuycraftX] Fetching all due players...
-[20:07:52] [Craft Scheduler Thread - 73/INFO]: [BuycraftX] Fetched due players (0 found).
-[20:12:52] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetching all due players...
-[20:12:52] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetched due players (0 found).
-[20:17:41] [User Authenticator #1/INFO]: UUID of player iLoki is 99a80b73-34c0-48b7-8cd9-ed68b1a998e0
-[20:17:42] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
-[20:17:42] [Server thread/INFO]: iLoki[/78.21.195.91:50873] logged in with entity id 392 at ([Spawn]-8.297586010260702, 70.0, 0.05278479307333454)
-[20:17:42] [Server thread/INFO]: [+] iLoki joined Majestic Craft !
-[20:17:42] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
-[20:17:52] [Craft Scheduler Thread - 77/INFO]: [BuycraftX] Fetching all due players...
-[20:17:52] [Craft Scheduler Thread - 77/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:01:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] §8===============================================================================
+[17:01:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] §a         Need a server host? Try PebbleHost! Plans starting at $1/GB!
+[17:01:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] §a Use promo code "DISCORDSRV" at checkout for 15% off your first three bills!
+[17:01:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] §8===============================================================================
+[17:01:45] [Server thread/INFO]: [Jobs] PlaceholderAPI hooked.
+[17:01:45] [Server thread/INFO]: PlaceholderAPI was found - Enabling capabilities.
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 8 titles!
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 75 protected blocks timers!
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 989 custom item names!
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 66 custom entity names!
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 37 custom enchant names!
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 16 custom color names!
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 4 shop items!
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 1 quests for Woodcutter
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 1 quests for Miner
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 1 quests for Builder
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 1 quests for Digger
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 1 quests for Farmer
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 1 quests for Hunter
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 1 quests for Explorer
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 1 quests for Crafter
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 1 quests for Fisherman
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 1 quests for Weaponsmith
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 1 quests for Brewer
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 1 quests for Enchanter
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded 12 jobs!
+[17:01:45] [Server thread/INFO]: [Jobs] Explorer job manager registered!
+[17:01:45] [Jobs-DatabaseSaveTask/INFO]: [Jobs] Started database save task.
+[17:01:45] [Jobs-BufferedPaymentThread/INFO]: [Jobs] Started buffered payment thread.
+[17:01:45] [Server thread/INFO]: [Jobs] Preloaded 1 players data in 0.0
+[17:01:45] [Server thread/INFO]: [Jobs] mcMMO2.1.110 was found - Enabling capabilities.
+[17:01:45] [Server thread/INFO]: [Jobs] Registered McMMO 2.x listener
+[17:01:45] [Server thread/INFO]: [Jobs] WorldGuard detected.
+[17:01:45] [Server thread/INFO]: [Jobs] Loading explorer data
+[17:01:45] [Server thread/INFO]: [Jobs] Loaded explorer data (46)
+[17:01:45] [Server thread/INFO]: [Jobs] Plugin has been enabled successfully.
+[17:01:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:01:46] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] DiscordSRV failed to connect to Discord. Reason: The provided token is invalid!
+[17:01:46] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[17:01:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
+[17:01:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[17:01:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[17:01:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[17:01:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: essentials
+[17:01:46] [Server thread/INFO]: Done (22.292s)! For help, type "help"
+[17:01:46] [Server thread/INFO]: Starting GS4 status listener
+[17:01:46] [Query Listener #1/INFO]: Query running on 51.89.152.59:2079
+[17:01:46] [Server thread/INFO]: [AsyncWorldEdit] Loading plugins...
+[17:01:46] [Craft Scheduler Thread - 10/INFO]: [mcMMO] Cleaned backup files. Deleted 1 of 10 files.
+[17:01:46] [Server thread/INFO]: [Jobs] Successfully linked with Vault.
+[17:01:46] [Craft Scheduler Thread - 9/INFO]: [DungeonsXL] The plugin is up to date.
+[17:01:46] [Craft Scheduler Thread - 11/INFO]: [KIT-PVP] No new update found. You are on the latest version.
+[17:01:48] [Server thread/INFO]: GroupManager - INFO - Bukkit Permissions Updated!
+[17:01:48] [Craft Scheduler Thread - 11/INFO]: [Vault] Checking for Updates ... 
+[17:01:48] [Craft Scheduler Thread - 11/INFO]: [Vault] No new version available
+[17:01:48] [Craft Scheduler Thread - 11/INFO]: [BuycraftX] Fetching all due players...
+[17:01:48] [Craft Scheduler Thread - 7/INFO]: [TNTRun_reloaded] Checking plugin version...
+[17:01:48] [Server thread/INFO]: [uSkyBlock] Hooked into Vault Economy
+[17:01:48] [Server thread/INFO]: [uSkyBlock] Hooked into Vault Permissions
+[17:01:48] [Craft Scheduler Thread - 7/INFO]: [TNTRun_reloaded] You are running the most recent version
+[17:01:49] [Craft Scheduler Thread - 11/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:01:49] [Server thread/INFO]: [uSkyBlock] §7Name: §buSkyBlock
+§7Version: §b2.8.5
+§7Description: §bUltimate SkyBlock v2.8.5-3cb4083
+§7Language: §ben (en)
+§9  State: d=128, r=64, i=1, p=1, n=true, awe=false
+§7Server: §eCraftBukkit git-Spigot-9de398a-9c887d4 (MC: 1.14.4)
+§9  State: online=true, bungee=false
+§7------------------------------
+§7§dVault §f1.7.2-b107 §7(N/A§7)
+§7§dWorldEdit §f7.0.1;61bc012 §7(N/A§7)
+§7§dWorldGuard §f7.0.0;02b731f §7(N/A§7)
+§7§dMultiverse-Core §f3.0.0-b762 §7(N/A§7)
+§7------------------------------
+
+[17:02:12] [Timer-1/INFO]: [WorldGuard] Region data changes made in 'skyworld_nether' have been background saved
+[17:02:12] [Timer-1/INFO]: [WorldGuard] Region data changes made in 'skyworld' have been background saved
+[17:02:43] [Craft Scheduler Thread - 2/INFO]: [PlaceholderAPI] 163 placeholder expansions are available on the cloud.
+[17:02:43] [Craft Scheduler Thread - 2/INFO]: [PlaceholderAPI] 2 installed expansions have updates available.
+[17:06:50] [Craft Scheduler Thread - 12/INFO]: [BuycraftX] Fetching all due players...
+[17:06:50] [Craft Scheduler Thread - 12/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:08:20] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[17:11:50] [Craft Scheduler Thread - 16/INFO]: [BuycraftX] Fetching all due players...
+[17:11:51] [Craft Scheduler Thread - 16/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:11:52] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[17:16:40] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[17:16:51] [Craft Scheduler Thread - 17/INFO]: [BuycraftX] Fetching all due players...
+[17:16:51] [Craft Scheduler Thread - 17/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:21:51] [Craft Scheduler Thread - 21/INFO]: [BuycraftX] Fetching all due players...
+[17:21:51] [Craft Scheduler Thread - 21/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:22:26] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[17:26:13] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[17:26:51] [Craft Scheduler Thread - 21/INFO]: [BuycraftX] Fetching all due players...
+[17:26:51] [Craft Scheduler Thread - 21/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:27:55] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[17:29:52] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[17:31:26] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
+[17:31:26] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
+[17:31:51] [Craft Scheduler Thread - 24/INFO]: [BuycraftX] Fetching all due players...
+[17:31:51] [Craft Scheduler Thread - 24/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:35:10] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[17:36:51] [Craft Scheduler Thread - 24/INFO]: [BuycraftX] Fetching all due players...
+[17:36:52] [Craft Scheduler Thread - 24/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:41:52] [Craft Scheduler Thread - 28/INFO]: [BuycraftX] Fetching all due players...
+[17:41:52] [Craft Scheduler Thread - 28/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:44:01] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[17:45:56] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[17:46:52] [Craft Scheduler Thread - 33/INFO]: [BuycraftX] Fetching all due players...
+[17:46:52] [Craft Scheduler Thread - 33/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:48:38] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[17:51:52] [Craft Scheduler Thread - 34/INFO]: [BuycraftX] Fetching all due players...
+[17:51:53] [Craft Scheduler Thread - 34/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:56:29] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[17:56:53] [Craft Scheduler Thread - 31/INFO]: [BuycraftX] Fetching all due players...
+[17:56:53] [Craft Scheduler Thread - 31/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:01:36] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
+[18:01:36] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
+[18:01:46] [Craft Scheduler Thread - 31/INFO]: §6(Companions) >§7 Saving files right now, it MIGHT lag momentarily.
+[18:01:46] [Craft Scheduler Thread - 31/INFO]: §6(Companions) >§7 Files are successfully saved! :)
+[18:01:53] [Craft Scheduler Thread - 43/INFO]: [BuycraftX] Fetching all due players...
+[18:01:54] [Craft Scheduler Thread - 43/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:05:16] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[18:06:54] [Craft Scheduler Thread - 47/INFO]: [BuycraftX] Fetching all due players...
+[18:06:54] [Craft Scheduler Thread - 47/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:11:52] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[18:11:54] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetching all due players...
+[18:11:54] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:16:54] [Craft Scheduler Thread - 47/INFO]: [BuycraftX] Fetching all due players...
+[18:16:54] [Craft Scheduler Thread - 47/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:19:27] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[18:21:54] [Craft Scheduler Thread - 51/INFO]: [BuycraftX] Fetching all due players...
+[18:21:55] [Craft Scheduler Thread - 51/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:26:55] [Craft Scheduler Thread - 53/INFO]: [BuycraftX] Fetching all due players...
+[18:26:55] [Craft Scheduler Thread - 53/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:31:46] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
+[18:31:46] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
+[18:31:55] [Craft Scheduler Thread - 55/INFO]: [BuycraftX] Fetching all due players...
+[18:31:55] [Craft Scheduler Thread - 55/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:33:13] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[18:36:55] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetching all due players...
+[18:36:55] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:41:55] [Craft Scheduler Thread - 62/INFO]: [BuycraftX] Fetching all due players...
+[18:41:56] [Craft Scheduler Thread - 62/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:46:56] [Craft Scheduler Thread - 67/INFO]: [BuycraftX] Fetching all due players...
+[18:46:56] [Craft Scheduler Thread - 67/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:51:56] [Craft Scheduler Thread - 66/INFO]: [BuycraftX] Fetching all due players...
+[18:51:56] [Craft Scheduler Thread - 66/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:56:56] [Craft Scheduler Thread - 64/INFO]: [BuycraftX] Fetching all due players...
+[18:56:57] [Craft Scheduler Thread - 64/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:01:46] [Craft Scheduler Thread - 71/INFO]: §6(Companions) >§7 Saving files right now, it MIGHT lag momentarily.
+[19:01:46] [Craft Scheduler Thread - 71/INFO]: §6(Companions) >§7 Files are successfully saved! :)
+[19:01:56] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
+[19:01:56] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
+[19:01:57] [Craft Scheduler Thread - 69/INFO]: [BuycraftX] Fetching all due players...
+[19:01:57] [Craft Scheduler Thread - 69/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:06:57] [Craft Scheduler Thread - 69/INFO]: [BuycraftX] Fetching all due players...
+[19:06:58] [Craft Scheduler Thread - 69/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:11:58] [Craft Scheduler Thread - 77/INFO]: [BuycraftX] Fetching all due players...
+[19:11:58] [Craft Scheduler Thread - 77/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:16:58] [Craft Scheduler Thread - 82/INFO]: [BuycraftX] Fetching all due players...
+[19:16:58] [Craft Scheduler Thread - 82/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:21:58] [Craft Scheduler Thread - 85/INFO]: [BuycraftX] Fetching all due players...
+[19:21:59] [Craft Scheduler Thread - 85/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:26:59] [Craft Scheduler Thread - 86/INFO]: [BuycraftX] Fetching all due players...
+[19:26:59] [Craft Scheduler Thread - 86/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:31:59] [Craft Scheduler Thread - 88/INFO]: [BuycraftX] Fetching all due players...
+[19:31:59] [Craft Scheduler Thread - 88/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:32:06] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
+[19:32:06] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
+[19:36:59] [Craft Scheduler Thread - 95/INFO]: [BuycraftX] Fetching all due players...
+[19:36:59] [Craft Scheduler Thread - 95/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:41:59] [Craft Scheduler Thread - 95/INFO]: [BuycraftX] Fetching all due players...
+[19:42:00] [Craft Scheduler Thread - 95/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:47:00] [Craft Scheduler Thread - 100/INFO]: [BuycraftX] Fetching all due players...
+[19:47:00] [Craft Scheduler Thread - 100/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:52:00] [Craft Scheduler Thread - 103/INFO]: [BuycraftX] Fetching all due players...
+[19:52:00] [Craft Scheduler Thread - 103/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:54:44] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[19:57:00] [Craft Scheduler Thread - 104/INFO]: [BuycraftX] Fetching all due players...
+[19:57:01] [Craft Scheduler Thread - 104/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:00:27] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:01:46] [Craft Scheduler Thread - 107/INFO]: §6(Companions) >§7 Saving files right now, it MIGHT lag momentarily.
+[20:01:46] [Craft Scheduler Thread - 107/INFO]: §6(Companions) >§7 Files are successfully saved! :)
+[20:02:01] [Craft Scheduler Thread - 108/INFO]: [BuycraftX] Fetching all due players...
+[20:02:01] [Craft Scheduler Thread - 108/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:02:16] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
+[20:02:16] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
+[20:07:01] [Craft Scheduler Thread - 111/INFO]: [BuycraftX] Fetching all due players...
+[20:07:01] [Craft Scheduler Thread - 111/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:08:52] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:09:19] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:12:01] [Craft Scheduler Thread - 111/INFO]: [BuycraftX] Fetching all due players...
+[20:12:02] [Craft Scheduler Thread - 111/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:13:19] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:16:44] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:17:02] [Craft Scheduler Thread - 114/INFO]: [BuycraftX] Fetching all due players...
+[20:17:02] [Craft Scheduler Thread - 114/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:21:34] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:22:02] [Craft Scheduler Thread - 116/INFO]: [BuycraftX] Fetching all due players...
+[20:22:02] [Craft Scheduler Thread - 116/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:25:46] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:27:02] [Craft Scheduler Thread - 117/INFO]: [BuycraftX] Fetching all due players...
+[20:27:02] [Craft Scheduler Thread - 117/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:32:02] [Craft Scheduler Thread - 114/INFO]: [BuycraftX] Fetching all due players...
+[20:32:03] [Craft Scheduler Thread - 114/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:32:26] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
+[20:32:26] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
+[20:37:03] [Craft Scheduler Thread - 114/INFO]: [BuycraftX] Fetching all due players...
+[20:37:03] [Craft Scheduler Thread - 114/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:42:03] [Craft Scheduler Thread - 126/INFO]: [BuycraftX] Fetching all due players...
+[20:42:03] [Craft Scheduler Thread - 126/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:47:03] [Craft Scheduler Thread - 126/INFO]: [BuycraftX] Fetching all due players...
+[20:47:04] [Craft Scheduler Thread - 126/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:52:04] [Craft Scheduler Thread - 132/INFO]: [BuycraftX] Fetching all due players...
+[20:52:04] [Craft Scheduler Thread - 132/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:57:04] [Craft Scheduler Thread - 132/INFO]: [BuycraftX] Fetching all due players...
+[20:57:04] [Craft Scheduler Thread - 132/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:59:10] [User Authenticator #1/INFO]: UUID of player iLoki is 99a80b73-34c0-48b7-8cd9-ed68b1a998e0
+[20:59:11] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:59:11] [Server thread/INFO]: iLoki[/78.21.195.91:56354] logged in with entity id 318 at ([Spawn]1.1785065259366228, 72.0, -0.6178750658808642)
+[20:59:11] [Server thread/INFO]: [+] iLoki joined Majestic Craft !
+[20:59:11] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:59:18] [Server thread/INFO]: iLoki issued server command: /reward
+[20:59:18] [Server thread/INFO]: Rewards: iLoki claimed the Advanced Daily Reward!
+[20:59:18] [Server thread/INFO]: CONSOLE issued server command: /give iLoki minecraft:diamond 1
+[20:59:18] [Server thread/INFO]: Error: Unknown item name: minecraft:diamond.
+[20:59:18] [Server thread/INFO]: CONSOLE issued server command: /give iLoki minecraft:diamond 1
+[20:59:18] [Server thread/INFO]: Error: Unknown item name: minecraft:diamond.
+[20:59:18] [Server thread/INFO]: [Server] iLoki earned a common diamond
+[20:59:20] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:59:20] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:59:20] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:59:21] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:59:21] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:59:21] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:59:21] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[20:59:21] [Server thread/WARN]: [ItemJoin] Task #234 for ItemJoin v5.0.5-RELEASE-b324 generated an exception
+java.lang.IllegalArgumentException: No enum constant org.bukkit.DyeColor.5
+        at java.lang.Enum.valueOf(Enum.java:238) ~[?:1.8.0_211]
+        at org.bukkit.DyeColor.valueOf(DyeColor.java:1) ~[spigot.jar:git-Spigot-9de398a-9c887d4]
+        at me.RockinChaos.itemjoin.utils.EffectAPI.particleFirework(EffectAPI.java:44) ~[?:?]
+        at me.RockinChaos.itemjoin.utils.EffectAPI.spawnParticle(EffectAPI.java:21) ~[?:?]
+        at me.RockinChaos.itemjoin.giveitems.utils.ItemMap.playParticle(ItemMap.java:2004) ~[?:?]
+        at me.RockinChaos.itemjoin.giveitems.utils.ItemMap.access$700(ItemMap.java:61) ~[?:?]
+        at me.RockinChaos.itemjoin.giveitems.utils.ItemMap$2.run(ItemMap.java:1904) ~[?:?]
+        at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:81) ~[spigot.jar:git-Spigot-9de398a-9c887d4]
+        at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:394) [spigot.jar:git-Spigot-9de398a-9c887d4]
+        at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1023) [spigot.jar:git-Spigot-9de398a-9c887d4]
+        at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:396) [spigot.jar:git-Spigot-9de398a-9c887d4]
+        at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:971) [spigot.jar:git-Spigot-9de398a-9c887d4]
+        at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:816) [spigot.jar:git-Spigot-9de398a-9c887d4]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_211]
+[20:59:21] [Server thread/INFO]: iLoki issued server command: /games
+[20:59:28] [Server thread/INFO]: iLoki lost connection: Disconnected
+[20:59:28] [Server thread/INFO]: [-] iLoki left Majestic Craft !
+[21:01:46] [Craft Scheduler Thread - 135/INFO]: §6(Companions) >§7 Saving files right now, it MIGHT lag momentarily.
+[21:01:46] [Craft Scheduler Thread - 135/INFO]: §6(Companions) >§7 Files are successfully saved! :)
+[21:02:04] [Craft Scheduler Thread - 135/INFO]: [BuycraftX] Fetching all due players...
+[21:02:05] [Craft Scheduler Thread - 135/INFO]: [BuycraftX] Fetched due players (0 found).
+[21:02:36] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
+[21:02:36] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
+[21:02:56] [User Authenticator #2/INFO]: UUID of player iLoki is 99a80b73-34c0-48b7-8cd9-ed68b1a998e0
+[21:02:56] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[21:02:56] [Server thread/INFO]: iLoki[/78.21.195.91:56512] logged in with entity id 319 at ([Spawn]0.527084904685404, 69.0, 10.725227155885747)
+[21:02:56] [Server thread/INFO]: [KIT-PVP] There was no spawn found, please set it using /kp addspawn.
+[21:02:56] [Server thread/INFO]: [+] iLoki joined Majestic Craft !
+[21:07:05] [Craft Scheduler Thread - 141/INFO]: [BuycraftX] Fetching all due players...
+[21:07:05] [Craft Scheduler Thread - 141/INFO]: [BuycraftX] Fetched due players (0 found).

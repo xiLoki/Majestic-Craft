@@ -1,5 +1,5 @@
 General:
-  Prefix: "&8[&b&lAdvanced&3&lBan&r&8] &8&l\xbb"
+  Prefix: "&f[&f&lAdvanced&3&lBan&r&f] &8&l\xbb"
   NoPerms: "&cYou don't have perms for that!"
   LayoutNotFound: "&cThere is no layout called %NAME%"
   # This will be the replacement for the %DURATION% variable

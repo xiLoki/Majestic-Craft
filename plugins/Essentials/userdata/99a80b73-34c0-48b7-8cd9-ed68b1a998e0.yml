@@ -15,23 +15,23 @@ homes:
     yaw: -159.29628
     pitch: 8.100441
 timestamps:
-  lastteleport: 1574030856355
-  login: 1574108262330
-  logout: 1574034074588
+  lastteleport: 1574124365644
+  login: 1574370176542
+  logout: 1574369968030
 lastlocation:
   world: Spawn
-  x: -29.5
-  y: 70.0
-  z: -58.5
-  yaw: -185.2426
-  pitch: -4.3498397
+  x: 0.4397634513852362
+  y: 72.0
+  z: 50.00928968843451
+  yaw: -183.60086
+  pitch: 2.2499502
 lastAccountName: iLoki
 ipAddress: 78.21.195.91
 nickname: Unknown
 logoutlocation:
   world: Spawn
-  x: -8.297586010260702
-  y: 70.0
-  z: 0.05278479307333454
-  yaw: -183.89319
-  pitch: 12.150747
+  x: 0.527084904685404
+  y: 69.0
+  z: 10.725227155885747
+  yaw: -173.85088
+  pitch: 3.1500962

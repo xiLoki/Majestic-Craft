@@ -1,0 +1,44 @@
+cooldown: 86400000
+savetoip: false
+check-for-updates: true
+mysql:
+  enabled: false
+  host-name: localhost
+  port: 3306
+  database: example
+  username: root
+  password: password
+loginclaim:
+  enabled: false
+  delay: 3
+claim:
+  sound:
+    enabled: true
+    type: ENTITY_PLAYER_LEVELUP
+    volume: 1
+    pitch: 1
+noreward:
+  sound:
+    enabled: true
+    type: BLOCK_ANVIL_LAND
+    volume: 1
+    pitch: 1
+rewards:
+  basic:
+    name: Basic
+    permission: false
+    random: false
+    claim-message: '&aRewards&f: You claimed the &7Basic&f Daily Reward!'
+    broadcast: ''
+    commands:
+    - give %player minecraft:diamond 1
+  advanced:
+    name: Advanced
+    permission: true
+    random: true
+    claim-message: ''
+    broadcast: '&aRewards&f: %player claimed the &eAdvanced&f Daily Reward!'
+    commands:
+    - give %player minecraft:diamond 1;say %player earned a common diamond
+    - give %player minecraft:diamond 1;say %player earned a common diamond
+    - give %player minecraft:emerald 1;say %player earned a rare emerald

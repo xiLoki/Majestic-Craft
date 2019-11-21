@@ -10,3 +10,9 @@ groups:
     - survival_the_end
     shares:
     - all
+  skyblock:
+    worlds:
+    - skyworld_nether
+    - skyworld
+    shares:
+    - all

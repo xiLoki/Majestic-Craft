@@ -1,0 +1,187 @@
+Sections:
+  Info: GRAY
+  Error: RED
+  Success: GREEN
+  Commands: GRAY
+  Headers: YELLOW
+  Items: WHITE
+  MOTD: WHITE
+  Boosts: WHITE
+Info:
+  Prefix: '&8▌ &3BlockParty &8» &7'
+  Colors:
+  - White
+  - Orange
+  - Magenta
+  - Light Blue
+  - Yellow
+  - Lime
+  - Pink
+  - Gray
+  - Light Gray
+  - Cyan
+  - Purple
+  - Blue
+  - Brown
+  - Green
+  - Red
+  - Black
+  ScoreboardText:
+  - '&3BlockParty'
+  - 'Level: %LEVEL%'
+  - 'Players: %CURRENTPLAYERS% / %MAXPLAYERS%'
+  - 'Time Left: %TIME%'
+  - 'Arena: %ARENA%'
+  - 'Song: %SONG%'
+  Tutorial:
+  - Use &e/bp create <Arena> &7to create an arena.
+  - Use &e/bp setspawn <Arena> lobby &7to set the lobby spawn.
+  - Use &e/bp wand &7or &e/bp pos <1|2> &7to select the boundaries of the floor.
+  - Use &e/bp setfloor <Arena> &7to set the floor area.
+  - Use &e/bp setspawn <Arena> game &7to set the game spawn.
+  - Use &e/bp enable <Arena> &7to enable the arena so players can join.
+  - Congratulations, you can now start playing in your arena!
+  - If you want to use custom-made floors, type in &e/bp tutorial patterns&7.
+  TutorialPatterns:
+  - Build a pattern for your arena.
+  - Use &e/bp wand &7or &e/bp pos <1|2> &7to select the boundaries of the pattern.
+  - Use &e/bp createpattern <Pattern> &7to create a pattern from your selection.
+  - Use &e/bp addpattern <Arena> <Pattern> &7to add it to your arena.
+  - Test if your pattern works with &e/bp placepattern <Pattern>
+  - Go into your arena config and change &eUsePatternFloors &7to &eTrue&7.
+  - Reload with &e/bp reload
+  - Name one pattern '&estart&7'. This pattern will load first.
+  - If you name a pattern '&eend&7' it will be displayed, when the game is over.
+  - Use &e/bp listpatterns [Arena] &7to check if the pattern is active.
+  - Use &e/bp removepattern <Arena> <Pattern> &7to remove a pattern.
+  ActionbarCountdown: '&f&l%NUMBER% second(s) left'
+  ActionbarDance: '&a&l✔ &f&lDANCE &a&l✔'
+  ActionbarStop: '&c&l✖ &f&lSTOP &c&l✖'
+  BoostCollected: You collected a %BOOST%&7!
+  BoostSummoned: A boost has been summoned
+  ChangesUndone: Reverted changes
+  GameStarted: Game started!
+  InventoryVoteName: Vote now
+  JoinedGame: You joined the arena &e%ARENA%
+  LeftGame: You left the arena &e%ARENA%
+  LobbyStatus: 'Status of arena %ARENA%: &e%STATUS%'
+  NextBlock: Next block is %BLOCK%
+  PatternList: 'List of patterns: &e%PATTERNS%'
+  PatternPlaced: Pattern "%FILE%" placed. Use &e/bp undo &7to undo
+  PlayerEliminated: '%PLAYER% was &4&lELIMINATED&7!'
+  PlayerJoinedGame: '%PLAYER% joined the match'
+  PlayerLeftGame: '%PLAYER% left the match'
+  PointSelected: Point &e%POINT% &7selected (%LOCATION%)
+  Prepare: Prepare for the next round!
+  SongPlaying: Now playing "%SONG%"
+  StatsMessage: '%PLAYER% has &e%WINS% &7wins, &e%POINTS% &7points and played %GAMES_PLAYED%
+    games.'
+  TimeLeft: The game starts in &e%TIME% &7seconds
+  VoteSuccess: You voted for song "%SONG%"
+  WandGiven: Left click to set position 1, right for position 2
+  WinnerAnnounceAll: Player &e%PLAYER% &7won the game
+  WinnerAnnounceSelf: '&aCongratulations! You won the game'
+Error:
+  PlayerDoesNotExist: Player "%PLAYER%" wasn't online yet
+  ErrorArenaCreate: Arena "%ARENA%" already exists
+  ErrorArenaDisabled: This arena is disabled
+  ErrorArenaFull: The game you are trying to join is already full
+  ErrorArenaNotExist: Arena "%ARENA%" doesn't exist
+  ErrorCommandNotFound: Couldn't find command. Use /bp help
+  ErrorDifferentWorlds: The points have to be in the same world
+  ErrorFileNotExist: Couldn't find file "%FILE%"
+  ErrorFloorHeight: The floor has to be 1 block high
+  ErrorFloorLoad: Failed to load floor.
+  ErrorFloorSet: Failed to set floor in arena "%ARENA%"
+  ErrorInProgress: The game you are trying to join is already running
+  ErrorIngame: You can't join another game while you are playing. Use &e/bp leave
+    &cto leave the current match
+  ErrorNoArenas: There are no arenas to list
+  ErrorNoFloor: You have to set a floor first
+  ErrorNoGameSpawn: You have to set a game spawn first
+  ErrorNoImage: This file is not an image
+  ErrorNoLobbySpawn: You have to set a lobby spawn first
+  ErrorNoPatterns: Could not find any patterns
+  ErrorNoPermissions: You don't have enough permissions to do that
+  ErrorNoUndo: You have nothing to undo
+  ErrorNotInArena: You are not in an arena
+  ErrorNotRunning: Game is not running
+  ErrorOnlyPlayers: Only players can use this command
+  ErrorPatternNotExist: Pattern "%PATTERN%" in arena "%ARENA%" doesn't exist
+  ErrorSelect: Select a region first
+  ErrorSongAlreadyAdded: Song "%SONG%" has already been added to arena "%ARENA%"
+  ErrorStartAborted: Game start aborted because there are not enough players
+  ErrorSyntax: 'Syntax: %SYNTAX%'
+  ErrorVote: Voting for song "%SONG%" failed
+  ErrorWrongSize: This pattern isn't the right size
+Success:
+  SuccessArenaCreate: Successfully created arena "%ARENA%"
+  SuccessArenaDelete: Successfully deleted arena "%ARENA%"
+  SuccessArenaDisable: Successfully disabled arena "%ARENA%"
+  SuccessArenaEnable: Successfully enabled arena "%ARENA%"
+  SuccessConfigReload: Reloaded config
+  SuccessFloorSet: Successfully set floor in arena "%ARENA%"
+  SuccessSpawnSetGame: The game spawn was set for arena "%ARENA%"
+  SuccessSpawnSetLobby: The lobby spawn was set for arena "%ARENA%"
+  SuccessPatternAdd: Pattern "%PATTERN%" was added to arena "%ARENA%"
+  SuccessPatternRemove: Successfully removed pattern "%PATTERN%" from arena "%ARENA%"
+  SuccessPatternSave: Saved pattern to "%PATTERN%"
+  SuccessSongAdded: Song "%SONG%" has been added to arena "%ARENA%"
+  SuccessSignAdded: Added sign to arena "%ARENA%"
+  SuccessSignRemoved: Removed sign from arena "%ARENA%"
+Commands:
+  CommandFormat: '&e%SYNTAX% &7- %DESCRIPTION%'
+  CommandBlockParty: See plugin info
+  CommandAddPattern: Adds pattern to arena
+  CommandAddSong: Adds song to arena
+  CommandAdmin: Shows all admin commands
+  CommandCreate: Creates a new arena
+  CommandCreatePattern: Creates a pattern from selection
+  CommandDelete: Deletes arena
+  CommandDisable: Disables arena
+  CommandEnable: Enables arena
+  CommandHelp: Shows plugin help
+  CommandJoin: Join specified arena
+  CommandLeave: Leave specified arena
+  CommandListArenas: Lists all arenas
+  CommandListPatterns: Lists patterns
+  CommandLoadImage: Creates pattern from image
+  CommandPlacePattern: Places pattern in world
+  CommandPos: Set selection
+  CommandReload: Reloads all config files
+  CommandRemovePattern: Removes pattern from arena
+  CommandSetFloor: Sets floor area for arena
+  CommandSetSpawn: Sets lobby or game spawn for arena
+  CommandStart: Starts arena
+  CommandStats: Shows a player's stats
+  CommandStatus: Shows arena status
+  CommandStop: Stops arena
+  CommandTutorial: Shows a tutorial on how to set up the game
+  CommandUndo: Reverts changes
+  CommandWand: Get wand tool
+Headers:
+  HeaderHelp: BlockParty Commands
+  HeaderAdmin: Admin Commands
+  HeaderTutorial: BlockParty Setup
+  HeaderTutorialPatterns: Pattern Tutorial
+  HeaderListArenas: All arenas
+Items:
+  ItemLeaveArena: '&4Leave'
+  ItemVoteForASong: Vote for a song
+  ItemSongLore: Click to vote!
+  ItemSelect: Select points
+MOTD:
+  MotdDisabled: '&cArena disabled'
+  MotdLobby:
+  - '&aLobby'
+  - '&8%PLAYERS%/%MAX_PLAYERS%'
+  MotdLobbyFull:
+  - '&6Lobby full'
+  - '&8%PLAYERS%/%MAX_PLAYERS%'
+  MotdIngame:
+  - '&3Ingame'
+  - '&8%ALIVE% players alive'
+  MotdEnding: '&6%ARENA% finished'
+Boosts:
+  BoostSpeed: '&bSpeed Boost'
+  BoostJump: '&aJump Boost'

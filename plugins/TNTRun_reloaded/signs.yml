@@ -1,0 +1,8 @@
+arenas:
+  Tower:
+    '0':
+      x: 2
+      y: 73
+      z: 70
+      world: Spawn
+leaderboards: {}

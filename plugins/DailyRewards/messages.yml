@@ -1,0 +1,8 @@
+no-rewards: '&aRewards&f: &fYou do not have any available rewards at the moment.'
+cooldown-msg: '&aRewards&f: &fTime until next reward: %time%'
+no-permission: '&aRewards&f: &fYou do not have permission to do '
+reward-available: '&aRewards&f: &fYou have unclaimed daily rewards, do &e/reward &fto
+  claim!'
+PlaceholderAPI:
+  reward-available: Unclaimed Rewards Available!
+  no-rewards: No Rewards Available

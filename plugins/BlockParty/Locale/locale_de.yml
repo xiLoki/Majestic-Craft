@@ -1,0 +1,193 @@
+Sections:
+  Info: GRAY
+  Error: RED
+  Success: GREEN
+  Commands: GRAY
+  Headers: YELLOW
+  Items: WHITE
+  MOTD: WHITE
+  Boosts: WHITE
+Info:
+  Prefix: '&8▌ &3BlockParty &8» &7'
+  Colors:
+  - Weiß
+  - Orange
+  - Magenta
+  - Hellblau
+  - Gelb
+  - Hellgrün
+  - Pink
+  - Grau
+  - Hellgrau
+  - Türkis
+  - Lila
+  - Blau
+  - Braun
+  - Grün
+  - Rot
+  - Schwarz
+  ScoreboardText:
+  - '&3BlockParty'
+  - 'Level: %LEVEL%'
+  - 'Players: %CURRENTPLAYERS% / %MAXPLAYERS%'
+  - 'Time Left: %TIME%'
+  - 'Arena: %ARENA%'
+  - 'Song: %SONG%'
+  Tutorial:
+  - Erstelle mit &e/bp create <Arena> &7eine Arena.
+  - Benutze &e/bp setspawn <Arena> lobby &7um den Lobby-Spawn zu setzen.
+  - Wähle den Boden mit &e/bp wand &7oder &e/bp pos <1|2> &7aus.
+  - Benutze &e/bp setfloor <Arena>&7, um den Boden der Arena zu setzen.
+  - Setze mit &e/bp setspawn <Arena> game &7den Spiel-Spawn.
+  - Nutze &e/bp enable <Arena> &7um die Arena anzuschalten, damit Spieler beitreten
+    können.
+  - Herzlichen Glückwunsch, deine Arena ist nun konfiguriert!
+  - Wenn du nun eigene Böden erstellen willst, nutze &e/bp tutorial patterns&7.
+  TutorialPatterns:
+  - Baue eine Vorlage, die du deiner Arena hinzufügen willst.
+  - Wähle die Vorlage mit &e/bp wand &7oder &e/bp pos <1|2> &7aus.
+  - Erstelle mit &e/bp createpattern <Pattern> &7die Vorlage.
+  - Teste, ob die Vorlage funktioniert, indem du &e/bp placepattern <Pattern> &7benutzt.
+  - Füge die Vorlage mit &e/bp addpattern <Arena> <Pattern> &7deiner Arena hinzu.
+  - Benutze &e/bp listpatterns [Arena] &7um zu überprüfen, ob die Vorlage deiner Arena
+    hinzugefügt wurde.
+  - Gehe in die Konfigurationsdatei deiner Arena und stelle &eUsePatternFloors &7auf
+    &eTrue&7.
+  - Lade das Plugin mit &e/bp reload &7neu.
+  - Nenne eine Vorlage '&estart&7'. Diese wird während der Lobbyphase angezeigt.
+  - Wenn du eine Vorlage '&eend&7' nennst, wird sie angezeigt, wenn das Spiel vorbei
+    ist.
+  - Wenn du eine Vorlage von einer Arena entfernen möchtest, benutze &e/bp removepattern
+    <Arena> <Pattern>&7.
+  ActionbarCountdown: '&f&lnoch %NUMBER% Sekunde(n)'
+  ActionbarDance: '&a&l✔ &f&lTANZEN &a&l✔'
+  ActionbarStop: '&c&l✖ &f&lSTOPP &c&l✖'
+  BoostCollected: Du hast einen %BOOST% &7aufgesammelt!
+  BoostSummoned: Ein Boost wurde gespawnt
+  ChangesUndone: Änderungen rückgängig gemacht
+  GameStarted: Spiel gestartet!
+  InventoryVoteName: Abstimmen
+  JoinedGame: Du bist der Arena &e%ARENA% &7beigetreten
+  LeftGame: Du hast die Arena &e%ARENA% &7verlassen
+  LobbyStatus: 'Status von Arena %ARENA%: &e%STATUS%'
+  NextBlock: Nächster Block ist %BLOCK%
+  PatternList: 'Installierte Vorlagen: &e%PATTERNS%'
+  PatternPlaced: Vorlage "%FILE%" platziert. Benutze &e/bp undo&7, um die Änderungen
+    rückgängig zu machen.
+  PlayerEliminated: '%PLAYER% wurde &4&lELIMINIERT&7!'
+  PlayerJoinedGame: '%PLAYER% ist beigetreten'
+  PlayerLeftGame: '%PLAYER% hat verlassen'
+  PointSelected: Punkt &e%POINT% &7ausgewählt (%LOCATION%)
+  Prepare: Bereite dich auf die nächste Runde vor!
+  SongPlaying: 'Nächster Song: "%SONG%"'
+  StatsMessage: '%PLAYER% hat &e%WINS% &7mal gewonnen, &e%POINTS% &7Punkte und %GAMES_PLAYED%
+    Spiele gespielt.'
+  TimeLeft: Spiel startet in &e%TIME% &7Sekunde(n)
+  VoteSuccess: Du hast für den Song "%SONG%" abgestimmt
+  WandGiven: Linksklick, um Position 1 zu setzen; Rechtsklick für Position 2
+  WinnerAnnounceAll: Spieler &e%PLAYER% &7hat gewonnen
+  WinnerAnnounceSelf: '&aDu hast das Spiel gewonnen!'
+Error:
+  PlayerDoesNotExist: Spieler "&e%PLAYER%&7" war noch nie online
+  ErrorArenaCreate: Arena "%ARENA%" existiert bereits
+  ErrorArenaDisabled: Diese Arena ist ausgeschaltet
+  ErrorArenaFull: Dieses Spiel ist voll
+  ErrorArenaNotExist: Arena "%ARENA%" existiert nicht
+  ErrorCommandNotFound: Dieser Befehl existiert nicht. Benutze /bp help
+  ErrorDifferentWorlds: Die Punkte müssen in der selben Welt sein
+  ErrorFileNotExist: Konnte Datei "%FILE%" nicht finden
+  ErrorFloorHeight: Der Boden muss flach sein
+  ErrorFloorLoad: Konnte den Boden nicht laden.
+  ErrorFloorSet: Konnte Boden in Arena "%ARENA%" nicht setzen
+  ErrorInProgress: Dieses Spiel läuft bereits
+  ErrorIngame: Du kannst kein Spiel betreten während du spielst. Benutze &e/bp leave&c,
+    um dein gegenwärtiges Match zu verlassen
+  ErrorNoArenas: Es gibt noch keine Arenen
+  ErrorNoFloor: Du musst zuerst einen Boden setzen
+  ErrorNoGameSpawn: Du musst zuerst einen Spiel-Spawn setzen
+  ErrorNoImage: Diese Datei ist kein Bild
+  ErrorNoLobbySpawn: Du musst zuerst einen Lobby-Spawn setzen
+  ErrorNoPatterns: Keine Vorlagen gefunden
+  ErrorNoPermissions: Dafür hast du nicht genug Rechte
+  ErrorNoUndo: Es gibt nichts zum rückgängigmachen
+  ErrorNotInArena: Du bist in keiner Arena
+  ErrorNotRunning: Dieses Spiel läuft nicht
+  ErrorOnlyPlayers: Nur Spieler können diesen Befehl benutzen
+  ErrorPatternNotExist: Vorlage "%PATTERN%" in Arena "%ARENA%" existiert nicht
+  ErrorSelect: Wähle erst zwei Punkte aus
+  ErrorSongAlreadyAdded: Song "%SONG%" wurde bereits zur Arena "%ARENA%" hinzugefügt
+  ErrorStartAborted: Spielstart abgebrochen, da nicht genug Spieler in der Lobby sind
+  ErrorSyntax: 'Syntax: %SYNTAX%'
+  ErrorVote: Fehler beim Abstimmen für Song "%SONG%"
+  ErrorWrongSize: Diese Vorlage hat die falsche Größe
+Success:
+  SuccessArenaCreate: Arena "%ARENA%" erstellt
+  SuccessArenaDelete: Arena "%ARENA%" gelöscht
+  SuccessArenaDisable: Arena "%ARENA%" erfolgreich ausgeschaltet
+  SuccessArenaEnable: Arena "%ARENA%" erfolgreich angeschaltet
+  SuccessConfigReload: Konfiguration neugeladen
+  SuccessFloorSet: Boden in Arena "%ARENA%" gesetzt
+  SuccessSpawnSetGame: Der Spiel-Spawn wurde für Arena "%ARENA%" gesetzt
+  SuccessSpawnSetLobby: Der Lobby-Spawn wurde für Arena "%ARENA%" gesetzt
+  SuccessPatternAdd: Vorlage "%PATTERN%" zur Arena "%ARENA%" hinzugefügt
+  SuccessPatternRemove: Vorlage "%PATTERN%" von Arena "%ARENA%" entfernt
+  SuccessPatternSave: Vorlage nach "%PATTERN%" gespeichert
+  SuccessSongAdded: Song "%SONG%" wurde zur Arena "%ARENA%" hinzugefügt
+  SuccessSignAdded: Schild für Arena "%ARENA%" erstellt
+  SuccessSignRemoved: Schild von Arena "%ARENA%" entfernt
+Commands:
+  CommandFormat: '&e%SYNTAX% &7- %DESCRIPTION%'
+  CommandBlockParty: Plugin-Info ansehen
+  CommandAddPattern: Fügt Vorlage zu Arena hinzu
+  CommandAddSong: Fügt Song zu Arena hinzu
+  CommandAdmin: Zeigt alle Admin-Befehle
+  CommandCreate: Erstellt arena
+  CommandCreatePattern: Speichert Selektion zu Vorlage
+  CommandDelete: Löscht Arena
+  CommandDisable: Schaltet Arena aus
+  CommandEnable: Schaltet Arena an
+  CommandHelp: Zeigt alle Befehle
+  CommandJoin: Arena beitreten
+  CommandLeave: Arena verlassen
+  CommandListArenas: Alle Arenen auflisten
+  CommandListPatterns: Vorlagen auflisten
+  CommandLoadImage: Erstellt Vorlage aus Bilddatei
+  CommandPlacePattern: Platziert Vorlage
+  CommandPos: Wählt Bereich aus
+  CommandReload: Lädt alle Dateien neu
+  CommandRemovePattern: Entfernt Vorlage aus Arena
+  CommandSetFloor: Setzt Boden für Arena
+  CommandSetSpawn: Setzt Lobby- oder Gamespawn
+  CommandStart: Startet Arena
+  CommandStats: Zeigt die Statistiken eines Spielers
+  CommandStatus: Zeigt Arena Status
+  CommandStop: Stoppt arena
+  CommandTutorial: Zeigt, wie man das Spiel aufsetzt
+  CommandUndo: Macht Änderungen rückgängig
+  CommandWand: Auswählwerkzeug erhalten
+Headers:
+  HeaderHelp: BlockParty Befehle
+  HeaderAdmin: Admin Befehle
+  HeaderTutorial: BlockParty Konfiguration
+  HeaderTutorialPatterns: Vorlagen-Tutorial
+  HeaderListArenas: Alle Arenen
+Items:
+  ItemLeaveArena: '&4Verlassen'
+  ItemVoteForASong: Stimme für einen Song ab
+  ItemSongLore: Klicken zum Abstimmen!
+  ItemSelect: Eckpunkte auswählen
+MOTD:
+  MotdDisabled: '&cArena aus'
+  MotdLobby:
+  - '&aLobby'
+  - '%PLAYERS%/%MAX_PLAYERS%'
+  MotdLobbyFull:
+  - '&6Lobby voll'
+  - '%PLAYERS%/%MAX_PLAYERS%'
+  MotdIngame:
+  - '&3Ingame'
+  - '&8%ALIVE% Spieler'
+  MotdEnding: '&6%ARENA% beendet'
+Boosts:
+  BoostSpeed: '&bGeschwindigkeits-Boost'
+  BoostJump: '&aSprung-Boost'
